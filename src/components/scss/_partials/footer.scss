@@ -1,0 +1,40 @@
+@import "variables";
+/*footer*/
+// .footer{
+// 	// empty class atm
+// }
+
+.footer-content{
+	display: flex;
+	align-items: baseline;
+	flex-wrap: wrap;
+	padding-top: 2.625rem;
+	padding-right: 1.5rem;
+	padding-bottom: 2.625rem;
+	width: 100%;
+	list-style: none;
+	font-weight: 500;
+}
+.footer-link{
+	padding: .5rem 1rem .5rem 0;
+}
+
+.btn-social-media{
+	color:black;
+	opacity: 0.5;
+	transition:opacity 0.3s , color 0.3s;
+	width: 32px;
+	height: 32px;
+}
+
+.btn-social-media:hover{
+	opacity: 1;
+	color: $pink;
+}
+
+.footer-copyright{
+	margin-left: auto;
+	font-size: 1.2rem;
+	opacity:0.5;
+	padding: 1.5rem 0.75rem 0.75rem;
+}

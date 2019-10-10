@@ -1,0 +1,70 @@
+.work-list{
+  background-color: $grey;
+}
+
+.work-list__list{
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.row {
+  display:flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.work-list__item{
+  margin-bottom: 1.5rem;
+  display: flex;
+  position: relative;
+}
+
+.work-list__orb{
+  display: block;
+  flex-shrink: 0;
+  margin-top: .25rem;
+  margin-right: 1.125rem;
+  border-radius: 1.75rem; // done so the expandsion will be the same rounded corners
+  width:100%;
+  max-width: 3.5rem;
+  max-height: 3.5rem;
+	transition: transform 0.5s, max-width 0.3s;
+  // will-change: all;
+}
+.work-list__orb::after{
+	display: block;
+	padding-bottom: 100%;
+	content: '';
+}
+
+.work-list__meta{
+  padding-top:0.25rem;
+  position: absolute;
+  transition: all .5s ease;
+  top: 0.25rem;
+  left: 5rem;
+  overflow:hidden;
+}
+
+.work-list__name{
+  transition: all .5s ease;
+  display: inline;
+  color: inherit;
+  font-size: "Lato",Arial, sans-serif;
+  font-weight: 700;
+}
+
+.work-list__desc{
+  transition: all .5s ease;
+  display: block;
+  color: $off-black;
+  font-size: "Lato",Arial, sans-serif;
+  font-size: .8125rem;
+  font-weight: 600;
+}
+
+.-disabled{
+  opacity: 0.2;
+}

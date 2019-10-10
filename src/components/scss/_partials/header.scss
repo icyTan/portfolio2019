@@ -1,0 +1,119 @@
+@import "variables";
+
+/*header*/
+.header-bar{
+	transition-duration: 1s;
+	transition-property: transform,background-color;
+	position: fixed;
+	background-color: $grey;
+	color: $pink;
+	width: 100%;
+	z-index: 3;
+	// keep z-index the same as overlay as they are in the same z-index layer but header is above it(in html order)
+}
+
+.header-bar.-collapsed{
+	height: 3.75rem;
+	background-color: $grey;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.12);
+}
+
+.header-bar_content{
+	display: flex;
+	position: relative;
+	align-items: baseline;
+}
+
+.header-bar_nav {
+	width: 100%;
+}
+
+.header-bar_nav-list{
+	display: flex;
+	position: relative;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	margin-bottom: 0;
+	padding-left:0;
+	list-style: none;
+}
+
+.header-bar_nav-list>li{
+	display: inline-block;
+}
+
+.header-bar_logo{
+	position: relative;
+	transition-duration: .3s;
+	transition-property: opacity, color;
+	padding-top: 1.5rem;
+	padding-bottom: .75rem;
+	white-space: nowrap;
+	color:inherit;
+	opacity: 0.75;
+	font-family: "Lato",Arial,sans-serif;
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.header-bar_logo:hover{
+	transition-duration: 0.2s;
+	opacity: 1;
+	color: inherit;
+}
+
+.header-bar_nav-item{
+	display: block;
+	position: relative;
+	transition-duration: 0.3s;
+	transition-property: opacity, color;
+	color: inherit;
+	opacity: 0.5;
+	padding: 1.5rem 0.75rem 0.75rem;
+	font-weight: 600;
+	font-size: 1.25rem;
+}
+
+.header-bar_nav-item.-active{
+	opacity: 0.8;
+}
+
+.header-bar_nav-item:hover{
+	opacity: 1;
+	color: inherit;
+}
+
+.header-bar_index{
+	background-color:none;
+	color: $primary-color;
+}
+
+.header-bar_about{
+	background-color:$off-white;
+	color: $primary-color;
+}
+
+.header-bar_portfolio{
+	background-color:$portfolio-color;
+	color: white;
+}
+.header-bar_visier{
+	background-color:$visier-color;
+	color: white;
+}
+.header-bar_yvr{
+	background-color:$yvr-color;
+	color: white;
+}
+.header-bar_twitch{
+	background-color:$twitch-color;
+	color: white;
+}
+.header-bar_stc{
+	background-color:$stc-color;
+	color: white;
+}
+.header-bar_bfbc{
+	background-color:$bfbc-color;
+	color: white;
+}

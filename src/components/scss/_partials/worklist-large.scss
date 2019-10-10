@@ -1,0 +1,20 @@
+@media only screen and (min-width: 600px){
+  .work-list__meta{
+    padding-top:0;
+  }
+  .work-list__item{
+    margin-bottom: 1.9rem;
+  }
+  .work-list__desc{
+    font-size: .875rem;
+  }
+  .work-list__item:not(.-disabled):hover .work-list__orb{
+    max-width: 100%;
+  }
+  .work-list__item:not(.-disabled):hover .work-list__name{
+    color:$grey;
+  }
+  .work-list__item:not(.-disabled):hover .work-list__desc{
+    color:$light-grey;
+  }
+}

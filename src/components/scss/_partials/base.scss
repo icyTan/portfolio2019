@@ -1,0 +1,252 @@
+@import "variables";
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+  background-color: $grey;
+  font-family: 'Montserrat',Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-tap-highlight-color: transparent;
+	overflow-x: hidden;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+figure{
+	margin: 0;
+}
+
+img{
+	vertical-align: middle;
+	border-style: none;
+}
+
+p,h1,h2,h3,ul,ol,span,blockquote,figcaption{
+	margin-top: 0;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+p{
+	margin-bottom: 1.5rem;
+	font-weight:300;
+}
+
+strong{
+	font-weight: 700;
+}
+
+a{
+	text-decoration: none;
+	background-color: transparent;
+}
+
+p>a{
+	font-weight: bold;
+}
+
+p>a:hover{
+	text-decoration: underline;
+}
+
+h1{
+	margin-bottom: 1.5rem;
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 1.25;
+}
+
+h2{
+	margin-bottom: 1.5rem;
+	font-weight: 500;
+	font-size: 1.6875rem;
+	line-height: 1.25;
+}
+
+h3{
+	margin-bottom: 1rem;
+	font-weight: 500;
+	font-size: 1.6875rem;
+	line-height: 1;
+	color: $primary-color;
+}
+
+pre{
+	text-align: left;
+	white-space: pre;
+}
+
+.display-text{
+	line-height: 1.4;
+	font-size: 1.4rem;
+}
+
+ol>li{
+	margin-left: 1.5rem;
+	padding-left: 0.5rem;
+	margin-bottom: 0.75rem;
+}
+
+li>a{
+	font-weight: bold;
+}
+
+.highlight{
+	color: $portfolio-color;
+}
+
+.secondary-color{
+	color: $secondary-color;
+}
+/* hidden elements */
+.vis-hide{
+	position: absolute;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	direction: ltr;
+	clip: rect(0,0,0,0);
+	// this covers everything and ensures its hidden and doesnt occupy space
+}
+
+/*Top level*/
+.wrap-body{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	z-index: 1;
+}
+
+/* Fixed widths */
+// 900
+.sf-1{
+	max-width: 48rem;
+}
+// +1000
+.sf-2{
+	max-width: 63rem;
+}
+// 800
+.sf-3{
+	max-width: 40rem;
+}
+
+.wrap-1{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+/* hero across pages*/
+.hero-1{
+  padding-top: 8rem;
+}
+
+/* static section padding */
+.section-1{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.wrap-1-content{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0%;
+}
+
+.wrap-2-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.left-aligned{
+	float:left;
+}
+
+.right-aligned{
+	float:right;
+}
+
+.center-text{
+	text-align: center;
+}
+
+.figure-caption{
+	color: $primary-color;
+	font-weight:500;
+	margin-bottom: 0;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+}
+
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	margin-bottom: -1px;
+}
+
+.img-lazy{
+	animation: 0.5s ease-out 0s 1 forwards fadeIn;
+}
+
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+.clearfix:after{
+	display: table;
+    content: '';
+    clear: both;
+}
+
+.dummy {
+	display: none;
+}
+
+//https://stackoverflow.com/questions/12278587/webkit-text-flickers-when-using-css-transform-scale
+// add for no-flickr on mobile elements
+.no-flickr{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+	backface-visibility: 				 hidden;
+}
+
+.not-active{
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+}

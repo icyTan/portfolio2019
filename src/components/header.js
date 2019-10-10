@@ -1,42 +1,44 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
+import { Link, graphql, useStaticQuery } from "gatsby"
+import "./scss/_partials/header.scss"
+import "./scss/_partials/header-large.scss"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+const Header = () => {
+  // must be named something from query
+  const { allNavItemsJson } = useStaticQuery(
+    graphql`
+      query navQuery {
+        allNavItemsJson {
+          edges {
+            node {
+              id
+              menu_item
+              href
+            }
+          }
+        }
+      }
+    `
+  )
+  console.log(allNavItemsJson)
+  return (
+    // Starting to import exisitng header
+    <header className="header-bar fullpage-fade-in">
+      <div className="wrap-1 sf-1 header-bar_content">
+        <Link to="/" className="header-bar_logo">Patrik Lau</Link>
+        <nav className="header-bar_nav">
+          <ul className="header-bar_nav-list">
+            {/* Map info from json file to list items */}
+            {allNavItemsJson.edges.map(({ node }) => (
+              <li key={node.id}>
+                <a id={node.menu_item} href={node.href} className="header-bar_nav-item">{node.menu_item}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+  )
 }
 
 export default Header

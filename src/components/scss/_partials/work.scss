@@ -1,0 +1,169 @@
+.work__hero{
+  overflow: hidden;
+}
+
+.work_header{
+  display: flex;
+  padding-top: 4.5rem;
+  padding-bottom: 3rem;
+}
+.work__info {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.work__info-label {
+  display: block;
+  color: $light-grey;
+  font-size: .875rem;
+  font-weight: 600;
+}
+.work__info-value {
+  display: block;
+  font-weight: 300;
+}
+
+.work_subtitle{
+  line-height: 1.428571429;
+  font-size: 1.375rem;
+}
+
+/*work pages*/
+.work-title{
+	margin-top:1.5rem;
+	text-align: center;
+}
+
+.work-caption{
+  color: $orange;
+  text-align: center;
+  font-size:1rem;
+  font-weight:300;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.work-figure{
+	padding-left: 1.5rem;
+	padding-right:1.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+.work-figure-full{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  background-color: $off-white;
+}
+
+.work-img{
+	max-width: 100%;
+	width: auto;
+}
+
+.work-video_wrap{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  overflow: hidden;
+}
+.work-video_wrap::after{
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  content: '';
+}
+.work-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border: 0;
+}
+
+/* figure classes for moblie and desktop displays */
+.display-lg{
+  display:none;
+}
+.display-mb{
+  display:block;
+}
+
+/* specific hero pages */
+.work__hero--portfolio{
+  background-color: $portfolio-color;
+  color: #FFF;
+}
+.work__hero--yvr{
+  background-color: $yvr-color;
+  color: #FFF;
+}
+.work__hero--visier{
+  background-color: $visier-color;
+  color: #FFF;
+}
+.work__hero--twitch{
+  background-color: $twitch-color;
+  color: #FFF;
+}
+.work__hero--bfbc{
+  background-color: $bfbc-color;
+  color: #FFF;
+}
+.work__hero--stc{
+  background-color: $stc-color;
+  color: #FFF;
+}
+
+.title-visier{
+  color: #FFF;
+}
+
+.subtitle-visier{
+  color: #FFF;
+}
+
+/* page covers for work pages */
+.page-cover{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
+}
+
+.background__portfolio{
+  background-color: $portfolio-color;
+}
+.background__twitch{
+  background-color: $twitch-color;
+}
+.background__visier{
+  background-color: $visier-color;
+}
+.background__yvr{
+  background-color: $yvr-color;
+}
+.background__stc{
+  background-color: $stc-color;
+}
+.background__bfbc{
+  background-color: $bfbc-color;
+}
+
+/* css only slider */
+// https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/

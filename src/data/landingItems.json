@@ -1,0 +1,46 @@
+[
+  {
+    "title": "bfbc",
+    "desc": "responsive web design",
+    "workbox": "landing-work_box-bfbc",
+    "preview_img": {
+      "name": "bfbc preview",
+      "src": "../images/bfbc/bfbc_preview@2x.png"
+    },
+    "workitem_title": "landing-work_item-title-bfbc",
+    "href": "/"
+  },
+  {
+    "title": "stc",
+    "desc": "product design for mobile",
+    "workbox": "landing-work_box-stc",
+    "preview_img": {
+      "name": "stc preview",
+      "src": "../images/stc/stc_preview@2x.png"
+    },
+    "workitem_title": "landing-work_item-title-stc",
+    "href": "/"
+  },
+  {
+    "title": "bfbc",
+    "desc": "responsive web design",
+    "workbox": "landing-work_box-bfbc",
+    "preview_img": {
+      "name": "bfbc preview",
+      "src": "../images/bfbc/bfbc_preview@2x.png"
+    },
+    "workitem_title": "landing-work_item-title-bfbc",
+    "href": "/"
+  },
+  {
+    "title": "stc",
+    "desc": "product design for mobile",
+    "workbox": "landing-work_box-stc",
+    "preview_img": {
+      "name": "stc preview",
+      "src": "../images/stc/stc_preview@2x.png"
+    },
+    "workitem_title": "landing-work_item-title-stc",
+    "href": "/"
+  }
+]
