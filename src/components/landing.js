@@ -77,7 +77,7 @@ const Landing = () => {
                   </span>
                   <span className="landing-work_item-desc">{node.desc}</span>
                 </div>
-                <a className="overlay" href={node.href}></a>
+                <Link className="overlay" href={node.href}></Link>
               </div>
             ))}
             {/* End generative code */}
