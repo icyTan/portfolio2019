@@ -13,7 +13,14 @@
   .landing-work_content{
   	margin-bottom: 2rem;
   }
+  // Default if something goes wrong
   .landing-work_preview-img {
+    max-width: 26rem;
+  }
+  .portrait{
+    max-width: 12.8rem;
+  }
+  .landscape{
     max-width: 26rem;
   }
 }

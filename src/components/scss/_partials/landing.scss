@@ -103,6 +103,12 @@
 	max-width: 17rem;
 	height: auto;
 }
+.portrait{
+	max-width: 12.8rem;
+}
+.landscape{
+	max-width: 17rem;
+}
 .landing-work_item:hover .landing-work_preview-img{
 	transform: translateX(-50%) translateY(-50%) scale(1.02);
 }

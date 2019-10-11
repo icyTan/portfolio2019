@@ -5,9 +5,21 @@ import "./scss/_partials/landing-large.scss"
 import "./scss/_partials/grids.scss"
 import React from "react"
 
+// Code snippet from https://github.com/gatsbyjs/gatsby/issues/14988
+// we only care about `aspectRatio`, the rest will be passed directly to `Img`
+const ImgWithOrient = ({ aspectRatio, ...props }) => {
+  let orientation;
+  if (aspectRatio >= 1.2) orientation = "landscape";
+  if (aspectRatio <= 0.8) orientation = "portrait";
+  if (aspectRatio > 0.8 && aspectRatio < 1.2) orientation = "square";
+
+  return <Img className={`${orientation} landing-work_preview-img`} {...props} />;
+};
+
 const Landing = () => {
   // must be named something from query
   // fixing https://github.com/gatsbyjs/gatsby/issues/13322
+  // https://stackoverflow.com/questions/52574783/gatsby-image-path-from-json <-- reference for getting image paths from json
   const { allLandingItemsJson } = useStaticQuery(
     graphql`
       query landingQuery {
@@ -25,6 +37,7 @@ const Landing = () => {
                 src {
                   childImageSharp {
                     fluid{
+                      aspectRatio
                       ...GatsbyImageSharpFluid
                     }
                   }
@@ -49,12 +62,12 @@ const Landing = () => {
               <div className="landing-work_item col-6">
                 <div className="landing-work_content">
                   <div className={"landing-work_box " + node.workbox}></div>
-                  <div className="landing-work_preview-img">
-                    <Img
+                    <ImgWithOrient
+                      aspectRatio={node.preview_img.src.childImageSharp.fluid.aspectRatio}
+                      alt={node.name}
                       fluid={node.preview_img.src.childImageSharp.fluid}
-                      alt="preview image"
+                      style={{position: `absolute`}}
                     />
-                  </div>
                 </div>
                 <div className="landing-work_meta">
                   <span
