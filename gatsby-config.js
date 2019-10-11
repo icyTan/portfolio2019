@@ -46,8 +46,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // Added gatsby transfrmer json
-    "gatsby-transformer-json",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

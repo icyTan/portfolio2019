@@ -20,28 +20,30 @@ const Landing = () => {
   // must be named something from query
   // fixing https://github.com/gatsbyjs/gatsby/issues/13322
   // https://stackoverflow.com/questions/52574783/gatsby-image-path-from-json <-- reference for getting image paths from json
-  const { allLandingItemsJson } = useStaticQuery(
+  const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query landingQuery {
-        allLandingItemsJson {
+        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 4, sort: {fields: frontmatter___featuredImage___birthTime}) {
           edges {
             node {
               id
-              title
-              desc
-              workbox
-              workitem_title
-              href
-              preview_img{
-                name
-                src {
+              frontmatter {
+                landingDesc
+                landingTitle
+                title
+                workbox
+                workitemTitle
+                landingImage {
                   childImageSharp {
-                    fluid{
+                    fluid {
                       aspectRatio
                       ...GatsbyImageSharpFluid
                     }
                   }
                 }
+              }
+              fields {
+                slug
               }
             }
           }
@@ -49,7 +51,7 @@ const Landing = () => {
       }
     `
   )
-  console.log(allLandingItemsJson)
+  console.log(allMarkdownRemark)
   return (
     <>
       <section className="landing-work_list">
@@ -58,26 +60,26 @@ const Landing = () => {
           <div className="display">
             {/* <p>Returned something</p> */}
             {/* Start generative code here */}
-            {allLandingItemsJson.edges.map(({ node }) => (
+            {allMarkdownRemark.edges.map(({ node }) => (
               <div className="landing-work_item col-6">
                 <div className="landing-work_content">
-                  <div className={"landing-work_box " + node.workbox}></div>
+                  <div className={"landing-work_box " + node.frontmatter.workbox}></div>
                     <ImgWithOrient
-                      aspectRatio={node.preview_img.src.childImageSharp.fluid.aspectRatio}
+                      aspectRatio={node.frontmatter.landingImage.childImageSharp.fluid.aspectRatio}
                       alt={node.name}
-                      fluid={node.preview_img.src.childImageSharp.fluid}
+                      fluid={node.frontmatter.landingImage.childImageSharp.fluid}
                       style={{position: `absolute`}}
                     />
                 </div>
                 <div className="landing-work_meta">
                   <span
-                    className={"landing-work_item-title " + node.workitem_title}
+                    className={"landing-work_item-title " + node.frontmatter.workitemTitle}
                   >
-                    {node.title}
+                    {node.frontmatter.landingTitle}
                   </span>
-                  <span className="landing-work_item-desc">{node.desc}</span>
+                  <span className="landing-work_item-desc">{node.frontmatter.landingDesc}</span>
                 </div>
-                <Link className="overlay" href={node.href}></Link>
+                <Link className="overlay" to={node.fields.slug}></Link>
               </div>
             ))}
             {/* End generative code */}
