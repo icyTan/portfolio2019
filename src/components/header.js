@@ -20,7 +20,7 @@ const Header = () => {
       }
     `
   )
-  console.log(allNavItemsJson)
+  // console.log(allNavItemsJson)
   return (
     // Starting to import exisitng header
     <header className="header-bar fullpage-fade-in">
@@ -31,7 +31,7 @@ const Header = () => {
             {/* Map info from json file to list items */}
             {allNavItemsJson.edges.map(({ node }) => (
               <li key={node.id}>
-                <a id={node.menu_item} href={node.href} className="header-bar_nav-item">{node.menu_item}</a>
+                <Link id={node.menu_item} to={node.href} className="header-bar_nav-item">{node.menu_item}</Link>
               </li>
             ))}
           </ul>

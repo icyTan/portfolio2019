@@ -51,41 +51,43 @@ const Landing = () => {
       }
     `
   )
-  console.log(allMarkdownRemark)
+  // console.log(allMarkdownRemark)
   return (
     <>
-      <section className="landing-work_list">
-        <h2 className="vis-hide">Work</h2>
-        <div className="sf-2 wrap-1">
-          <div className="display">
-            {/* <p>Returned something</p> */}
-            {/* Start generative code here */}
-            {allMarkdownRemark.edges.map(({ node }) => (
-              <div className="landing-work_item col-6">
-                <div className="landing-work_content">
-                  <div className={"landing-work_box " + node.frontmatter.workbox}></div>
-                    <ImgWithOrient
-                      aspectRatio={node.frontmatter.landingImage.childImageSharp.fluid.aspectRatio}
-                      alt={node.name}
-                      fluid={node.frontmatter.landingImage.childImageSharp.fluid}
-                      style={{position: `absolute`}}
-                    />
+      <div className="wrap-1-content fullpage-fade-in">
+        <section className="landing-work_list">
+          <h2 className="vis-hide">Work</h2>
+          <div className="sf-2 wrap-1">
+            <div className="display">
+              {/* <p>Returned something</p> */}
+              {/* Start generative code here */}
+              {allMarkdownRemark.edges.map(({ node }) => (
+                <div className="landing-work_item col-6">
+                  <div className="landing-work_content">
+                    <div className={"landing-work_box " + node.frontmatter.workbox}></div>
+                      <ImgWithOrient
+                        aspectRatio={node.frontmatter.landingImage.childImageSharp.fluid.aspectRatio}
+                        alt={node.name}
+                        fluid={node.frontmatter.landingImage.childImageSharp.fluid}
+                        style={{position: `absolute`}}
+                      />
+                  </div>
+                  <div className="landing-work_meta">
+                    <span
+                      className={"landing-work_item-title " + node.frontmatter.workitemTitle}
+                    >
+                      {node.frontmatter.landingTitle}
+                    </span>
+                    <span className="landing-work_item-desc">{node.frontmatter.landingDesc}</span>
+                  </div>
+                  <Link className="overlay" to={node.fields.slug}></Link>
                 </div>
-                <div className="landing-work_meta">
-                  <span
-                    className={"landing-work_item-title " + node.frontmatter.workitemTitle}
-                  >
-                    {node.frontmatter.landingTitle}
-                  </span>
-                  <span className="landing-work_item-desc">{node.frontmatter.landingDesc}</span>
-                </div>
-                <Link className="overlay" to={node.fields.slug}></Link>
-              </div>
-            ))}
-            {/* End generative code */}
+              ))}
+              {/* End generative code */}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </>
   )
 }

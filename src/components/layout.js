@@ -23,9 +23,7 @@ const Layout = ({ children }) => {
     <>
       <main className="wrap-body">
         <Header />
-        <div className="wrap-1-content fullpage-fade-in">
           {children}
-        </div>
       </main>
       <footer id="footer" className="footer">
         © {new Date().getFullYear()}, Built with

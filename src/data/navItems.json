@@ -1,10 +1,10 @@
 [
     {
         "menu_item": "Work",
-        "href": ""
+        "href": "/"
     },
     {
         "menu_item": "About",
-        "href": "about.html"
+        "href": "/about"
     }
 ]
