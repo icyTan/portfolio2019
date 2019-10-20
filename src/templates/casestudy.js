@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
+import Worklist from "../components/worklist"
 import "../components/scss/_partials/variables.scss"
 import "../components/scss/_partials/work.scss"
 import "../components/scss/_partials/work-large.scss"
@@ -42,9 +43,13 @@ export default ({ data }) => {
                                 <span class="work__info-value">{post.frontmatter.heroSkills}</span>
                         </div>
                     </div>
-                    </section>
-                <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                </section>
+                <div className="wrap-1 sf-1">
+                  {/* This is where markdown is placed */}
+                  <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                </div>
             </div>
+          <Worklist />
         </Layout>
         </>
     )
