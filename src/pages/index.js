@@ -18,8 +18,11 @@ const IndexPage = () => (
         I believe that good design is effective communication with the people on
         the other side of my work.
       </p>
+      <p className="display-text">
+        Portfolio is currently under construction with <a href="https://www.gatsbyjs.org/">Gatsby.js</a>. You can find my case studies in the wild <a href="https://medium.com/@get.patlau">@get.patlau</a> on Medium and my code work on <a href="https://github.com/icyTan/portfolio2019">Github</a>.
+      </p>
     </section>
-    <Landing />
+    {/* <Landing /> */}
   </Layout>
 )
 

@@ -21,7 +21,10 @@ const Image = () => {
     }
   `)
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+    return <Img 
+        fluid={data.placeholderImage.childImageSharp.fluid} 
+        className="about__profile-img"
+    />
 }
 
 const AboutPage = () => (
@@ -43,19 +46,17 @@ const AboutPage = () => (
                     <div className="about__info col-8">
                         <p>I’m <strong>Pat Lau</strong>, a product designer from Vancouver, BC.</p>
                         <p>I want to create memorable interactions one touchpoint at a time, and continue to learn the skills to create those experiences.</p>
-                        <p>My off hours include playing video games on <a href="https://www.twitch.tv/icytan">stream on Twitch</a>, <a href="https://www.instagram.com/getpatlau/">baking</a> for my collaborators, and taking car trips to <a href="https://magic.wizards.com/en">Magic the Gathering</a> tournaments with friends.</p>
+                        <p>My off hours include <a href="https://www.twitch.tv/icytan">streaming on Twitch</a>, <a href="https://www.instagram.com/getpatlau/">baking</a> for my collaborators, and taking car trips to <a href="https://magic.wizards.com/en">Magic the Gathering</a> tournaments with friends.</p>
                         <p>I’m interested in learning to create design systems and producing work in interdisciplinary teams to absorb knowledge through osmosis.</p>
                     </div>
                 </div>
                 <p className="center-text">
-                    <a href="/images/resume2018.pdf" className="btn btn__primary">Resume</a>
+                    <a href="/about/PatrikLauresume2019.pdf" className="btn btn__primary">Resume</a>
                 </p>
-                <div className="about__profile-img img-lazy">
-                    <Image />
-                </div>
-                <p className="about__current center-text">
+                <Image />
+                {/* <p className="about__current center-text">
                     Currently learning new skills to bring enjoyment to others @ <a href="https://redacademy.com/vancouver/">RED Academy</a>
-                </p>
+                </p> */}
             </div>
         </section>
     </div>
