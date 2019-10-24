@@ -7,6 +7,7 @@ import Worklist from "../components/worklist"
 import "../components/scss/_partials/variables.scss"
 import "../components/scss/_partials/about.scss"
 import "../components/scss/_partials/about-large.scss"
+import "../components/scss/_partials/animations.scss"
 
 const Image = () => {
     const data = useStaticQuery(graphql`
