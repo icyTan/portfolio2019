@@ -60,7 +60,7 @@ const AboutPage = () => (
             </div>
         </section>
     </div>
-    <Worklist />
+    {/* <Worklist /> */}
     </Layout>
 )
 

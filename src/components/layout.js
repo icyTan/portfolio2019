@@ -26,9 +26,27 @@ const Layout = ({ children }) => {
           {children}
       </main>
       <footer id="footer" className="footer">
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        {/* Fix footer icons */}
+        {/* <ul class="footer-content sf-1 wrap-1">
+          <li>
+            <a id="footer-email" href="mailto:get.patlau@gmail.com" target="_blank" class="footer-link"><i class="fas fa-envelope fa-2x btn-social-media" ></i></a>
+          </li>
+          <li>
+            <a id="footer-twitter" href="https://twitter.com/patrik_lau" target="_blank" class="footer-link"><i class="fab fa-twitter fa-2x btn-social-media" ></i></a>
+          </li>
+          <li>
+            <a id="footer-linkedin" href="https://ca.linkedin.com/pub/patrik-lau/77/953/b55" target="_blank" class="footer-link"><i class="fab fa-linkedin-in fa-2x btn-social-media" ></i></a>
+          </li>
+          <li>
+            <a id="footer-github" href="https://github.com/icyTan" target="_blank" class="footer-link"><i class="fab fa-github fa-2x btn-social-media" ></i></a>
+          </li>
+        </ul> */}
+        <div className="sf-1 wrap-1">
+          © Patrik Lau {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </div>
+
       </footer>
     </>
   )
