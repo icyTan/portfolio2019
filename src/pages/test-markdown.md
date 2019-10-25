@@ -24,3 +24,4 @@ For this project I researched, designed, prototyped, tested, and iterated on a w
 In **three weeks** we mocked up **50+** high fidelity wireframes for both desktop and mobile. I was on the UX side of this project doing research, planning, information architecture, wireframing, user testing, and prototyping.
 
 This project ended up being about designing **against the common expectations of users** and meeting the business goals within those constraints.
+
