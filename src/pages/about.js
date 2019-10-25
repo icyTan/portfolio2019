@@ -32,7 +32,7 @@ const AboutPage = () => (
     <Layout>
         <SEO title="About Page" />
         <div className="wrap-1-content fullpage-fade-in">
-        <section className="about__intro section-1">
+        <section className="about__intro">
             <div className="wrap-1 sf-2">
                 <h2 className="vis-hide">About Intro</h2>
                 <p className="about__title center-text highlight">Hi!</p>
