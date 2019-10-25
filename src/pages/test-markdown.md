@@ -25,4 +25,5 @@ In **three weeks** we mocked up **50+** high fidelity wireframes for both deskto
 
 This project ended up being about designing **against the common expectations of users** and meeting the business goals within those constraints.
 
-![Understanding the Challenge](challenge.png)
+![Understanding the Challenge](../images/bfbc/challenge.png)
+
