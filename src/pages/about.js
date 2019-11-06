@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
+import Header from "../components/header"
 import SEO from "../components/seo"
 import Worklist from "../components/worklist"
 import "../components/scss/_partials/variables.scss"
@@ -31,6 +32,7 @@ const Image = () => {
 const AboutPage = () => (
     <Layout>
         <SEO title="About Page" />
+        <Header barType="about" />
         <div className="wrap-1-content fullpage-fade-in">
         <section className="about__intro">
             <div className="wrap-1 sf-2">

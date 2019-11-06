@@ -3,7 +3,7 @@ import "./scss/_partials/header.scss"
 import "./scss/_partials/header-large.scss"
 import React from "react"
 
-const Header = () => {
+const Header = props => {
   // must be named something from query
   const { allNavItemsJson } = useStaticQuery(
     graphql`
@@ -23,7 +23,7 @@ const Header = () => {
   // console.log(allNavItemsJson)
   return (
     // Starting to import exisitng header
-    <header className="header-bar fullpage-fade-in">
+    <header className={"header-bar header-bar_" + props.barName + " fullpage-fade-in"}>
       <div className="wrap-1 sf-1 header-bar_content">
         <Link to="/" className="header-bar_logo">Patrik Lau</Link>
         <nav className="header-bar_nav">

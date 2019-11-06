@@ -23,7 +23,7 @@ const Landing = () => {
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query landingQuery {
-        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 4, sort: {fields: frontmatter___featuredImage___birthTime}) {
+        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 10, sort: {fields: frontmatter___featuredImage___birthTime}) {
           edges {
             node {
               id
@@ -62,7 +62,7 @@ const Landing = () => {
               {/* <p>Returned something</p> */}
               {/* Start generative code here */}
               {allMarkdownRemark.edges.map(({ node }) => (
-                <div className="landing-work_item col-6">
+                <div key={node.id} className="landing-work_item col-6">
                   <div className="landing-work_content">
                     <div className={"landing-work_box " + node.frontmatter.workbox}></div>
                       <ImgWithOrient
@@ -76,9 +76,9 @@ const Landing = () => {
                     <span
                       className={"landing-work_item-title " + node.frontmatter.workitemTitle}
                     >
-                      {node.frontmatter.landingTitle}
+                      {node.frontmatter.landingTitle} 
                     </span>
-                    <span className="landing-work_item-desc">{node.frontmatter.landingDesc}</span>
+                    <span className="landing-work_item-desc">{" " + node.frontmatter.landingDesc}</span>
                   </div>
                   <Link className="overlay" to={node.fields.slug}></Link>
                 </div>

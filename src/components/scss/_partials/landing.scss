@@ -63,6 +63,15 @@
 .landing-work_box-bfbc{
 	background-color: $bfbc-color;
 }
+.landing-work_box-best{
+	background-color: $best-color;
+}
+.landing-work_box-speak{
+	background-color: $speak-color;
+}
+.landing-work_box-bikelocker{
+	background-color: $bikelocker-color;
+}
 .landing-work_meta{
 	transition: transform .3s;
 	text-align: center;
@@ -91,6 +100,15 @@
 }
 .landing-work_item:hover .landing-work_item-title-stc{
 	color: $stc-color;
+}
+.landing-work_item:hover .landing-work_item-title-best{
+	color: $best-color;
+}
+.landing-work_item:hover .landing-work_item-title-bikelocker{
+	color: $bikelocker-color;
+}
+.landing-work_item:hover .landing-work_item-title-speak{
+	color: $speak-color;
 }
 
 .landing-work_preview-img{

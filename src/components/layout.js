@@ -8,8 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
 import "./layout.css"
 import "./scss/_partials/variables.scss"
 import "./scss/_partials/base.scss"
@@ -22,7 +20,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <main className="wrap-body">
-        <Header />
           {children}
       </main>
       <footer id="footer" className="footer">

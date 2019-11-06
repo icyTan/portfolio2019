@@ -128,6 +128,18 @@
   background-color: $stc-color;
   color: #FFF;
 }
+.work__hero--speak{
+  background-color: $speak-color;
+  color: #FFF;
+}
+.work__hero--bikelocker{
+  background-color: $bikelocker-color;
+  color: #FFF;
+}
+.work__hero--best{
+  background-color: $best-color;
+  color: #FFF;
+}
 
 .title-visier{
   color: #FFF;
@@ -164,6 +176,15 @@
 }
 .background__bfbc{
   background-color: $bfbc-color;
+}
+.background__best{
+  background-color: $best-color;
+}
+.background__bikelocker{
+  background-color: $bikelocker-color;
+}
+.background__speak{
+  background-color: $speak-color;
 }
 
 /* css only slider */
