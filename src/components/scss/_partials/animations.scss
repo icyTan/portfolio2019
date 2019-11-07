@@ -137,14 +137,3 @@
 .reverse-wipe{
 	animation: 1s linear 0s 1 reverse wipe;
 }
-
-
-/*header sticky*/
-.-hidden{
-	transform: translateY(-100%);
-	// this gets it out of the way and a little extra
-}
-.-detached{
-	transform: translateY(-30%);
-	// this gets it out of the way and a little extra
-}

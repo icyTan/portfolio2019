@@ -9,7 +9,7 @@ keywords: []
 slug: >-
   /@get.patlau/shop-this-city-designing-a-personal-shopping-experience-8e6596d3a30
 landingTitle: stc
-landingDesc: bridging the gap between online and instore
+landingDesc: browse online, buy instore
 workbox: landing-work_box-stc
 workitemTitle: landing-work_item-title-stc
 landingImage: ../images/stc/stc_preview@2x.png

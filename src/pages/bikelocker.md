@@ -6,7 +6,7 @@ categories: []
 keywords: []
 slug: /@get.patlau/bike-locker-ui-case-study-6136882ea3ac
 landingTitle: bikelocker
-landingDesc: crowdsourcing safe bike storage in a city
+landingDesc: crowdsourcing safe bike storage
 workbox: landing-work_box-bikelocker
 workitemTitle: landing-work_item-title-bikelocker
 landingImage: ../images/bikelocker/bikelocker_preview@2x.png

@@ -18,6 +18,16 @@
 	box-shadow: 0 1px 6px rgba(0,0,0,0.12);
 }
 
+/*header sticky*/
+.-hidden{
+	transform: translateY(-100%);
+	// this gets it out of the way and a little extra
+}
+.-detached{
+	transform: translateY(-30%);
+	// this gets it out of the way and a little extra
+}
+
 .header-bar_content{
 	display: flex;
 	position: relative;

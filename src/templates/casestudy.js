@@ -16,7 +16,7 @@ export default ({ data }) => {
           <Header barName={post.frontmatter.landingTitle} />
             <div className="wrap-1-content">
                 <section className={"work__hero work__hero--" + post.frontmatter.landingTitle + " hero-1"}>
-                    <div className="wrap-1 sf-1">
+                    <div className="wrap-1 sf-1 fullpage-fade-in">
                         <h1 className="work__title">{post.frontmatter.heroTitle}</h1>
                         <p className="work__subtitle">{post.frontmatter.heroSubtitle}</p>
                         <Img
@@ -46,7 +46,7 @@ export default ({ data }) => {
                         </div>
                     </div>
                 </section>
-                <div className="wrap-1 sf-1">
+                <div className="wrap-1 sf-1 fullpage-fade-in">
                   {/* This is where markdown is placed */}
                   <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 </div>
