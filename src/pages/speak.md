@@ -14,47 +14,40 @@ featuredImage: ../images/speak/speak_hero.png
 heroTitle: "SPEAK your mind about ______ ."
 heroSubtitle: "event campaign and branding design"
 heroRoles: "UI Design"
-heroCompany: "speak"
+heroCompany: "Myself"
 heroTimeline: "3 weeks"
-heroSkills: "??????,????,????"
+heroSkills: "Sketch, Photoshop, Principle"
 displayOnLanding: true
 isBlog: false
 ---
 
-Event Branding — A Case Study on concepting and branding a theoretical event.
+<!-- Event Branding — A Case Study on concepting and branding a theoretical event. -->
 
-![A Case Study on concepting and branding a theoretical event.](../images/speak/1__JNfOnYWSA__qe7qPFKbyQ1Q.jpeg)
-A Case Study on concepting and branding a theoretical event.
-
-#### Who, What, Where, When, Why
-
-Who — Red Academy  
-What — Concept an event and creating branded elements for that event  
-Where — Final project in the UI Designer program  
-When — 3 Weeks  
-Why — Practice solo design work, trusting the process of designing and delivering over time.
-
-Tools used: Pen and Paper, Adobe Illustrator, Adobe Photoshop, Sketch, and Principle for animations.
+<!-- ![A Case Study on concepting and branding a theoretical event.](../images/speak/1__JNfOnYWSA__qe7qPFKbyQ1Q.jpeg) -->
+<!-- A Case Study on concepting and branding a theoretical event. -->
 
 #### Introduction
 
 Our final project for the UI course at RED Academy was to concept and brand an event with digital and physical brand assets. The overall project goal was to concept an event, create a central why that would dictate the event’s purpose, and create brand assets that represent the brand’s values.
 
+Tools used: Pen and Paper, Adobe Illustrator, Adobe Photoshop, Sketch, and Principle for animations.
+
 Breaking it down into deliverables:  
-_Concept an event and brand that is behind the event.  
-Design a visual style for the brand.  
-Wireframe and produce high fidelity mockups for a responsive website.  
-Create digital and physical brand assets._
+
+* _Concept an event and brand that is behind the event._  
+* Design a visual style for the brand.  
+* Wireframe and produce high fidelity mockups for a responsive website.  
+* _Create digital and physical brand assets._
 
 ![](../images/speak/1__IiBnMXmWUogx7Bl0m0rUQw.jpeg)
 
 #### Conception of SPEAK
 
-At the beginning of this project I wanted to try designing a **design system** for a series of something, anything really. I wanted to design a logo system for an event that happens yearly and can be modified to fit each year.
+At the beginning of this project I wanted to try designing a **design system** for a series of something, anything really. I wanted to design a logo system for an event that happens yearly and can be modified to fit each year. What I ended with was not a design system but an **expandable branding style**.
 
 ![](../images/speak/1__IhEmYDtZeZppdON6L5LEOw.jpeg)
 
-I thought of a topic for an event, **decision fatigue**, which was too specific as a topic. This lead me to start looking into talk conferences similar to TED Talks or South by Southwest, and design conferences like Awwward’s yearly conference and Design Thinkers. I took inspiration from these for the **format** of the conference and the **branding** of the conference respectively.
+I thought of a topic for an event, I thought of how hard it was to decide on what to eat after a day of class. **Decision fatigue**, which was too specific as a topic, lead me to start looking into talk conferences similar to TED Talks or South by Southwest and design conferences like Awwward’s yearly conference and Design Thinkers. I took inspiration from these for the **format** of the conference and the **branding** of the conference respectively.
 
 ![](../images/speak/1__OxyYeFixZfsmep3j3xcx3w.jpeg)
 

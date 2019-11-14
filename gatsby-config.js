@@ -17,7 +17,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon_colour@3x.png`, // This path is relative to the root of the site.
       },
     },
     // Added transformer for markdown files
@@ -25,13 +25,15 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          // unwraps images from <p> tags
+          "gatsby-remark-unwrap-images",
           {
             resolve: `gatsby-remark-images`,
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 900,
+              maxWidth: 1200,
             },
           },
         ],

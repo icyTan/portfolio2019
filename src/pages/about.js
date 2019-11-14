@@ -31,7 +31,7 @@ const Image = () => {
 
 const AboutPage = () => (
     <Layout>
-        <SEO title="About Page" />
+        <SEO title="About" />
         <Header barType="about" />
         <div className="wrap-1-content fullpage-fade-in">
         <section className="about__intro">
@@ -57,6 +57,9 @@ const AboutPage = () => (
                     <a href="/about/PatrikLauresume2019.pdf" className="btn btn__primary">Resume</a>
                 </p>
                 <Image />
+                <div className="about__info col-12">
+                    <p>Portfolio is built with <a href="https://www.gatsbyjs.org/">Gatsby.js</a>, powered by <a href="https://www.netlify.com">Netlify</a>. You can find my case studies in the wild <a href="https://medium.com/@get.patlau">on Medium</a> and my code work on <a href="https://github.com/icyTan/portfolio2019">Github</a>.</p>
+                </div>
                 {/* <p className="about__current center-text">
                     Currently learning new skills to bring enjoyment to others @ <a href="https://redacademy.com/vancouver/">RED Academy</a>
                 </p> */}

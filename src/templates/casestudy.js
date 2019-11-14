@@ -4,15 +4,18 @@ import Layout from "../components/layout"
 import Img from "gatsby-image"
 import Worklist from "../components/worklist"
 import Header from "../components/header"
+import SEO from "../components/seo"
 import "../components/scss/_partials/variables.scss"
 import "../components/scss/_partials/work.scss"
 import "../components/scss/_partials/work-large.scss"
+import "../components/scss/_partials/casestudy.scss"
 export default ({ data }) => {
     let post = data.markdownRemark
     let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
     return (
         <>
         <Layout>
+          <SEO title={post.frontmatter.title} />
           <Header barName={post.frontmatter.landingTitle} />
             <div className="wrap-1-content">
                 <section className={"work__hero work__hero--" + post.frontmatter.landingTitle + " hero-1"}>
@@ -46,7 +49,7 @@ export default ({ data }) => {
                         </div>
                     </div>
                 </section>
-                <div className="wrap-1 sf-1 fullpage-fade-in">
+                <div className="markdown fullpage-fade-in">
                   {/* This is where markdown is placed */}
                   <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 </div>

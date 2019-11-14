@@ -15,7 +15,7 @@ heroSkills: "User Research, Interviews, Surveys, Wireframing, Sketch"
 displayOnLanding: true
 isBlog: false
 ---
-![](../images/bfbc/1__iXBO__9__Jg9baKrZ__SrALQA.png)
+<!-- ![](../images/bfbc/1__iXBO__9__Jg9baKrZ__SrALQA.png) -->
 
 > When you see the words “bully-free website”, what do you think of and what do you expect to take away from such a place?
 
