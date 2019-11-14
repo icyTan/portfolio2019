@@ -34,8 +34,8 @@ const Worklist = () => {
     return (
         <>
         <section className="section-1">
-            <section class="work-list">
-                <div class="wrap-1 sf-1">
+            <section className="work-list">
+                <div className="wrap-1 sf-1">
                     <h2 className="vis-hide">Other Work</h2>
                     <ul className="work-list__list row">
                         {/* Start generative code here */}

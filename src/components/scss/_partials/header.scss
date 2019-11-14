@@ -19,12 +19,14 @@
 }
 
 /*header sticky*/
-.-hidden{
-	transform: translateY(-100%);
-	// this gets it out of the way and a little extra
-}
+
+// This order is important
 .-detached{
 	transform: translateY(-30%);
+	// this gets it out of the way and a little extra
+}
+.-hidden{
+	transform: translateY(-100%);
 	// this gets it out of the way and a little extra
 }
 
