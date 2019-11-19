@@ -12,7 +12,7 @@ class Header extends Component {
     super(props);
 
     this.state = {
-      prevScrollpos: window.pageYOffset,
+      prevScrollpos: 0,
       visible: true,
       attached: true
     };
