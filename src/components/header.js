@@ -21,6 +21,7 @@ class Header extends Component {
   // Adds an event listener when the component is mount.
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
+    this.state.prevScrollpos = window.pageYOffset;
   }
 
   // Remove the event listener when the component is unmount.
