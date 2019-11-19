@@ -18,6 +18,18 @@
 	box-shadow: 0 1px 6px rgba(0,0,0,0.12);
 }
 
+/*header sticky*/
+
+// This order is important
+.-detached{
+	transform: translateY(-30%);
+	// this gets it out of the way and a little extra
+}
+.-hidden{
+	transform: translateY(-100%);
+	// this gets it out of the way and a little extra
+}
+
 .header-bar_content{
 	display: flex;
 	position: relative;
@@ -38,7 +50,7 @@
 	list-style: none;
 }
 
-.header-bar_nav-list>li{
+.header-bar_list-item{
 	display: inline-block;
 }
 
@@ -115,5 +127,17 @@
 }
 .header-bar_bfbc{
 	background-color:$bfbc-color;
+	color: white;
+}
+.header-bar_bikelocker{
+	background-color:$bikelocker-color;
+	color: white;
+}
+.header-bar_best{
+	background-color:$best-color;
+	color: white;
+}
+.header-bar_speak{
+	background-color:$speak-color;
 	color: white;
 }

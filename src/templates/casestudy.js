@@ -3,48 +3,54 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import Worklist from "../components/worklist"
+import Header from "../components/header"
+import SEO from "../components/seo"
 import "../components/scss/_partials/variables.scss"
 import "../components/scss/_partials/work.scss"
 import "../components/scss/_partials/work-large.scss"
+import "../components/scss/_partials/casestudy.scss"
+import "../components/scss/_partials/grids.scss"
 export default ({ data }) => {
     let post = data.markdownRemark
     let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
     return (
         <>
         <Layout>
+          <SEO title={post.frontmatter.title} />
+          <Header barName={post.frontmatter.landingTitle} />
             <div className="wrap-1-content">
                 <section className={"work__hero work__hero--" + post.frontmatter.landingTitle + " hero-1"}>
-                    <div class="wrap-1 sf-1">
-                        <h1 class="work__title">{post.frontmatter.heroTitle}</h1>
-                        <p class="work__subtitle">{post.frontmatter.heroSubtitle}</p>
+                    <div className="wrap-1 sf-1 fullpage-fade-in">
+                        <h1 className="work__title">{post.frontmatter.heroTitle}</h1>
+                        <p className="work__subtitle">{post.frontmatter.heroSubtitle}</p>
                         <Img
                             alt={featuredImgFluid.name}
                             fluid={featuredImgFluid}
                         />
                     </div>
                 </section>
-                <section class="work__content fullpage-fade-in">
-                    <div class="wrap-1 sf-2 work_header">
-                        <h2 class="vis-hide">Information</h2>
-                        <div class="work__info col-3">
-                            <span class="work__info-label">My Roles</span>
-                                <span class="work__info-value">{post.frontmatter.heroRoles}</span>
+                <section className="work__content fullpage-fade-in">
+                    <div className="wrap-1 sf-2 work_header">
+                        <h2 className="vis-hide">Information</h2>
+                        <div className="work__info col-3">
+                            <span className="work__info-label">My Roles</span>
+                                <span className="work__info-value">{post.frontmatter.heroRoles}</span>
                         </div>
-                        <div class="work__info col-2">
-                            <span class="work__info-label">Company</span>
-                                <span class="work__info-value">{post.frontmatter.heroCompany}</span>
+                        <div className="work__info col-2">
+                            <span className="work__info-label">Company</span>
+                                <span className="work__info-value">{post.frontmatter.heroCompany}</span>
                         </div>
-                        <div class="work__info col-2">
-                            <span class="work__info-label">Timeline</span>
-                                <span class="work__info-value">{post.frontmatter.heroTimeline}</span>
+                        <div className="work__info col-2">
+                            <span className="work__info-label">Timeline</span>
+                                <span className="work__info-value">{post.frontmatter.heroTimeline}</span>
                         </div>
-                        <div class="work__info col-5">
-                            <span class="work__info-label">Skills</span>
-                                <span class="work__info-value">{post.frontmatter.heroSkills}</span>
+                        <div className="work__info col-5">
+                            <span className="work__info-label">Skills</span>
+                                <span className="work__info-value">{post.frontmatter.heroSkills}</span>
                         </div>
                     </div>
                 </section>
-                <div className="wrap-1 sf-1">
+                <div className="markdown fullpage-fade-in">
                   {/* This is where markdown is placed */}
                   <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 </div>

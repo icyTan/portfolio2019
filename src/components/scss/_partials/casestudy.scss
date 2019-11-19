@@ -1,0 +1,98 @@
+@import "variables";
+// use scss selectors so you don't explode trying to write this
+div.markdown {
+    div {
+        p,ul,blockquote,h1,h2,h3,h4,h5,h6,figcaption,iframe,.gif-grid {
+            max-width: 22rem;
+
+            @media only screen and (min-width:600px) {
+                max-width: 40rem;
+            }
+
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        p,ul,blockquote,figcaption,iframe,.gif-grid{
+            margin-bottom: 1.6rem;
+
+            @media only screen and (min-width:600px){
+                margin-bottom: 1.87493em;
+            }
+        }
+    }
+}
+
+div.markdown{
+    div{
+        p>iframe{
+            margin-bottom: 0;
+        }
+    }
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+//   margin: 1.5em 10px;
+//   padding: 0.5em 10px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+//   content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-style: italic;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    color:#595959;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.gatsby-resp-image-wrapper{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width:100%;
+}
+
+.gatsby-remark-images-grid-grid{
+    display: block;
+    @media only screen and (min-width:600px){
+        display:grid;
+    }
+}
+
+div>ul{
+    margin-top: -1rem;
+}
+
+div>ul>li {
+    max-width: 34rem;
+	margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0.6rem;
+}
+
+div>h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+div>p>em{
+    font-style: italic;
+}

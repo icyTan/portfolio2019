@@ -1,5 +1,7 @@
 import { Link, graphql, useStaticQuery} from "gatsby"
 import Img from "gatsby-image"
+import {TransitionLink} from 'gatsby-plugin-transition-link'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import "./scss/_partials/landing.scss"
 import "./scss/_partials/landing-large.scss"
 import "./scss/_partials/grids.scss"
@@ -23,7 +25,7 @@ const Landing = () => {
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query landingQuery {
-        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 4, sort: {fields: frontmatter___featuredImage___birthTime}) {
+        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 10, sort: {fields: frontmatter___weight, order: ASC}) {
           edges {
             node {
               id
@@ -33,6 +35,8 @@ const Landing = () => {
                 title
                 workbox
                 workitemTitle
+                color
+                weight
                 landingImage {
                   childImageSharp {
                     fluid {
@@ -62,7 +66,7 @@ const Landing = () => {
               {/* <p>Returned something</p> */}
               {/* Start generative code here */}
               {allMarkdownRemark.edges.map(({ node }) => (
-                <div className="landing-work_item col-6">
+                <div key={node.id} className="landing-work_item col-6">
                   <div className="landing-work_content">
                     <div className={"landing-work_box " + node.frontmatter.workbox}></div>
                       <ImgWithOrient
@@ -76,11 +80,19 @@ const Landing = () => {
                     <span
                       className={"landing-work_item-title " + node.frontmatter.workitemTitle}
                     >
-                      {node.frontmatter.landingTitle}
+                      {node.frontmatter.landingTitle} 
                     </span>
-                    <span className="landing-work_item-desc">{node.frontmatter.landingDesc}</span>
+                    <span className="landing-work_item-desc">{" " + node.frontmatter.landingDesc}</span>
                   </div>
-                  <Link className="overlay" to={node.fields.slug}></Link>
+                  {/* <Link className="overlay" to={node.fields.slug}></Link> */}
+                  <AniLink 
+                    cover 
+                    to={node.fields.slug} 
+                    direction="down"
+                    bg={node.frontmatter.color} 
+                    duration={1.5}
+                    className="overlay"
+                  ></AniLink>
                 </div>
               ))}
               {/* End generative code */}
