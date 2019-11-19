@@ -36,6 +36,9 @@ class Header extends Component {
     var visible,attached = true;
 
     const currentScrollPos = window.pageYOffset;
+    if (currentScrollPos < 0) {
+      currentScrollPos = 0; // fix for safari
+    }
     // set some logic for if it's fully hidden or partially hidden
     if (currentScrollPos < prevScrollpos) { // scrolling up
       visible = true;

@@ -52,7 +52,8 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 1200,
-              linkImagesToOriginal: false // point!
+              linkImagesToOriginal: false, // point!
+              disableBgImageOnAlpha: true,
             },
           },
           // medium style zoom on images for gatsby-remark-images
