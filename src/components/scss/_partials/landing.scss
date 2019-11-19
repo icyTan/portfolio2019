@@ -122,10 +122,16 @@
 	height: auto;
 }
 .portrait{
-	max-width: 12.8rem;
+	max-width: 11rem;
+	@media only screen and (max-width:600px){
+		max-width: 12.8rem;
+	}
 }
 .landscape{
 	max-width: 17rem;
+	@media only screen and (max-width:600px){
+		max-width: 19rem;
+	}
 }
 .landing-work_item:hover .landing-work_preview-img{
 	transform: translateX(-50%) translateY(-50%) scale(1.02);
