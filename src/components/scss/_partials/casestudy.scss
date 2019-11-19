@@ -1,5 +1,6 @@
 @import "variables";
 
+// use scss selectors so you don't explode trying to write this
 div.markdown {
     div {
         p,ul,blockquote,h1,h2,h3,h4,h5,h6 {
@@ -39,6 +40,11 @@ blockquote p {
 .gatsby-resp-image-wrapper{
     margin-top: 4rem;
     margin-bottom: 4rem;
+    width:100%;
+}
+
+.gatsby-remark-images-grid-grid{
+    display: grid;
 }
 
 div>ul{

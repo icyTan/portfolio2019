@@ -55,8 +55,10 @@ For design inspirations I looked at various brand systems and grid based logos a
 
 ![](../images/speak/1__SDq3LnT2jfID3dSUQsA5AQ.jpeg)
 
+```grid|2
 ![](../images/speak/1__lt3pjxHWywbnisFEgkyKJA.jpeg)
 ![](../images/speak/1__o__b4vFD7rHwqetfUuSqsOA.jpeg)
+```
 
 #### Why and Big Idea
 
@@ -70,8 +72,10 @@ The Big Idea or slogan is Speak your mind about \_\_\_\_\_\_\_\_\_\_\_\_\_. The 
 
 The mood of SPEAK should be **educational**, **thoughtful** and **provoking** to entice people into action. The shapes and colours should be **basic** and similar to what is taught as **foundational** **knowledge**. This will be expanded on in the style tile.
 
+```grid|2
 ![](../images/speak/1__ouNn4D9nas39hDA____yqf8A.jpeg)
 ![](../images/speak/1__qvS0nuwmqWgTUwjn032rCA.jpeg)
+```
 
 From deciding on the Why and the event name, I came up with the general topic for this year’s conference which was mental health. I blew the small topic of **decision fatigue** up to the overall topic of mental health. In **retrospect** I would have liked to make the topic less heavy sounding and instead chose mental wellness, or taking care of your brain.
 
@@ -89,9 +93,11 @@ This event is for the public and is meant to be inviting, so I chose Brandon Gro
 
 For body text I chose Europa as it is a clean sans serif known for legibility, which is the secondary focus of the website as it is has a schedule that is meant to be fetched daily.
 
+```grid|3
 ![](../images/speak/1__gnb3vtgChsEy0CF7bZN3eg.jpeg)
 ![](../images/speak/1__mHuhdB6hsVWeMSRNYNhzCg.jpeg)
 ![](../images/speak/1__Q0quM2MbQvTLsXrJHx7__8w.jpeg)
+```
 
 To go with the theme of foundational knowledge, I chose to base my colour palette and graphic elements on the CYMK colour wheel and basic geometric shapes. The CYMK colour wheel is the foundation for subtractive colour theory, and is the colours that printers use to print all colours. Geometric shapes were chosen to **remind** viewers of the shapes and they’ve been taught in elementary education and are an essential part of mathematics.
 
@@ -126,13 +132,17 @@ The fade transitions between pages when clicking links was chosen to have an int
 
 I chose to cut up pages into sections, and for each of these sections to have an image, a title, and a subtitle at minimum. The subtitle for each of these section was to be in a parallax scrolling effect to make a for **pleasant surprise** and to cover the large amount of **whitespace** between sections. This is done to elongate the viewing experience, and to let a viewer **learn** something immediately by letting them have control over viewing information.
 
+```grid|3
 ![](../images/speak/1__1wvtasDpgMwUiDEpIe8nRQ.jpeg)
 ![](../images/speak/1__vb4tJoT3V0XqH4LvXzJTTA.jpeg)
 ![](../images/speak/1__YochMac6mOFyt9TpKeknrA.jpeg)
+```
 
+```grid|3
 ![](../images/speak/1__WgLXygb3skV1S3AKkAg2ig.jpeg)
 ![](../images/speak/1__hFm46tmq10ZE__0NL00L1Ig.jpeg)
 ![](../images/speak/1__oHfY9KyWMhsrw6MfbTVh1Q.jpeg)
+```
 
 #### Physical Brand Assets
 
