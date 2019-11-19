@@ -24,6 +24,28 @@ div.markdown {
             }
         }
     }
+
+    div>ul{
+        margin-top: -1rem;
+    }
+
+    div>ul>li {
+        max-width: 34rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0.6rem;
+    }
+
+    div>h4 {
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-bottom: 0.8rem;
+    }
+
+    div>p>em{
+        font-style: italic;
+    }
+    
 }
 
 div.markdown{
@@ -74,25 +96,4 @@ figcaption {
     @media only screen and (min-width:600px){
         display:grid;
     }
-}
-
-div>ul{
-    margin-top: -1rem;
-}
-
-div>ul>li {
-    max-width: 34rem;
-	margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 0.6rem;
-}
-
-div>h4 {
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-bottom: 0.8rem;
-}
-
-div>p>em{
-    font-style: italic;
 }
