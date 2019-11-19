@@ -1,5 +1,7 @@
 import { Link, graphql, useStaticQuery} from "gatsby"
 import Img from "gatsby-image"
+import {TransitionLink} from 'gatsby-plugin-transition-link'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import "./scss/_partials/landing.scss"
 import "./scss/_partials/landing-large.scss"
 import "./scss/_partials/grids.scss"
@@ -33,6 +35,7 @@ const Landing = () => {
                 title
                 workbox
                 workitemTitle
+                color
                 landingImage {
                   childImageSharp {
                     fluid {
@@ -80,7 +83,15 @@ const Landing = () => {
                     </span>
                     <span className="landing-work_item-desc">{" " + node.frontmatter.landingDesc}</span>
                   </div>
-                  <Link className="overlay" to={node.fields.slug}></Link>
+                  {/* <Link className="overlay" to={node.fields.slug}></Link> */}
+                  <AniLink 
+                    cover 
+                    to={node.fields.slug} 
+                    direction="down"
+                    bg={node.frontmatter.color} 
+                    duration={1.5}
+                    className="overlay"
+                  ></AniLink>
                 </div>
               ))}
               {/* End generative code */}

@@ -1,4 +1,5 @@
 import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import "./scss/_partials/header.scss"
 import "./scss/_partials/header-large.scss"
 import React, { Component } from "react"
@@ -68,14 +69,38 @@ class Header extends Component {
           )}
       >
         <div className="wrap-1 sf-1 header-bar_content">
-          <Link to="/" className="header-bar_logo">Patrik Lau</Link>
+          {/* <Link to="/" className="header-bar_logo">Patrik Lau</Link> */}
+          <AniLink
+            cover
+            to="/"
+            direction="up"
+            bg="#fafafa"
+            duration={1.5}
+            className="header-bar_logo"
+          >Patrik Lau</AniLink>
           <nav className="header-bar_nav">
             <ul className="header-bar_nav-list">
                 <li className="header-bar_list-item">
-                  <Link to="/" className="header-bar_nav-item">Work</Link>
+                  {/* <Link to="/" className="header-bar_nav-item">Work</Link> */}
+                  <AniLink
+                    cover 
+                    to="/"
+                    direction="up"
+                    bg="#fafafa"
+                    duration={1.5}
+                    className="header-bar_nav-item"
+                  >Work</AniLink>
                 </li>
                 <li className="header-bar_list-item">
-                  <Link to="/about" className="header-bar_nav-item">About</Link>
+                  {/* <Link to="/about" className="header-bar_nav-item">About</Link> */}
+                  <AniLink
+                    cover 
+                    to="/about"
+                    direction="down"
+                    bg="#fafafa"
+                    duration={1.5}
+                    className="header-bar_nav-item"
+                  >About</AniLink>
                 </li>
             </ul>
           </nav>

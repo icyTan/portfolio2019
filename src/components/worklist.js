@@ -1,4 +1,5 @@
 import { Link, graphql, useStaticQuery } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import "./scss/_partials/worklist.scss"
 import "./scss/_partials/worklist-large.scss"
 import "./scss/_partials/base.scss"
@@ -20,6 +21,7 @@ const Worklist = () => {
                 title
                 workbox
                 workitemTitle
+                color
               }
               fields {
                 slug
@@ -46,7 +48,15 @@ const Worklist = () => {
                                     <span className="work-list__name">{node.frontmatter.title}</span>
                                     <span className="work-list__desc">{node.frontmatter.landingDesc}</span>
                                 </div>
-                                <Link className="overlay" to={node.fields.slug}></Link>
+                                {/* <Link className="overlay" to={node.fields.slug}></Link> */}
+                                <AniLink
+                                  cover
+                                  to={node.fields.slug}
+                                  direction="down"
+                                  bg={node.frontmatter.color}
+                                  duration={1.5}
+                                  className="overlay"
+                                ></AniLink>
                             </li>
                         ))}
                         {/* End generative code */}

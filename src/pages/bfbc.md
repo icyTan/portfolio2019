@@ -12,6 +12,7 @@ heroRoles: "UX Design"
 heroCompany: "BullyFreeBC"
 heroTimeline: "3 weeks"
 heroSkills: "User Research, Interviews, Surveys, Wireframing, Sketch"
+color: "#816D9F"
 displayOnLanding: true
 isBlog: false
 ---

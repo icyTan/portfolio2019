@@ -17,6 +17,7 @@ heroRoles: "UI Design"
 heroCompany: "Myself"
 heroTimeline: "3 weeks"
 heroSkills: "Sketch, Photoshop, Principle"
+color: "#D60080"
 displayOnLanding: true
 isBlog: false
 ---

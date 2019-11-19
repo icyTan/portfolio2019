@@ -20,6 +20,7 @@ heroRoles: "UX Design"
 heroCompany: "Shop this City"
 heroTimeline: "3 weeks"
 heroSkills: "??????,????,????"
+color: "#003399"
 displayOnLanding: true
 isBlog: false
 ---

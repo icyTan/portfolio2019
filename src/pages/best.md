@@ -16,6 +16,7 @@ heroRoles: "UI Design"
 heroCompany: "BEST"
 heroTimeline: "3 weeks"
 heroSkills: "??????,????,????"
+color: "#228F7A"
 displayOnLanding: true
 isBlog: false
 ---

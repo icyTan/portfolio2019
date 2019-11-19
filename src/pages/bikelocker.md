@@ -17,6 +17,7 @@ heroRoles: "UI Design"
 heroCompany: "Bike Locker"
 heroTimeline: "3 weeks"
 heroSkills: "??????,????,????"
+color: "#009887"
 displayOnLanding: true
 isBlog: false
 ---
