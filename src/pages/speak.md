@@ -17,6 +17,7 @@ heroRoles: "UI Design"
 heroCompany: "Myself"
 heroTimeline: "3 weeks"
 heroSkills: "Sketch, Photoshop, Principle"
+weight: 1
 color: "#D60080"
 displayOnLanding: true
 isBlog: false
@@ -40,7 +41,7 @@ Breaking it down into deliverables:
 * Wireframe and produce high fidelity mockups for a responsive website.  
 * _Create digital and physical brand assets._
 
-![](../images/speak/1__IiBnMXmWUogx7Bl0m0rUQw.jpeg)
+![](../images/speak/Research&#32;Splash.png)
 
 #### Conception of SPEAK
 
@@ -54,22 +55,17 @@ I thought of a topic for an event, I thought of how hard it was to decide on wha
 
 For design inspirations I looked at various brand systems and grid based logos as exploration into making my own design system. I found some examples from Pinterest for grid based logos, Up Global and SXSW for design systems, and various Memphis design examples for general inspiration.
 
-![](../images/speak/1__SDq3LnT2jfID3dSUQsA5AQ.jpeg)
-
-```grid|2
-![](../images/speak/1__lt3pjxHWywbnisFEgkyKJA.jpeg)
-![](../images/speak/1__o__b4vFD7rHwqetfUuSqsOA.jpeg)
-```
+![](../images/speak/Process&#32;Splash.png)
 
 #### Why and Big Idea
 
-My next steps were to think of a central Why as well as a Big Idea to solidify the brand identity and visual style.
+> Bring professional and actionalble help to recognizable public issues and Speak your mind about _________.
 
 SPEAK’s Why, (insert why here). The conferences purpose is to let the public in Vancouver hear from the best in their field talk and educate about their expertise particularly on public issues.
 
 The Big Idea or slogan is Speak your mind about \_\_\_\_\_\_\_\_\_\_\_\_\_. The big blank spot is to represent the changing topic as well as a fill in the blank that the public gets to vote on. This Big Idea informed the name of the conference, as well as the visual style of the brand once the name was decided.
 
-![](../images/speak/1__Ucm8yPnyfeDHGElXiv27zw.jpeg)
+![](../images/speak/Design&#32;Inception.png)
 
 The mood of SPEAK should be **educational**, **thoughtful** and **provoking** to entice people into action. The shapes and colours should be **basic** and similar to what is taught as **foundational** **knowledge**. This will be expanded on in the style tile.
 
@@ -84,30 +80,27 @@ At this point I made two moodboards to decide which direction to take this confe
 
 I chose to go forward with something inbetween these two, using the keywords of **educational**, **provoking**, and **sincere** to drive the mood.
 
-![](../images/speak/1__80Bm0rJcgw6UngY9C5SmJg.jpeg)
+![](../images/speak/Style&#32;Tile@2x.png)
 
 From my prior research of Memphis Design, I noticed the repetition of basic geometric shapes and of bright foundational colours like cyan, magenta, and teal. Basic shapes and colours being concepts and knowledge that are **taught** in early education, and being foundational knowledge to both mathematics and colour theory respectively I decided to connect the slogan of SPEAK to the theme of teaching **foundational knowledge**.
 
-![](../images/speak/1__K6sko4ExCn3rZVdBtad6yA.jpeg)
+![](../images/speak/Typography.png)
 
 This event is for the public and is meant to be inviting, so I chose Brandon Grotesque for it’s humanist sans serif background and clean characters to be used for both the logo and for display text on the website.
 
 For body text I chose Europa as it is a clean sans serif known for legibility, which is the secondary focus of the website as it is has a schedule that is meant to be fetched daily.
 
-```grid|3
-![](../images/speak/1__gnb3vtgChsEy0CF7bZN3eg.jpeg)
-![](../images/speak/1__mHuhdB6hsVWeMSRNYNhzCg.jpeg)
-![](../images/speak/1__Q0quM2MbQvTLsXrJHx7__8w.jpeg)
-```
+![](../images/speak/Iconography.png)
 
 To go with the theme of foundational knowledge, I chose to base my colour palette and graphic elements on the CYMK colour wheel and basic geometric shapes. The CYMK colour wheel is the foundation for subtractive colour theory, and is the colours that printers use to print all colours. Geometric shapes were chosen to **remind** viewers of the shapes and they’ve been taught in elementary education and are an essential part of mathematics.
 
 I took inspiration from Memphis Design graphic design, and it shows in the repetition of shapes as outlines at 45 degrees from the original shape. Additionally I greyscaled all images shown on the website to **remove** visual focus from the images while still **attaching** the brand to real people and places.
 
-![](../images/speak/1__mq2esxM9x23eUTU138AYkQ.jpeg)
+![](../images/speak/Design&#32;Splash.png)
 
 ![All wireframes in Sketch](../images/speak/1__HsfAVe78MdO2ViuDU6RdQg.png)
-All wireframes in Sketch
+
+<figcaption>All wireframes in Sketch</figcaption>
 
 #### Wireframes
 
@@ -115,13 +108,17 @@ For this part of the project we as individual UI designers had to do a little bi
 
 I made a short video walkthrough of desktop and mobile using Principle.
 
-Full Walkthrough of the homepage
+<div><p><iframe src="https://player.vimeo.com/video/358225212" height="454" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p></div>
+
+<figcaption>Walkthrough of the homepage</figcaption>
 
 #### Hero Banner design
 
 The hero banners were designed with the main slogan in mind, being built as a three line block to **maximize** it’s visual space vertically and be balanced with a graphical element as a part of the hero banner of each page. These banners **scale** to a mobile size by turning the graphical element transparent and splitting the space into an upper left and lower right section, with the banner text taking **priority** and being fully opaque.
 
-Screen Transitions
+<div><p><iframe src="https://player.vimeo.com/video/358225201" height="454" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p></div>
+
+<figcaption>Screen Transitions</figcaption>
 
 #### Animated Banners and Fade Transitions
 
@@ -149,7 +146,7 @@ I chose to cut up pages into sections, and for each of these sections to have an
 
 I made a few physical asset mockups for SPEAK, which included a bus ad, wayfinding and signage to be used within the Vancouver Convention Centre, and a set of badges for guests of SPEAK. There are also digital ads meant for Facebook and Instagram, and as a sidenote, are not technically ready for display as pointed out by a classmate as the Facebook ad has too much text which break’s Facebook’s ad rules.
 
-![](../images/speak/1__Q51VgXHkLZk056QF5__IMUQ.jpeg)
+![](../images/speak/Conclusion.png)
 
 #### Conclusion
 

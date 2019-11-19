@@ -16,13 +16,12 @@ heroSubtitle: "case study on mobile UI design and collaboration"
 heroRoles: "UI Design"
 heroCompany: "Bike Locker"
 heroTimeline: "3 weeks"
-heroSkills: "??????,????,????"
-color: "#009887"
+heroSkills: "Sketch, Illustrator, Miro (formerly RealTimeBoard)"
+color: "#009887" 
+weight: 2
 displayOnLanding: true
 isBlog: false
 ---
-
-A Case Study on mobile UI design and collaboration
 
 ![](../images/bikelocker/1__fI5aR4WSsaU2lR9CROZRvw.png)
 

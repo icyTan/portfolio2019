@@ -1,16 +1,35 @@
 @import "variables";
-
 // use scss selectors so you don't explode trying to write this
 div.markdown {
     div {
-        p,ul,blockquote,h1,h2,h3,h4,h5,h6 {
-            margin-bottom: 1.87493rem;
-            max-width: 40rem;
+        p,ul,blockquote,h1,h2,h3,h4,h5,h6,figcaption,iframe,.gif-grid {
+            max-width: 22rem;
+
+            @media only screen and (min-width:600px) {
+                max-width: 40rem;
+            }
+
             width: 100%;
             margin-right: auto;
             margin-left: auto;
             padding-left: 1rem;
             padding-right: 1rem;
+        }
+
+        p,ul,blockquote,figcaption,iframe,.gif-grid{
+            margin-bottom: 1.6rem;
+
+            @media only screen and (min-width:600px){
+                margin-bottom: 1.87493em;
+            }
+        }
+    }
+}
+
+div.markdown{
+    div{
+        p>iframe{
+            margin-bottom: 0;
         }
     }
 }
@@ -37,6 +56,13 @@ blockquote p {
   font-style: italic;
 }
 
+figcaption {
+    font-size: 0.8rem;
+    color:#595959;
+    text-align: center;
+    margin-top: -2rem;
+}
+
 .gatsby-resp-image-wrapper{
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -44,7 +70,10 @@ blockquote p {
 }
 
 .gatsby-remark-images-grid-grid{
-    display: grid;
+    display: block;
+    @media only screen and (min-width:600px){
+        display:grid;
+    }
 }
 
 div>ul{

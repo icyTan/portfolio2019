@@ -9,6 +9,7 @@ import "../components/scss/_partials/variables.scss"
 import "../components/scss/_partials/work.scss"
 import "../components/scss/_partials/work-large.scss"
 import "../components/scss/_partials/casestudy.scss"
+import "../components/scss/_partials/grids.scss"
 export default ({ data }) => {
     let post = data.markdownRemark
     let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid

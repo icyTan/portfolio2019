@@ -9,14 +9,15 @@ landingDesc: rebranding and responsive web
 workbox: landing-work_box-best
 workitemTitle: landing-work_item-title-best
 landingImage: ../images/best/best_preview@2x.png
-featuredImage: ../images/best/best_hero.png
+featuredImage: ../images/best/best_preview@2x.png
 heroTitle: "Better Environmentally Sound Transportation"
 heroSubtitle: "rebranding and responsive website design"
 heroRoles: "UI Design"
 heroCompany: "BEST"
 heroTimeline: "3 weeks"
-heroSkills: "??????,????,????"
+heroSkills: "Sketch, Photoshop, Google Sheets"
 color: "#228F7A"
+weight: 3
 displayOnLanding: true
 isBlog: false
 ---

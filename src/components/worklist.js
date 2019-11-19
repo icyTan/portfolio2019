@@ -12,16 +12,17 @@ const Worklist = () => {
     const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query worklistQuery {
-        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 4, sort: {fields: frontmatter___featuredImage___birthTime}) {
+        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 10, sort: {fields: frontmatter___weight, order: ASC}) {
           edges {
             node {
               id
               frontmatter {
                 landingDesc
-                title
+                landingTitle
                 workbox
                 workitemTitle
                 color
+                weight
               }
               fields {
                 slug
@@ -45,7 +46,7 @@ const Worklist = () => {
                             <li key={node.id} className="work-list__item col-6">
                                 <div className={"work-list__orb " + node.frontmatter.workbox + " no-flickr"}></div>
                                 <div className="work-list__meta">
-                                    <span className="work-list__name">{node.frontmatter.title}</span>
+                                    <span className="work-list__name">{node.frontmatter.landingTitle}</span>
                                     <span className="work-list__desc">{node.frontmatter.landingDesc}</span>
                                 </div>
                                 {/* <Link className="overlay" to={node.fields.slug}></Link> */}

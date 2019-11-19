@@ -15,18 +15,24 @@ workitemTitle: landing-work_item-title-stc
 landingImage: ../images/stc/stc_preview@2x.png
 featuredImage: ../images/stc/stc_hero.png
 heroTitle: "Shop this city"
-heroSubtitle: "?????"
+heroSubtitle: "bridging the gap between instore and online"
 heroRoles: "UX Design"
 heroCompany: "Shop this City"
 heroTimeline: "3 weeks"
-heroSkills: "??????,????,????"
+heroSkills: "Sketch, Invision, Prinicple"
 color: "#003399"
+weight: 3
 displayOnLanding: true
 isBlog: false
 ---
 
 ![Photo by [Cull & Nguyen](https://unsplash.com/@cullandnguyen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/boutique?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)](../images/stc/1__y1CYKpIfCCwoubD44nH6Yg.jpeg)
+
+<figcaption>
+
 Photo by [Cull & Nguyen](https://unsplash.com/@cullandnguyen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/boutique?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+</figcaption>
 
 ### Introducing Shop This City
 
@@ -52,9 +58,11 @@ Our client, having been a professional stylist, has an intimate experience with 
 
 At the time of bring the project to RED Academy, our client had made a simple database for inventories of stores that syncs with POS systems using a simple API and an app that shows that database. A core feature or lack of feature is the inability to purchase items through the STC app, **STC aims only to direct user traffic into local boutiques** instead of being an e-commerce app.
 
+```grid|3
 ![](../images/stc/1__BaqN7ONciTZewQnpwgnLUg.png)
 ![](../images/stc/1__x9Y68RNHSCMRBRIdmnnu__A.png)
 ![](../images/stc/1__5kJmWJd7DtTVc8WUKapbmw.png)
+```
 
 At the kick off meeting we got the business goals of STC, and start to lay those out against the project goals and user goals. We needed to create a mobile app that bridges that gap identified by our client, that addresses the difference between browsing for fashion digitally and shopping physically.
 
@@ -76,7 +84,8 @@ To find this information we conducted user interviews, store owner interviews, d
 ### What we found
 
 ![Demographics](../images/stc/1__SMOZfHEMPMfslJ5uIwQ3cA.png)
-Demographics
+
+<figcaption>Demographics</figcaption>
 
 Our survey respondents were mostly female, ranging between 25 and 56 years of age, spending over $5000 a year on fashion purchases, and live in the Greater Vancouver area.
 
@@ -109,7 +118,8 @@ We learned that our interviewees would like to know what local boutiques had in 
 After conducting our research we summarized our findings with an affinity diagram. We used the diagram to form our potential features we want to consider for the STC app, and use that to take our next steps in the design process.
 
 ![Affinity Diagram](../images/stc/1__BZye7YOCqlyrXksUqDT6kg.png)
-Affinity Diagram
+
+<figcaption>Affinity Diagram</figcaption>
 
 #### Feature Chart
 
@@ -158,7 +168,7 @@ Our primary user, Lauren, knows exactly what she is looking for and needs to be 
 
 ![](../images/stc/1__aG__xCLCIJZw6V__P2CKnk0g.png)
 
-User flow 1 — Primary goal is to find a specific item & the store that sells it
+<figcaption>User flow 1 — Primary goal is to find a specific item & the store that sells it</figcaption>
 
 #### Meet Marie
 
@@ -174,7 +184,7 @@ Marie considers how she presents herself as part of her professional self, and w
 
 ![](../images/stc/1__TgxDQbN7Y__S0Gx5uH0____FQ.png)
 
-User flow 2 — Primary goal is to browse and save favourite items & stores
+<figcaption>User flow 2 — Primary goal is to browse and save favourite items & stores</figcaption>
 
 At this point we had most of the planning resources completed to move into the design phase of our design process.
 
@@ -186,7 +196,8 @@ Using our trusty pens and paper, we got to making paper prototypes of our user f
 
 ![](../images/stc/1__ta7iUvYrtLuyTAW6pypl0g.jpeg)
 ![Initial paper prototypes drawn by the UX Team for the Landing page, Browse page, Product page and filter system](../images/stc/1__Whh__Op4ttnowsAw7wGE7rg.jpeg)
-Initial paper prototypes drawn by the UX Team for the Landing page, Browse page, Product page and filter system
+
+<figcaption>Initial paper prototypes drawn by the UX Team for the Landing page, Browse page, Product page and filter system</figcaption>
 
 By making paper prototypes we had the chance to test our user flow and MVP feature set of logical issues. We needed to do this to understand where our design failed to meet the expectations of users, and be able to quickly make changes to address those breaking points.
 
@@ -198,7 +209,8 @@ We got the opportunity to redraw and fix issues with each testing round, we impr
 *   Reworked multi selection on the filter menu to included the option to clear or select all based on state.
 
 ![Top row is initial iterations of a screen, bottom row is the second iteration after testing](../images/stc/1__P6s2dG3JAmD0FO8Md__pBGw.jpeg)
-Top row is initial iterations of a screen, bottom row is the second iteration after testing
+
+<figcaption>Top row is initial iterations of a screen, bottom row is the second iteration after testing</figcaption>
 
 *   Include a current user location the map view
 *   Moved personalized recommendations from the landing page to a separate section to reduce the complexity of each section to a single purpose.
@@ -208,7 +220,8 @@ Top row is initial iterations of a screen, bottom row is the second iteration af
 Following paper prototyping, we started transferring our design into the digital space to start testing micro interactions like form validation, loading screens, notifications, and the filter menu.
 
 ![Mid Fi Filter System](../images/stc/1__J5lTUhAwdp3CZl3jcEb____g.png)
-Mid Fi Filter System
+
+<figcaption>Mid Fi Filter System</figcaption>
 
 At this point, we as a design team decided to make a shared design library that would house repetitive elements, text styles, and colour styles. In doing this we created a pipeline to transition our mid-fi work into high-fi without needing to stop testing or production of additional screens.
 
@@ -216,10 +229,17 @@ At this point, we as a design team decided to make a shared design library that 
 
 To turn the UX team’s mid-fi work into hi-fi screens we handed over the design to the UI team and let them work their magic. We took this time to add delight to the prototype by building animations and adding interactivity through button states in the prototype. Doing this let us test a more thorough user experience, and highlight the features of the STC app to new users in onboarding.
 
+<div class="gif-grid">
+
+```grid|3
 ![](../images/stc/1__5Zi2XmOuIQkPuaWnNQKspA.gif)
 ![](../images/stc/1__CZqFC__c9WuFT74QNLNyxsQ.gif)
-![Onboarding Animations](../images/stc/1__J__wEsJ__rvS1u4Y__pI__Sewg.gif)
-Onboarding Animations
+![](../images/stc/1__J__wEsJ__rvS1u4Y__pI__Sewg.gif)
+```
+
+</div>
+
+<figcaption>Onboarding Animations</figcaption>
 
 #### Final prototype
 

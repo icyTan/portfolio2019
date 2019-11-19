@@ -12,6 +12,7 @@ heroRoles: "UX Design"
 heroCompany: "BullyFreeBC"
 heroTimeline: "3 weeks"
 heroSkills: "User Research, Interviews, Surveys, Wireframing, Sketch"
+weight: 1
 color: "#816D9F"
 displayOnLanding: true
 isBlog: false
@@ -87,7 +88,8 @@ From our interviews with past members of BFBC and performing contextual inquirie
 A common feedback between our three methods of user inquiry was that people **expect to get help** when they visit a bully-free website. This posed an interesting difference between what BullyFreeBC is offering and what our users expect from the domain of anti-bullying.
 
 ![Comparative and Competitive Analysis Chart. We used this to see where BullyFreeBC stands and what it should aim to include as features to stand apart.](../images/bfbc/1__Xz1__4joIyMePWbfbnT9FkA.png)
-Comparative and Competitive Analysis Chart. We used this to see where BullyFreeBC stands and what it should aim to include as features to stand apart.
+
+<figcaption>Comparative and Competitive Analysis Chart. We used this to see where BullyFreeBC stands and what it should aim to include as features to stand apart.</figcaption>
 
 Especially when comparing to other organizations in the domain of anti-bullying, the general offerings of an anti-bullying website should include **services** like: one on one counselling, help hotlines, and solutions to bullying problems.
 
@@ -102,24 +104,21 @@ So how do we as designers bridge the gap in **expectations** of users? How do we
 We started our process by processing our data from surveys, interviews and contextual inquires into **key insights**.
 
 ![The key insights we pulled away from our research.](../images/bfbc/1__gaTfuPL__4HiF6WvH3krGfA.png)
-The key insights we pulled away from our research.
+
+<figcaption>The key insights we pulled away from our research.</figcaption>
 
 During this time we made user journey maps and affinity diagrams of our data to help make sense it all. We took away these expanded data points:
 
 #### What causes people to join BFBC? (Attractions)
 
 > **People come to BFBC to make a tangible difference.** We need to show them that BFBC is worth their time and effort to join.
-
 > Proving **Credibility** through completed projects and existing documentation. These can help persuade people to join BFBC.
-
 > We need a **Safe and trustworthy** website whether users be past victims or not: They should feel invited and be able to navigate easily.
 
 #### What stops people from joining BFBC? (Pain points)
 
 > An **overbearing time commitment**, both in reading **too much text** and project participation.
-
 > Secondarily, they also found a **lack of social impact proof** as sign that the organization may not be what they say they are.
-
 > **So how did we use these insights to answer our user’s gap in expectations?**
 
 ![](../images/bfbc/1__GRGzg1XxUzEkV__qUPpfKkQ.png)
@@ -127,7 +126,7 @@ During this time we made user journey maps and affinity diagrams of our data to 
 At this point we still didn’t fully understand our user, and instead made a user to help us as a design team. We made a persona, a fictional user, to bounce our insights off of to see if our assumptions were correct. So meet Michelle:
 
 ![Michelle is a fictional user we used to test our ideas against as if a real person.](../images/bfbc/1__58m3CBJ2lVUcv38RxpxJ2w.png)
-Michelle is a fictional user we used to test our ideas against as if a real person.
+<figcaption>Michelle is a fictional user we used to test our ideas against as if a real person.</figcaption>
 
 She’s the super loyal type, you can always count on her. Ever since her best friend was bullied at her job, she’s been really passionate about seeing reform concerning workplace harassment.
 
@@ -141,17 +140,19 @@ This is what her experience on the current BFBC website is like
 
 ![](../images/bfbc/1__AlNcq59wYP5MD88Wxd8juQ.png)
 ![We made these pain points by taking out friction points in the existing journey and turning them into statements we could take action with.](../images/bfbc/1__GgggT0J__Z0vgseznMj2x2A.png)
-We made these pain points by taking out friction points in the existing journey and turning them into statements we could take action with.
+<figcaption>We made these pain points by taking out friction points in the existing journey and turning them into statements we could take action with.</figcaption>
 
 We used Michelle to guide the feature requirements of the website and to remind us of the expectations that our users have. Michelle needs to have her pain points address which we choose to do through:
 
 ![How we aimed to solve Michelle’s worries](../images/bfbc/1__wmo0XloeRmAd9HNJm8Gddw.png)
-How we aimed to solve Michelle’s worries
+
+<figcaption>How we aimed to solve Michelle’s worries</figcaption>
 
 The absolution of Michelle’s pain points drove a feature set that would satisfy her needs and the needs of our client.
 
 ![The full list of features we thought of based on who they are for](../images/bfbc/1__18CG__un9hkEN__e250vVlEA.png)
-The full list of features we thought of based on who they are for
+
+<figcaption>The full list of features we thought of based on who they are for</figcaption>
 
 Our feature set can be split into who they mean to address: potential members, victims of bullying, and existing members.
 
@@ -166,7 +167,8 @@ Disclaimer messaging needs to alert users to the fact that BFBC isn’t a servic
 Features such as **achievements page**, **current events** at BFBC, and a **resource library** are for our potential users. Showing off the accomplishments of BFBC in the wild and showing growth to potential members builds the credibility of BFBC as something they can contribute in and grow as bully free advocates. Membership calls to action (**CTAs**) on each page drives membership acquisition.
 
 ![The bolded features are the ones we decided would be in our MVP.](../images/bfbc/1__2OCTb1mFmBcFXG5UZwtucw.png)
-The bolded features are the ones we decided would be in our MVP.
+
+<figcaption>The bolded features are the ones we decided would be in our MVP.</figcaption>
 
 The features we chose to implement became our **Minimum Viable Product**, our MVP. This MVP needed to satisfy early adopters of BullyFreeBC and not dive deep on all of the possible features BFBC could have. The features that we did not cover here will be kept in mind for future launches of the BFBC website.
 
@@ -175,7 +177,8 @@ The features we chose to implement became our **Minimum Viable Product**, our MV
 With our feature set made, we could begin to plot out potential journeys for Michelle and those who need help. We envisioned two main paths that users entering BFBC would accomplish, one highlighting Michelle’s journey towards joining BFBC and the other quickly directing those in need of help immediately.
 
 ![Michelle’s experience pushes her towards membership](../images/bfbc/1__lw6UdkstAP9PRhi9hg2FBg.png)
-Michelle’s experience pushes her towards membership
+
+<figcaption>Michelle’s experience pushes her towards membership</figcaption>
 
 When it comes to Michelle’s task flow, she wants to implement social change.
 
@@ -184,12 +187,14 @@ The home page gives her access to viewing information about BFBC and impact thro
 Throughout her journey she will encounter several **CTAs** that ask her to consider becoming a member, channeling potential members like Michelle towards membership. This is to achieve our goal improving **acquisition** of members for the organization of BFBC.
 
 ![Potential Victims are pushed to find the support they need and can quickly exit to cute cats and dogs](../images/bfbc/1__VCQyV18xdK____TPoLxa1JdA.png)
-Potential Victims are pushed to find the support they need and can quickly exit to cute cats and dogs
+
+<figcaption>Potential Victims are pushed to find the support they need and can quickly exit to cute cats and dogs</figcaption>
 
 For those that need help immediately, the homepage has a prominent support directory link that takes the user to external support services. On that page itself, there are in-page hotlinks to hotlines & resources which take users out to external websites from there.
 
 ![Users are directed to something less dangerous if in need](../images/bfbc/1__oRqWl2mKRkzLhfpG5q6k9A.png)
-Users are directed to something less dangerous if in need
+
+<figcaption>Users are directed to something less dangerous if in need</figcaption>
 
 If this user finds themselves in a potentially dangerous situation they can use the quick exit button to find cute dogs and cats.
 
@@ -214,7 +219,8 @@ So going into our first prototyping phase we wanted to test if our assumptions o
 However let me side track you for a moment and present you the final high fidelity prototype.
 
 ![Welcome to BullyFreeBC](../images/bfbc/1__eB__8blEF4XbKW52cOxIqZA.png)
-Welcome to BullyFreeBC
+
+<figcaption>Welcome to BullyFreeBC</figcaption>
 
 ### Hi-fi prototype and Mid-fi Walkthrough
 
@@ -229,12 +235,14 @@ I’ll walk you through a simplified version of Michelle’s journey through the
 For now, you are:
 
 ![Imagine you are Michelle, as you watch these short walkthroughs](../images/bfbc/1__e5YBb2DVZhPh__6O__2v__MWw.png)
-Imagine you are Michelle, as you watch these short walkthroughs
+
+<figcaption>Imagine you are Michelle, as you watch these short walkthroughs</figcaption>
 
 These prototypes were presented to the client, walking through the journey of Michelle on the web prototype and our potentially in distress users on mobile. I’m showing this before I talk about the low fidelity prototypes to give a frame of reference for what I’ll be referring to in the next part, iterations.
 
-![Various paper prototypes we drew as a UX team](../images/bfbc/1__RtHfkI479CysgaXM3OSfnQ.png)
-Various paper prototypes we drew as a UX team
+![Various paper prototypes we drew as a UX team](../images/bfbc/Paper&#32;prototypes.png)
+
+<figcaption>Various paper prototypes we drew as a UX team</figcaption>
 
 #### Low fidelity prototype iterations
 
@@ -247,7 +255,8 @@ Early testing with paper prototypes helped us re-word our headings. If you remem
 For example, we’d initially named the library “resources” but the word resources had users unsure of what to expect when asked — resources can be anything.
 
 ![How our navigation labels evolved with iterations.](../images/bfbc/1__BblNf1jmxrMGDJ9SjdYXdw.png)
-How our navigation labels evolved with iterations.
+
+<figcaption>How our navigation labels evolved with iterations.</figcaption>
 
 We renamed that to Archives which makes it clear that it contains formal documentation.
 
@@ -256,17 +265,20 @@ Labels changed from friendly labels into stoic labels to ensure our navigation h
 This type of relabelling occurred throughout the testing process all of our labels changing in some way as you can see above.
 
 ![Adding breadcrumbs to archive entries to let users have a path back to where they were researching.](../images/bfbc/1__9wlO5Usu0VzIVsx6Gos____Q.png)
-Adding breadcrumbs to archive entries to let users have a path back to where they were researching.
+
+<figcaption>Adding breadcrumbs to archive entries to let users have a path back to where they were researching.</figcaption>
 
 We also added Breadcrumbs within the archive so users can return to their last few research points, as two of our testers mentioned aloud that they were unsure of how to get back to what they were researching.
 
 ![Putting hotlinks onto the first fold of the page gave direction to users who are in a hurry to get what they need.](../images/bfbc/1__UvY7LJUgPOhtuBIj__U1JfQ.png)
-Putting hotlinks onto the first fold of the page gave direction to users who are in a hurry to get what they need.
+
+<figcaption>Putting hotlinks onto the first fold of the page gave direction to users who are in a hurry to get what they need.</figcaption>
 
 On the help page, users originally had to scroll a little to see the bulk of support links — this ended up defeating the entire purpose of page. We changed it up to include two buttons at the top that scroll a user to the required section further down on the screen.
 
 ![Redundancy wasn’t always better, and in this case went unnoticed](../images/bfbc/1__6xAAE8CPz7mPGrz626EtWQ.png)
-Redundancy wasn’t always better, and in this case went unnoticed
+
+<figcaption>Redundancy wasn’t always better, and in this case went unnoticed</figcaption>
 
 Finally, on the about page, we originally had 2 become a member Buttons. Users said they’d be more likely to select something if it was right after the introduction. As the news section draws their attention away from the bottom button.
 
@@ -283,14 +295,16 @@ Because quick exit has to be easily **accessible**, we looked at general convent
 If we put them together people in a hurry to quickly exit may **accidentally** click the search button, therefore quick exit should be **isolated** from other buttons to avoid accidents.
 
 ![From mid to high fi of our navigation bar](../images/bfbc/1__OtYhd8FDOzR__PL3aSw7Fwg.png)
-From mid to high fi of our navigation bar
+
+<figcaption>From mid to high fi of our navigation bar</figcaption>
 
 We ultimately put search on the left, user testing told us that users themselves liked seeing quick exit prioritized and while it’s weird to see search on the left users weren’t too unhappy with it and could still find it.
 
 Tapping on the search icon will expand it to a full field that can be used to put your first search input in.
 
 ![From our first pass to our second pass of setting noticeable disclaimers](../images/bfbc/1__qk4dapO__eqcvu8bnQC17pA.png)
-From our first pass to our second pass of setting noticeable disclaimers
+
+<figcaption>From our first pass to our second pass of setting noticeable disclaimers</figcaption>
 
 The original idea was to redirect people who need help as soon as possible but we found people **weren’t** **reading** the disclaimer at all.
 
@@ -300,7 +314,7 @@ We took away the title to make sure users actually read the disclaimer before cl
 
 From here we passed our wireframes onto our UI team who made the project come together with the branding, style, and tone of voice for BFBC. You can see how they came up with the branding and tone of voice here:
 
-[https://medium.com/@andrew.nwmacd/cc0883e58e86](https://medium.com/@andrew.nwmacd/cc0883e58e86)
+[Andrew Macdonald's BFBC Case Study](https://medium.com/@andrew.nwmacd/cc0883e58e86)
 
 #### Side note on our process from mid fidelity to high fidelity
 
@@ -309,7 +323,8 @@ To make the process easier for both UX and UI to work in tandem, I found a neat 
 By making two wireframe files and different shared library files, we could make our mid fidelity wireframes using a shared UX library and have the UI team work on those wireframes as they came in on their own version of a shared UI library. Then when we finished a wireframe it could be transitioned into high fidelity with a click of a button and visual elements repositioned as needed.
 
 ![Upwards and onwards!](../images/bfbc/1__56TjvaSqz4oFOwJI9bMOFg.png)
-Upwards and onwards!
+
+<figcaption>Upwards and onwards!</figcaption>
 
 ### Future UX considerations
 

@@ -36,6 +36,13 @@ module.exports = {
               margin: "20px auto",
             },
           },
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              destinationDir: `path/to/dir`,
+              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
+            },
+          },
           // unwraps images from <p> tags
           "gatsby-remark-unwrap-images",
           {

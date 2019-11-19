@@ -4,7 +4,10 @@
 }
 
 .work_header{
-  display: flex;
+  display: block;
+  @media only screen and (mid-width:600px){
+    display: flex;
+  }
   padding-top: 4.5rem;
   padding-bottom: 3rem;
 }

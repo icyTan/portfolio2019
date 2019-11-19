@@ -25,7 +25,7 @@ const Landing = () => {
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query landingQuery {
-        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 10, sort: {fields: frontmatter___featuredImage___birthTime, order: DESC}) {
+        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 10, sort: {fields: frontmatter___weight, order: ASC}) {
           edges {
             node {
               id
@@ -36,6 +36,7 @@ const Landing = () => {
                 workbox
                 workitemTitle
                 color
+                weight
                 landingImage {
                   childImageSharp {
                     fluid {
