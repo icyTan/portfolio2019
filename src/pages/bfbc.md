@@ -72,7 +72,8 @@ We were unsure of this and using the above question as a research hypothesis, ou
 To answer these questions we sent out a survey to potential users, conducted interviews with past members of BFBC, and tested the existing website with potential users.
 
 ![Screenshot of the previous BFBC website](../images/bfbc/1__tXLTylZtj95Mb6T4u87A0Q.png)
-Screenshot of the previous BFBC website
+
+<figcaption>Screenshot of the previous BFBC website</figcaption>
 
 #### What we found
 
