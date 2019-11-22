@@ -40,13 +40,13 @@ Users have an existing workflow that they use to fufill their goals. Uncovering 
 
 From analysing the data from research, discussing with stakeholders such as project managers and clients, I am able to start building a vision of what is the problem space and align on possible solutions with the rest of the team.
 
-At this point it’s important to keep in mind the scope of the project and define a vision that is understood by all involved parties. Lots of discussion, lots of stickies, but ultimately to meet inbetween user needs and business goals.
+At this point it’s important to keep in mind the scope of the project and define a vision that is understood by all involved parties. Lots of discussion, lots of stickies, but ultimately I do it to meet inbetween user needs and business goals.
 
 ![Journey map for existing users of BullyFreeBC's website](../images/process/CJM.png)
 
 See this project at [BullyFreeBC](/bfbc).
 
-I believe utilizing tools like journey maps and user personsa let me define the problem space to both myself and the other stakeholders. These tools to me are like the framing of a house, without them I'd have no structure to build on.
+I believe in utilizing tools like journey maps and user personsa which let me define the problem space to myself and other stakeholders. These tools to me are like the framing of a house, without them I'd have no structure to build on.
 
 ![](../images/process/Ideate.png)
 
@@ -54,13 +54,13 @@ I believe utilizing tools like journey maps and user personsa let me define the 
 
 Ideation involves exploring the problem space I just defined. Creating design artifacts, like feature lists and user flows, let me explore the touchpoints where my design will interact with users.
 
-During this part of my process, an important lesson from [Jane Wong](https://medium.com/ssense-tech/designing-with-ambiguity-part-ii-design-doing-not-thinking-4065c07e7373) is to connect the dots but not all of them.
-
->"There were times we went down rabbit holes and lost sight of the bigger picture in a frenzy of ideas. This could unnecessarily draw out any ideation phase, when sometimes the best action is to sum up your findings and carry on in a direction."
-
 ![Example account creation user flow for a wellness mobile app](../images/process/userflow.png)
 
 I believe in making design artifacts to present the initial vision of the project to other designers, project managers, and developers.
+
+An important lesson from [Jane Wong](https://medium.com/ssense-tech/designing-with-ambiguity-part-ii-design-doing-not-thinking-4065c07e7373) is to connect the dots but not all of them.
+
+>"There were times we went down rabbit holes and lost sight of the bigger picture in a frenzy of ideas. This could unnecessarily draw out any ideation phase, when sometimes the best action is to sum up your findings and carry on in a direction."
 
 ![](../images/process/Prototyping.png)
 
