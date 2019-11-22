@@ -26,7 +26,7 @@ displayOnLanding: true
 isBlog: false
 ---
 
-![Photo by [Cull & Nguyen](https://unsplash.com/@cullandnguyen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/boutique?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)](../images/stc/1__y1CYKpIfCCwoubD44nH6Yg.jpeg)
+![](../images/stc/1__y1CYKpIfCCwoubD44nH6Yg.jpeg)
 
 <figcaption>
 
@@ -85,8 +85,6 @@ To find this information we conducted user interviews, store owner interviews, d
 
 ![Demographics](../images/stc/1__SMOZfHEMPMfslJ5uIwQ3cA.png)
 
-<figcaption>Demographics</figcaption>
-
 Our survey respondents were mostly female, ranging between 25 and 56 years of age, spending over $5000 a year on fashion purchases, and live in the Greater Vancouver area.
 
 ![](../images/stc/1__pUUaElQZjzGQTMw__IHYguA.png)
@@ -118,8 +116,6 @@ We learned that our interviewees would like to know what local boutiques had in 
 After conducting our research we summarized our findings with an affinity diagram. We used the diagram to form our potential features we want to consider for the STC app, and use that to take our next steps in the design process.
 
 ![Affinity Diagram](../images/stc/1__BZye7YOCqlyrXksUqDT6kg.png)
-
-<figcaption>Affinity Diagram</figcaption>
 
 #### Feature Chart
 
@@ -166,9 +162,7 @@ Our primary user, Lauren, knows exactly what she is looking for and needs to be 
 
 **User flow for Lauren**
 
-![](../images/stc/1__aG__xCLCIJZw6V__P2CKnk0g.png)
-
-<figcaption>User flow 1 — Primary goal is to find a specific item & the store that sells it</figcaption>
+![User flow 1 — Primary goal is to find a specific item & the store that sells it](../images/stc/1__aG__xCLCIJZw6V__P2CKnk0g.png)
 
 #### Meet Marie
 
@@ -182,9 +176,7 @@ Marie considers how she presents herself as part of her professional self, and w
 
 **User flow for Marie**
 
-![](../images/stc/1__TgxDQbN7Y__S0Gx5uH0____FQ.png)
-
-<figcaption>User flow 2 — Primary goal is to browse and save favourite items & stores</figcaption>
+![User flow 2 — Primary goal is to browse and save favourite items & stores](../images/stc/1__TgxDQbN7Y__S0Gx5uH0____FQ.png)
 
 At this point we had most of the planning resources completed to move into the design phase of our design process.
 
@@ -197,8 +189,6 @@ Using our trusty pens and paper, we got to making paper prototypes of our user f
 ![](../images/stc/1__ta7iUvYrtLuyTAW6pypl0g.jpeg)
 ![Initial paper prototypes drawn by the UX Team for the Landing page, Browse page, Product page and filter system](../images/stc/1__Whh__Op4ttnowsAw7wGE7rg.jpeg)
 
-<figcaption>Initial paper prototypes drawn by the UX Team for the Landing page, Browse page, Product page and filter system</figcaption>
-
 By making paper prototypes we had the chance to test our user flow and MVP feature set of logical issues. We needed to do this to understand where our design failed to meet the expectations of users, and be able to quickly make changes to address those breaking points.
 
 **Testing results and changes**
@@ -210,8 +200,6 @@ We got the opportunity to redraw and fix issues with each testing round, we impr
 
 ![Top row is initial iterations of a screen, bottom row is the second iteration after testing](../images/stc/1__P6s2dG3JAmD0FO8Md__pBGw.jpeg)
 
-<figcaption>Top row is initial iterations of a screen, bottom row is the second iteration after testing</figcaption>
-
 *   Include a current user location the map view
 *   Moved personalized recommendations from the landing page to a separate section to reduce the complexity of each section to a single purpose.
 
@@ -220,8 +208,6 @@ We got the opportunity to redraw and fix issues with each testing round, we impr
 Following paper prototyping, we started transferring our design into the digital space to start testing micro interactions like form validation, loading screens, notifications, and the filter menu.
 
 ![Mid Fi Filter System](../images/stc/1__J5lTUhAwdp3CZl3jcEb____g.png)
-
-<figcaption>Mid Fi Filter System</figcaption>
 
 At this point, we as a design team decided to make a shared design library that would house repetitive elements, text styles, and colour styles. In doing this we created a pipeline to transition our mid-fi work into high-fi without needing to stop testing or production of additional screens.
 

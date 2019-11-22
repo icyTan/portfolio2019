@@ -111,7 +111,7 @@
 }
 .header-bar_visier{
 	background-color:$visier-color;
-	color: white;
+	color: $off-black;
 }
 .header-bar_yvr{
 	background-color:$yvr-color;
@@ -139,5 +139,9 @@
 }
 .header-bar_speak{
 	background-color:$speak-color;
+	color: white;
+}
+.header-bar_process{
+	background-color:$secondary-color;
 	color: white;
 }

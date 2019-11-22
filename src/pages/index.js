@@ -9,7 +9,7 @@ import "../components/scss/_partials/animations.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Landing Page" />
+    <SEO title="Portfolio" />
     <Header barType="index"/>
     <section className="landing-work wrap-1 sf-1 fullpage-fade-in">
       <h2 className="vis-hide">Patrik Lau</h2>
@@ -24,7 +24,7 @@ const IndexPage = () => (
         I believe that good design is effective communication with the people on the other side of my work.
       </p> */}
       <p className="display-text">
-        This portfolio is built with <a href="https://www.gatsbyjs.org/">Gatsby.js</a> and powered by <a href="https://www.netlify.com">Netlify</a>.
+        This portfolio is built with <a href="https://www.gatsbyjs.org/">Gatsby.js</a> and is powered by <a href="https://www.netlify.com">Netlify</a>.
       </p>
     </section>
     <Landing />

@@ -1,4 +1,4 @@
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import "./scss/_partials/worklist.scss"
 import "./scss/_partials/worklist-large.scss"

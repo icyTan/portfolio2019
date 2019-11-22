@@ -117,7 +117,7 @@
 }
 .work__hero--visier{
   background-color: $visier-color;
-  color: #FFF;
+  color: $off-black;
 }
 .work__hero--twitch{
   background-color: $twitch-color;
@@ -141,6 +141,11 @@
 }
 .work__hero--best{
   background-color: $best-color;
+  color: #FFF;
+}
+
+.work__hero--process{
+  background-color: $secondary-color;
   color: #FFF;
 }
 
@@ -188,6 +193,10 @@
 }
 .background__speak{
   background-color: $speak-color;
+}
+
+.background__speak{
+  background-color: $secondary-color;
 }
 
 /* css only slider */

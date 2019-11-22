@@ -1,5 +1,4 @@
-import { Link } from "gatsby"
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "./scss/_partials/header.scss"
 import "./scss/_partials/header-large.scss"
 import React, { Component } from "react"
@@ -21,7 +20,9 @@ class Header extends Component {
   // Adds an event listener when the component is mount.
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
-    this.state.prevScrollpos = window.pageYOffset;
+    // use set state
+    this.setState({prevScrollpos: window.pageYOffset});
+    // this.state.prevScrollpos = window.pageYOffset;
   }
 
   // Remove the event listener when the component is unmount.
@@ -35,7 +36,7 @@ class Header extends Component {
     // declare our variables
     var visible,attached = true;
 
-    const currentScrollPos = window.pageYOffset;
+    var currentScrollPos = window.pageYOffset;
     if (currentScrollPos < 0) {
       currentScrollPos = 0; // fix for safari
     }

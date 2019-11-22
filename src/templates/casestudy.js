@@ -13,6 +13,13 @@ import "../components/scss/_partials/grids.scss"
 export default ({ data }) => {
     let post = data.markdownRemark
     let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
+    let hasHeroInfo = false;
+    // set hasHeroInfo
+    if(post.frontmatter.heroRoles === ""){
+      hasHeroInfo = false;
+    } else {
+      hasHeroInfo = true;
+    }
     return (
         <>
         <Layout>
@@ -29,27 +36,32 @@ export default ({ data }) => {
                         />
                     </div>
                 </section>
-                <section className="work__content fullpage-fade-in">
+                {/* if nothing in hero info, skip rendering it */}
+                { hasHeroInfo ? (
+                  <section className="work__content fullpage-fade-in">
                     <div className="wrap-1 sf-2 work_header">
-                        <h2 className="vis-hide">Information</h2>
-                        <div className="work__info col-3">
-                            <span className="work__info-label">My Roles</span>
-                                <span className="work__info-value">{post.frontmatter.heroRoles}</span>
-                        </div>
-                        <div className="work__info col-2">
-                            <span className="work__info-label">Company</span>
-                                <span className="work__info-value">{post.frontmatter.heroCompany}</span>
-                        </div>
-                        <div className="work__info col-2">
-                            <span className="work__info-label">Timeline</span>
-                                <span className="work__info-value">{post.frontmatter.heroTimeline}</span>
-                        </div>
-                        <div className="work__info col-5">
-                            <span className="work__info-label">Skills</span>
-                                <span className="work__info-value">{post.frontmatter.heroSkills}</span>
-                        </div>
+                      <h2 className="vis-hide">Information</h2>
+                      <div className="work__info col-3">
+                        <span className="work__info-label">My Roles</span>
+                        <span className="work__info-value">{post.frontmatter.heroRoles}</span>
+                      </div>
+                      <div className="work__info col-2">
+                        <span className="work__info-label">Company</span>
+                        <span className="work__info-value">{post.frontmatter.heroCompany}</span>
+                      </div>
+                      <div className="work__info col-2">
+                        <span className="work__info-label">Timeline</span>
+                        <span className="work__info-value">{post.frontmatter.heroTimeline}</span>
+                      </div>
+                      <div className="work__info col-5">
+                        <span className="work__info-label">Skills</span>
+                        <span className="work__info-value">{post.frontmatter.heroSkills}</span>
+                      </div>
                     </div>
-                </section>
+                  </section>
+                ) : (
+                  <section className="work_header"></section>
+                )}
                 <div className="markdown fullpage-fade-in">
                   {/* This is where markdown is placed */}
                   <div dangerouslySetInnerHTML={{ __html: post.html }} />

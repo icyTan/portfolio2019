@@ -38,8 +38,6 @@ A note for this project I took on being the scrum master for the group and being
 
 ![Project goals, business goals, user goals](../images/bikelocker/1____6rPVActkef8IhJ2L6Hhtg.png)
 
-<figcaption>Project goals, business goals, user goals</figcaption>
-
 #### Establish Goals
 
 As a whole team with the client we needed to establish the project goals, user goals, and the business goals. For the team the project goal was to make an engaging app for commuter cyclists, in order to have crowdsourced spots. The user goals was to be able to find safe and secure bicycle parking in Vancouver from the connivence of their phones. The business goal was to get a minimum viable product to shop to partners and potential sponsors.
@@ -51,8 +49,6 @@ The middle of all these was to make an app for commuter cyclists where they can 
 For our creative research we had the task of creating prospective art directions that the client could pick from as starting point for their visual style and identity. We as a team started by looking at competitors in the same product space with some specific examples being Indigo, Spot Hero, and examples product mockups from Pinterest. We used these as inspirations for the styles we pursed in our art directions later.
 
 ![Our clients were split between image heavy and illustrative styles](../images/bikelocker/1__L2hmI6cAnSv1WC3YwkBSGA.png)
-
-<figcaption>Our clients were split between image heavy and illustrative styles</figcaption>
 
 We did this to start building a test for our client called a Gut Test which we used to gauge their reception to different colour palettes, visual styles, and mood images. Our client’s reaction to the Gut Test told us that they were split on use of imagery versus illustrations and preferred clean, simple visual styles as seen above.
 
@@ -92,26 +88,19 @@ We chose to draw icons that would appear as negative space in floating circles o
 
 ![UI Elements in a vaccum](../images/bikelocker/1__k7SKRYYnkU89wuGfxEiVkQ.png)
 
-<figcaption>UI Elements in a vaccum</figcaption>
-
 #### Collaboration
 
 From the style tile we made a series of UI elements that UX informed us would appear in the wireframes which we made in Sketch. We made a unified shared library document with text styles and these UI elements as symbols to be used and updated from so that we had a unified design.
 
 ![From MidFi to HighFi](../images/bikelocker/1__YOPNk0tf7CbQm36__UoS7CA.png)
 
-<figcaption>From MidFi to HighFi</figcaption>
-
 At this point in the project we were given mid fidelity wireframes to begin development of our high fidelity wireframes. We worked closely with UX at this time, sitting in the same area often, in order to skin their work and resolve changes quickly with the entire team. This process was very helpful for a speedy workflow as we could present an early version of a workflow to the UX team and get it sent for feedback before completing the design.
 
 ![Rating Picker progress](../images/bikelocker/1__jGoHybxDGKQjMdaHsGVd4Q.png)
 
-<figcaption>Rating Picker progress</figcaption>
-
 We made the rating picker with the UX team as this feature required input and testing from the UX team but the style and look from the UI team. Our initial draft of the picker was confusing and did not appear clickable, and we identified the reasons to be the labels and the lack of a clear inactive state on the locks. We fixed this by adding an outline which is unusual for our style and is similar to iOS guidelines for an inactive button, as well as changing the picker labels.
 
 ![Location Pin progress](../images/bikelocker/1__CPocr5q4Jc9vX3S50um37g.png)
-Location Pin progress
 
 The location pins feature is another example of working closely with the UX team to iterate and design quickly. We started this design by using the brand colours, however when given blind to testers they could not rate them in a one through five rating in the order we imagined. This led to using more colours with distinct contrasts to make a clear hierarchy between them using both colour connotations and hues to go from light to dark.
 

@@ -1,7 +1,7 @@
-import { Link, graphql, useStaticQuery} from "gatsby"
+import { graphql, useStaticQuery} from "gatsby"
 import Img from "gatsby-image"
-import {TransitionLink} from 'gatsby-plugin-transition-link'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+// import {TransitionLink} from 'gatsby-plugin-transition-link'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "./scss/_partials/landing.scss"
 import "./scss/_partials/landing-large.scss"
 import "./scss/_partials/grids.scss"

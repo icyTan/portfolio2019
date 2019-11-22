@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Patrik Lau - Portfolio`,
+    title: `Patrik Lau`,
     description: `Patrik Lau's Design Portfolio.`,
     author: `@patrik.lau`,
   },
@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -52,6 +53,7 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 1200,
+              showCaptions: true,
               linkImagesToOriginal: false, // point!
               disableBgImageOnAlpha: true,
             },

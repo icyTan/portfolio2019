@@ -39,7 +39,6 @@ Creating a collaborative set of Sketch Documents and Symbol Libraries.
 Deliver a set of high fidelity wireframes to use for prototyping with InVision._
 
 ![A UI/UX design is somewhere between user goals, business goals and project goals.](../images/best/1__hj5KfeyFfbN2zjmigBjyQA.png)
-A UI/UX design is somewhere between user goals, business goals and project goals.
 
 #### **Establishing Goals**
 
@@ -82,17 +81,14 @@ At this time we as a UI team we came up with a **why** for BEST’s brand which 
 This **why** informed the space, shape, movement, and colours we picked for the Vibrant Communities and Urban Action art directions. To explore these however we curated two moodboards for each art direction to better align our sense and clients sense of these two art directions together.
 
 ![Left moodboard is for Vibrant Communities, Right moodboard is for Urban Action](../images/best/1__iBfQPhB02__meEC__AZpf1bw.png)
-Left moodboard is for Vibrant Communities, Right moodboard is for Urban Action
 
 The moodboards for each art direction explored some of the colours, space, shapes, and movement flows that we wanted users to get a sense of. From these as well as the design inceptions we could make style tiles for each art direction.
 
 ![Vibrant Communities Style Tile](../images/best/1__YrgXmwBayYb05Ev3Nr8bwQ.png)
-Vibrant Communities Style Tile
 
 The Vibrant Communities style was designed to be **fun and playful**, with overlaid cutouts like an old paper collage. We chose fully rounded corners on clickable visual elements to feel friendly and the least hostile. The typeface Neutraface was picked for it’s novel history and vintage inspirations.
 
 ![Urban Action Style Tile](../images/best/1____dPrtyBfsHDv0NSOBYLCQA.png)
-Urban Action Style Tile
 
 The Urban Action style was designed to be **modern and bold**, with more nature related colours such as green and blue. We chose slightly rounded corners for square elements to feel less sharp and hostile.
 
@@ -111,14 +107,12 @@ Then we combined those visual elements with images to be able to show the raw vi
 As a part of collaborative work we chose to use a pixel grid to enforce consistency between our wireframes as a design team. Some of the benefits of using a pixel grid are faster production, similar visual styling across all elements, and easier to setup a hierarchy between elements. A key learning lesson from using a pixel grid is having a **central truth** which reduces **decision fatigue** on us as designers.
 
 ![Screenshot from our Design Library](../images/best/1__dW6nEyXCXFAbLTW9HAX__pw.png)
-Screenshot from our Design Library
 
 #### Design Library
 
 As a part of collaborative work we chose to make a visual design library in Sketch. In the library we put nested Symbols of all the major repeating UI elements like the header, banner, footer, text styles, layer styles, and buttons. This design library aided in enforcing consistency in our designs and like the pixel grid reduced decision fatigue once we began production of high fidelity wireframes.
 
 ![Some of the process Logos we finalized on presenting to our client](../images/best/1__ESi4tF__0ipFaDk8F8QQLcA.png)
-Some of the process Logos we finalized on presenting to our client
 
 #### Logo Work
 
@@ -127,7 +121,6 @@ We conceptualized logo designs for BEST with the caveat that the logo may not ch
 We presented three final logo options to the client and designed with one in mind when making our high fidelity wireframes. The final choice of logo is being left up to the client.
 
 ![A sample of some of the visual elements we repeated throughout the design](../images/best/1__e9ArYnVI5op0H1wiW__Y9wg.png)
-A sample of some of the visual elements we repeated throughout the design
 
 #### Homepage and About Us Visual Elements
 
@@ -137,7 +130,6 @@ We also used a small amount of illustration to represent transportation with str
 
 ![](../images/best/1__IpRrPswidQuzLmEg0jH7mA.png)
 ![Sample of how our banners scale across devices](../images/best/1__vq41LpJBsK4S__gC9lrpphA.png)
-Sample of how our banners scale across devices
 
 #### Banners across pages
 

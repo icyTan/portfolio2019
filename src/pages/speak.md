@@ -100,8 +100,6 @@ I took inspiration from Memphis Design graphic design, and it shows in the repet
 
 ![All wireframes in Sketch](../images/speak/1__HsfAVe78MdO2ViuDU6RdQg.png)
 
-<figcaption>All wireframes in Sketch</figcaption>
-
 #### Wireframes
 
 For this part of the project we as individual UI designers had to do a little bit of UX work. We had to make a quick story for potential users to decide on 4 screens of our website to create. For SPEAK I had two quick **tasks** for users, which were to see the schedule of SPEAK online and to learn more about the SPEAK conference as well as speakers. This resulted in having a landing page, a schedule page, a speakers page, and an about SPEAK page.
