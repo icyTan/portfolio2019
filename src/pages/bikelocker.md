@@ -37,7 +37,8 @@ For this project I was placed in a six person team split between UX and UI that 
 A note for this project I took on being the scrum master for the group and being the main point of contact with the client.
 
 ![Project goals, business goals, user goals](../images/bikelocker/1____6rPVActkef8IhJ2L6Hhtg.png)
-Project goals, business goals, user goals
+
+<figcaption>Project goals, business goals, user goals</figcaption>
 
 #### Establish Goals
 
@@ -50,7 +51,8 @@ The middle of all these was to make an app for commuter cyclists where they can 
 For our creative research we had the task of creating prospective art directions that the client could pick from as starting point for their visual style and identity. We as a team started by looking at competitors in the same product space with some specific examples being Indigo, Spot Hero, and examples product mockups from Pinterest. We used these as inspirations for the styles we pursed in our art directions later.
 
 ![Our clients were split between image heavy and illustrative styles](../images/bikelocker/1__L2hmI6cAnSv1WC3YwkBSGA.png)
-Our clients were split between image heavy and illustrative styles
+
+<figcaption>Our clients were split between image heavy and illustrative styles</figcaption>
 
 We did this to start building a test for our client called a Gut Test which we used to gauge their reception to different colour palettes, visual styles, and mood images. Our client’s reaction to the Gut Test told us that they were split on use of imagery versus illustrations and preferred clean, simple visual styles as seen above.
 
@@ -89,19 +91,22 @@ We were given Avenir to use in the project from the client, but we also added Op
 We chose to draw icons that would appear as negative space in floating circles or as a part of contrasting backgrounds. They are drawn in a way to avoid extra details and have rounded corners and strokes to follow the style we’ve made.
 
 ![UI Elements in a vaccum](../images/bikelocker/1__k7SKRYYnkU89wuGfxEiVkQ.png)
-UI Elements in a vaccum
+
+<figcaption>UI Elements in a vaccum</figcaption>
 
 #### Collaboration
 
 From the style tile we made a series of UI elements that UX informed us would appear in the wireframes which we made in Sketch. We made a unified shared library document with text styles and these UI elements as symbols to be used and updated from so that we had a unified design.
 
 ![From MidFi to HighFi](../images/bikelocker/1__YOPNk0tf7CbQm36__UoS7CA.png)
-From MidFi to HighFi
+
+<figcaption>From MidFi to HighFi</figcaption>
 
 At this point in the project we were given mid fidelity wireframes to begin development of our high fidelity wireframes. We worked closely with UX at this time, sitting in the same area often, in order to skin their work and resolve changes quickly with the entire team. This process was very helpful for a speedy workflow as we could present an early version of a workflow to the UX team and get it sent for feedback before completing the design.
 
 ![Rating Picker progress](../images/bikelocker/1__jGoHybxDGKQjMdaHsGVd4Q.png)
-Rating Picker progress
+
+<figcaption>Rating Picker progress</figcaption>
 
 We made the rating picker with the UX team as this feature required input and testing from the UX team but the style and look from the UI team. Our initial draft of the picker was confusing and did not appear clickable, and we identified the reasons to be the labels and the lack of a clear inactive state on the locks. We fixed this by adding an outline which is unusual for our style and is similar to iOS guidelines for an inactive button, as well as changing the picker labels.
 

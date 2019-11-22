@@ -15,15 +15,17 @@ const IndexPage = () => (
       <h2 className="vis-hide">Patrik Lau</h2>
       <h1 className="highlight">I'm Pat,</h1>
       <p className="display-text highlight">
-        a product designer from Vancouver, BC.
+        a growing product designer in Vancouver, BC.
       </p>
       <p className="display-text secondary-color">
-        I believe that good design is effective communication with the people on
-        the other side of my work.
+       I like to tinker with prototyping tools, have an intense curiousity of design systems, and a love for baking.
       </p>
-      {/* <p className="display-text">
-        Portfolio is currently under construction with <a href="https://www.gatsbyjs.org/">Gatsby.js</a>, powered by <a href="https://www.netlify.com">Netlify</a>. You can find my case studies in the wild <a href="https://medium.com/@get.patlau">on Medium</a> and my code work on <a href="https://github.com/icyTan/portfolio2019">Github</a>.
+      {/* <p className="display-text secondary-color">
+        I believe that good design is effective communication with the people on the other side of my work.
       </p> */}
+      <p className="display-text">
+        This portfolio is built with <a href="https://www.gatsbyjs.org/">Gatsby.js</a> and powered by <a href="https://www.netlify.com">Netlify</a>.
+      </p>
     </section>
     <Landing />
   </Layout>

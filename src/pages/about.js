@@ -48,7 +48,7 @@ const AboutPage = () => (
                     </div>
                     <div className="about__info col-8">
                         <p>I’m <strong>Pat Lau</strong>, a product designer from Vancouver, BC.</p>
-                        <p>I want to create memorable interactions one touchpoint at a time, and continue to learn the skills to create those experiences.</p>
+                        <p>I believe that good design is effective communication with the people on the other side of my work.</p>
                         <p>My off hours include <a href="https://www.twitch.tv/icytan">streaming on Twitch</a>, <a href="https://www.instagram.com/getpatlau/">baking</a> for my collaborators, and taking car trips to <a href="https://magic.wizards.com/en">Magic the Gathering</a> tournaments with friends.</p>
                         <p>I’m interested in learning to create design systems and producing work in interdisciplinary teams to absorb knowledge through osmosis.</p>
                     </div>
