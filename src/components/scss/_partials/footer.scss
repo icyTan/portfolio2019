@@ -9,28 +9,30 @@
 	display: flex;
 	align-items: baseline;
 	flex-wrap: wrap;
-	padding-top: 2.625rem;
 	padding-right: 1.5rem;
-	padding-bottom: 2.625rem;
 	width: 100%;
 	list-style: none;
 	font-weight: 500;
+
+	@media only screen and (min-width:600px) {
+		padding-top: 2.625rem;
+		padding-bottom: 2.625rem;
+		justify-content: center;
+	}
 }
 .footer-link{
 	padding: .5rem 1rem .5rem 0;
 }
 
 .btn-social-media{
-	color:black;
+	color: $secondary-color;
 	opacity: 0.5;
 	transition:opacity 0.3s , color 0.3s;
-	width: 32px;
-	height: 32px;
 }
 
 .btn-social-media:hover{
 	opacity: 1;
-	color: $pink;
+	color: $primary-color;
 }
 
 .footer-copyright{
@@ -38,4 +40,11 @@
 	font-size: 1.2rem;
 	opacity:0.5;
 	padding: 1.5rem 0.75rem 0.75rem;
+}
+
+ul li {
+	flex: auto;
+	@media only screen and (min-width:600px) {
+		flex: none;	
+	}
 }
