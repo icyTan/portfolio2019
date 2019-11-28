@@ -18,7 +18,7 @@ heroTimeline: "January 2014 - August 2014"
 heroSkills: "Prototyping, Time Management, Adobe CC"
 color: "#a1f7f7"
 weight: 2
-displayOnLanding: true
+displayOnLanding: false
 isBlog: false
 ---
 #### Role
