@@ -16,8 +16,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#23305E`,
+        theme_color: `#23305E`,
         display: `minimal-ui`,
         icon: `src/images/favicon_colour_inverse@3x.png`, // This path is relative to the root of the site.
       },
@@ -64,7 +64,7 @@ module.exports = {
             resolve: `gatsby-remark-images-medium-zoom`, // point!
             options: {
               margin:10,
-              background:"#fff", 
+              background:"#fff",
             }
           },
         ],

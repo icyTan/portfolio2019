@@ -19,7 +19,7 @@ heroSubtitle: "bridging the gap between instore and online"
 heroRoles: "UX Design"
 heroCompany: "Shop this City"
 heroTimeline: "3 weeks"
-heroSkills: "Sketch, Invision, Prinicple"
+heroSkills: "Sketch, Invision, Principle"
 color: "#003399"
 weight: 3
 displayOnLanding: true
