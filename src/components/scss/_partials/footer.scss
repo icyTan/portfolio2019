@@ -3,6 +3,13 @@
 .footer{
 	text-align: center;
 	margin-bottom: 6rem;
+
+	ul li {
+	flex: auto;
+	@media only screen and (min-width:600px) {
+		flex: none;
+	}
+}
 }
 
 .footer-content{
@@ -40,11 +47,4 @@
 	font-size: 1.2rem;
 	opacity:0.5;
 	padding: 1.5rem 0.75rem 0.75rem;
-}
-
-ul li {
-	flex: auto;
-	@media only screen and (min-width:600px) {
-		flex: none;	
-	}
 }

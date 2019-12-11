@@ -28,7 +28,7 @@ My design process starts with building an understanding of the domain, users, an
 
 By building an understanding, I can discover insights, uncover the unknown, and challenge assumptions made during my initial research.
 
-![Going on site to discover how people park their bikes in public for the BikeLocker project](../images/process/contextualinquiry.png)
+![Going on site to discover how people park their bikes in public for the BikeLocker project](../images/process/contextualinquiry.png)
 
 See this project at [Bike Locker](/bikelocker).
 
@@ -42,7 +42,7 @@ From analysing the data from research, discussing with stakeholders such as proj
 
 At this point it’s important to keep in mind the scope of the project and define a vision that is understood by all involved parties. Lots of discussion, lots of stickies, ultimately to meet inbetween user needs and business goals.
 
-![Journey map for existing users of BullyFreeBC’s website](../images/process/CJM.png)
+![Journey map for existing users of BullyFreeBC's website](../images/process/CJM.png)
 
 See this project at [BullyFreeBC](/bfbc).
 
@@ -54,7 +54,7 @@ I believe in utilizing tools like journey maps and user personas which let me de
 
 Ideation involves exploring the problem space I just defined. Creating design artifacts, like feature lists and user flows, let me explore the touchpoints where my design will interact with end users.
 
-![Example account creation user flow for a wellness mobile app](../images/process/userflow.png)
+![Example account creation user flow for a wellness mobile app](../images/process/userflow.png)
 
 I believe in making design artifacts to present the initial vision of the project to other designers, project managers, and developers. By bringing the trifecta together early, we can navigate issues that my design eye alone may not see.
 
@@ -72,6 +72,6 @@ Prototyping to me is validating the ideas we’ve thought of and to start “thi
 
 From here I can refine, build, test, and repeat until the team or myself reach a stable conclusion that fits both business goals and user needs.
 
-![Iterations of our landing page, we found through testing putting hotlinks onto the first fold of the page gave direction to users who are in a hurry to get what they need.](../images/process/testing.png)
+![Iterations of our landing page, through testing we found that putting hotlinks onto the first fold of the page gave direction to user who in a hurry to get what they need.](../images/process/testing.png)
 
 More time spent playing, testing, and iterating on concepts lets the team move forward with more decisiveness and clarity.

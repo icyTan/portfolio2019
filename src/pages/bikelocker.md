@@ -6,18 +6,18 @@ categories: []
 keywords: []
 slug: /@get.patlau/bike-locker-ui-case-study-6136882ea3ac
 landingTitle: bikelocker
-landingDesc: crowdsourcing safe bike storage
+landingDesc: crowdsource bike storage
 workbox: landing-work_box-bikelocker
 workitemTitle: landing-work_item-title-bikelocker
 landingImage: ../images/bikelocker/bikelocker_preview@2x.png
 featuredImage: ../images/bikelocker/bikelocker_hero.png
-heroTitle: "Crowdsourcing safe bike storage in a city"
+heroTitle: "Crowd-sourcing safe bike storage in a city"
 heroSubtitle: "case study on mobile UI design and collaboration"
 heroRoles: "UI Design"
 heroCompany: "Bike Locker"
 heroTimeline: "3 weeks"
 heroSkills: "Sketch, Illustrator, Miro (formerly RealTimeBoard)"
-color: "#009887" 
+color: "#009887"
 weight: 2
 displayOnLanding: true
 isBlog: false
@@ -27,7 +27,7 @@ isBlog: false
 
 #### Team members
 
-Paola Hinojosa, Oliver Janousek, Jacob Krayenhoff — UX  
+Paola Hinojosa, Oliver Janousek, Jacob Krayenhoff — UX
 Phoebe Chou, Irene Khorsand Mahand, Patrik Lau — UI
 
 #### **Introduction**

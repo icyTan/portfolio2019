@@ -5,7 +5,7 @@ categories: []
 keywords: []
 slug: /@get.patlau/best-ui-case-study-1f2a1f37e967
 landingTitle: best
-landingDesc: rebranding and responsive web
+landingDesc: rebranding, responsive web
 workbox: landing-work_box-best
 workitemTitle: landing-work_item-title-best
 landingImage: ../images/best/best_preview@2x.png
@@ -25,17 +25,17 @@ isBlog: false
 
 #### Team members
 
-Emil, Marie, Kyle — UX  
+Emil, Marie, Kyle — UX
 Patrik, Ly — UI
 
 #### Introduction
 
 For my next client project, I was placed in a five person team with two UI members and two UX members. Our project goal was to design and build a new **responsive website** in **three weeks**.
 
-For the UI team this meant:  
-_Creating a visual style.   
-Conceptualize potential new logos for BEST’s brand.  
-Creating a collaborative set of Sketch Documents and Symbol Libraries.  
+For the UI team this meant:
+_Creating a visual style. 
+Conceptualize potential new logos for BEST’s brand.
+Creating a collaborative set of Sketch Documents and Symbol Libraries.
 Deliver a set of high fidelity wireframes to use for prototyping with InVision._
 
 ![A UI/UX design is somewhere between user goals, business goals and project goals.](../images/best/1__hj5KfeyFfbN2zjmigBjyQA.png)
@@ -64,8 +64,8 @@ Our client’s reaction to the Gut Test told us that he liked visuals that repre
 
 He disliked cookie cutter template visuals, rigid or cluttered visual spaces, and any implications that the brand is basic or boring.
 
-> Repetition of brand, inclusive community, playfulness.  
-> Cookie cutter, rigid and cluttered visual spaces, boring or basic branding  
+> Repetition of brand, inclusive community, playfulness.
+> Cookie cutter, rigid and cluttered visual spaces, boring or basic branding
 > **Together, Sincere, Fun**
 
 These were results of the Gut Test and the mood keywords that we came up with used these to purse two art directions called Vibrant Communities and Urban Action.
