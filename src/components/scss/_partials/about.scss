@@ -29,7 +29,7 @@
 }
 
 .about__info{
- margin-bottom: 1.5rem; 
+ margin-bottom: 1.5rem;
 }
 
 .about__current{
@@ -41,28 +41,4 @@
 	list-style: none;
 	font-size: 1.5rem;
 	font-weight: bold;
-}
-
-.btn{
-  display: inline-block;
-  position: relative;
-  transition: background-color .4s, color .4s;
-  border: 0;
-  border-radius: 100vw;
-  background-color: $primary-color;
-  color: $off-white;
-  cursor: pointer;
-  padding: 1rem 1.5rem;
-  text-align: center;
-  text-decoration: none;
-  line-height: 1;
-  font-family: "Montserrat",Arial,sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  -webkit-appearance: none;
-}
-
-.btn:hover{
-  background-color: $secondary-color;
-  color: $primary-color;
 }

@@ -39,7 +39,7 @@ const Worklist = () => {
         <section className="section-1">
             <section className="work-list">
                 <div className="wrap-1 sf-1">
-                    <h2 className="vis-hide">Other Work</h2>
+                    <h2 className="center-text secondary-color">See my work</h2>
                     <ul className="work-list__list row">
                         {/* Start generative code here */}
                             {allMarkdownRemark.edges.map(({ node }) => (

@@ -1,0 +1,70 @@
+@import "variables";
+
+.resume_item{
+    display: flex;
+    flex-direction: row;
+}
+
+.resume-icon{
+    svg{
+        path{
+            fill: rgb(118, 119, 120);
+            transition: fill 0.15s ease 0s;
+        }
+    }
+}
+
+.resume-icon:hover{
+    svg{
+        path {
+            fill: rgb(73, 74, 75);
+        }
+    }
+}
+
+svg{
+    @media only screen and (min-width: 26em) {
+        width:  4rem;
+        height: 4rem;
+    }
+    width:  3rem;
+    height: 3rem;
+}
+
+.resume-itemcontent{
+    width: 100%;
+}
+
+.resume-title{
+    @media only screen and (min-width: 34em) {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+.resume-date{
+    @media only screen and (min-width: 34em) {
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    color: rgb(118, 119, 120);
+}
+
+.resume-item content{
+    p{
+        @media only screen and (min-width: 34em) {
+            margin-bottom: 2rem;
+            line-height: 2rem;
+            font-size: 1.25rem;
+        }
+        margin-bottom: 1.75rem;
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+}
