@@ -53,7 +53,9 @@ From this launch pad, we as a team made constraints that we would use to guide o
 
 These guidelines were crucial to the feel of the design as the audience involved **people at risk** which need to be treated **with care**.
 
-![](../images/bfbc/1__HoZP2hdzr__QSLjbdOOezjw.png)
+<!-- ![](../images/bfbc/1__HoZP2hdzr__QSLjbdOOezjw.png) -->
+
+## Research
 
 **When you see the words:**
 
@@ -116,7 +118,9 @@ During this time we made user journey maps and affinity diagrams of our data to 
 > Secondarily, they also found a **lack of social impact proof** as sign that the organization may not be what they say they are.
 > **So how did we use these insights to answer our user’s gap in expectations?**
 
-![](../images/bfbc/1__GRGzg1XxUzEkV__qUPpfKkQ.png)
+<!-- ![](../images/bfbc/1__GRGzg1XxUzEkV__qUPpfKkQ.png) -->
+
+## Planning
 
 At this point we still didn’t fully understand our user, and instead made a user to help us as a design team. We made a persona, a fictional user, to bounce our insights off of to see if our assumptions were correct. So meet Michelle:
 
@@ -179,7 +183,9 @@ For those that need help immediately, the homepage has a prominent support direc
 
 If this user finds themselves in a potentially dangerous situation they can use the quick exit button to find cute dogs and cats.
 
-![](../images/bfbc/1__OXQ__Qziosa5KFtvM84whKA.png)
+<!-- ![](../images/bfbc/1__OXQ__Qziosa5KFtvM84whKA.png) -->
+
+## Design
 
 #### Prototyping and iterations
 

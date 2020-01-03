@@ -7,7 +7,7 @@ import "../components/scss/_partials/resumeitem.scss"
 const ResumeItem = ({ children, ...props }) => (
     <p className="resume_item">
         <a
-            href={props.href}
+            href={"https://" + props.href}
             target="_blank"
             rel="noopener noreferrer"
             className="resume-icon">
