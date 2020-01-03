@@ -3,7 +3,6 @@ import Img from "gatsby-image"
 // import {TransitionLink} from 'gatsby-plugin-transition-link'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "./scss/_partials/landing.scss"
-import "./scss/_partials/landing-large.scss"
 import "./scss/_partials/grids.scss"
 import React from "react"
 
@@ -80,16 +79,16 @@ const Landing = () => {
                     <span
                       className={"landing-work_item-title " + node.frontmatter.workitemTitle}
                     >
-                      {node.frontmatter.landingTitle} 
+                      {node.frontmatter.landingTitle}
                     </span>
                     <span className="landing-work_item-desc">{" " + node.frontmatter.landingDesc}</span>
                   </div>
                   {/* <Link className="overlay" to={node.fields.slug}></Link> */}
-                  <AniLink 
-                    cover 
-                    to={node.fields.slug} 
+                  <AniLink
+                    cover
+                    to={node.fields.slug}
                     direction="down"
-                    bg={node.frontmatter.color} 
+                    bg={node.frontmatter.color}
                     duration={1.5}
                     className="overlay"
                   ></AniLink>

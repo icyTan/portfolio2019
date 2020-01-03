@@ -1,6 +1,5 @@
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "./scss/_partials/header.scss"
-import "./scss/_partials/header-large.scss"
 import React, { Component } from "react"
 import classnames from "classnames"
 
@@ -64,7 +63,7 @@ class Header extends Component {
   render() {
     return (
       // Starting to import exisitng header
-      <header 
+      <header
         className={classnames(
           "header-bar",
           "header-bar_" + this.props.barName,
@@ -88,7 +87,7 @@ class Header extends Component {
                 <li className="header-bar_list-item">
                   {/* <Link to="/" className="header-bar_nav-item">Work</Link> */}
                   <AniLink
-                    cover 
+                    cover
                     to="/"
                     direction="up"
                     bg="#fafafa"
@@ -99,7 +98,7 @@ class Header extends Component {
                 <li className="header-bar_list-item">
                   {/* <Link to="/about" className="header-bar_nav-item">About</Link> */}
                   <AniLink
-                    cover 
+                    cover
                     to="/about"
                     direction="down"
                     bg="#fafafa"

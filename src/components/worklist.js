@@ -1,9 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import "./scss/_partials/worklist.scss"
-import "./scss/_partials/worklist-large.scss"
 import "./scss/_partials/base.scss"
-import "./scss/_partials/base-large.scss"
 import "./scss/_partials/grids.scss"
 import React from "react"
 

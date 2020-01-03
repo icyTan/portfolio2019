@@ -11,7 +11,18 @@
   padding-top: 4.5rem;
   padding-bottom: 3rem;
 }
+
+.work__subtitle{
+  @media only screen and (min-width: 600px){
+    line-height: 1.3125;
+    font-size: 2rem;
+	}
+}
+
 .work__info {
+  @media only screen and (min-width: 600px){
+    margin-bottom: 1.8rem;
+	}
   display: inline-block;
   margin-bottom: 1.5rem;
   padding-left: 1.5rem;
@@ -98,11 +109,23 @@
   border: 0;
 }
 
+.hero-1{
+  @media only screen and (min-width: 600px){
+    padding-top: 8rem;
+	}
+}
+
 /* figure classes for moblie and desktop displays */
 .display-lg{
+  @media only screen and (min-width: 600px){
+		display: block;
+	}
   display:none;
 }
 .display-mb{
+  @media only screen and (min-width: 600px){
+		display:none;
+	}
   display:block;
 }
 

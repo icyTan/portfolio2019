@@ -55,6 +55,12 @@
 }
 
 .header-bar_logo{
+	@media only screen and (min-width: 600px){
+		padding-top: 2.625rem;
+		padding-right: 1.5rem;
+		padding-bottom: 0.75rem;
+		font-size: 1.5rem;
+	}
 	position: relative;
 	transition-duration: .3s;
 	transition-property: opacity, color;
@@ -75,6 +81,12 @@
 }
 
 .header-bar_nav-item{
+	@media only screen and (min-width: 600px){
+		padding-top: 2.625rem;
+		padding-left: 1.5rem;
+		padding-bottom: 0.75rem;
+		font-size: 1.5rem;
+	}
 	display: block;
 	position: relative;
 	transition-duration: 0.3s;

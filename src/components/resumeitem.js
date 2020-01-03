@@ -9,7 +9,7 @@ const ResumeItem = ({ children, ...props }) => (
         <a
             href={props.href}
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="resume-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
                 <path

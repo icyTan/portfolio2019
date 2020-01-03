@@ -12,10 +12,8 @@ import Footer from "./footer"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import "./layout.css"
 import "./scss/_partials/variables.scss"
 import "./scss/_partials/base.scss"
-import "./scss/_partials/base-large.scss"
 
 library.add(fab, faCheckSquare, faEnvelope)
 

@@ -7,7 +7,6 @@ import Header from "../components/header"
 import SEO from "../components/seo"
 import "../components/scss/_partials/variables.scss"
 import "../components/scss/_partials/work.scss"
-import "../components/scss/_partials/work-large.scss"
 import "../components/scss/_partials/casestudy.scss"
 import "../components/scss/_partials/grids.scss"
 

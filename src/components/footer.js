@@ -1,7 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./scss/_partials/footer.scss"
-import "./scss/_partials/footer-large.scss"
 
 const Footer = () => (
     <footer id="footer" className="footer">
