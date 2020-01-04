@@ -42,8 +42,24 @@
   font-weight: 700;
 }
 
+.about__landing{
+  @media only screen and (min-width: 600px){
+    padding-top: 14rem;
+    padding-bottom: 8rem;
+	}
+  padding-top: 10rem;
+  padding-bottom: 3.5rem;
+  width: 40rem;
+}
+
 .about__info{
+  @media only screen and (min-width: 600px){
+    margin-right: 0;
+    margin-left: 0;
+  }
  margin-bottom: 1.5rem;
+ margin-left: 1rem;
+ margin-right: 1rem;
 }
 
 .about__current{

@@ -4,7 +4,7 @@ import Header from "../components/header"
 import SEO from "../components/seo"
 import Landing from "../components/landing"
 import "../components/scss/_partials/landing.scss"
-import "../components/scss/_partials/landing-large.scss"
+// import "../components/scss/_partials/landing-large.scss"
 import "../components/scss/_partials/animations.scss"
 
 const IndexPage = () => (
