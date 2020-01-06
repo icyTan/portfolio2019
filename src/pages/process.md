@@ -1,21 +1,14 @@
 ---
 title: My Design Process
-landingTitle: process
-landingDesc: my approach to design
+blogTitle: process
+blogSubtitle: my approach to design
 workbox: landing-work_box-process
 workitemTitle: landing-work_item-title-process
 landingImage: ../images/process/process_preview@2x.png
 featuredImage: ../images/process/process_hero@2x.png
-heroTitle: "How I approach design"
-heroSubtitle: "from thinking to doing"
-heroRoles: ""
-heroCompany: ""
-heroTimeline: ""
-heroSkills: ""
 weight: 0
-color: "#23305E"
-displayOnLanding: true
-isBlog: false
+displayOnLanding: false
+isBlog: true
 ---
 
 ## Process - From Thinking to Doing

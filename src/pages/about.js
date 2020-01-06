@@ -48,7 +48,7 @@ const AboutPage = () => (
                     <ResumeItem
                             href="www.redacademy.com"
                             title="UX / UI Teaching Assistant at RED Academy"
-                            date="Sept 2019 - Present in Vancouver"
+                            date="Oct 2019 - Present in Vancouver"
                             svgPath="M50.2223,52.1621q-3.8737-5.63-7.7726-11.2431c-.6453-.9329-1.28-1.873-1.9645-2.8749.449-.2341.7784-.4177,1.1175-.5809a12.6561,12.6561,0,0,0,6.0227-5.7553,15.3882,15.3882,0,0,0,1.0974-10.5747A11.9623,11.9623,0,0,0,41.7215,12.7a20.571,20.571,0,0,0-9.0273-1.82q-8.9256-.0009-17.851.0006c-1.1,0-1.2364.14-1.2365,1.2527q-.0016,19.9076,0,39.815c0,.9978.1661,1.1653,1.1839,1.1677q3.5028.0082,7.0057.0012c1.2464-.0009,1.3611-.1129,1.3616-1.332.0013-3.7341.0126-7.4682-.0106-11.2021-.0041-.6637.1925-.9208.8822-.9039,1.6157.0394,3.233.0119,4.85.0118,2.1506,0,2.1142.0235,3.2732,1.8179,2.3618,3.6566,4.7724,7.2816,7.1469,10.93a1.3071,1.3071,0,0,0,1.16.6714c3.0987.0052,6.1973.009,9.2958-.0081a.7884.7884,0,0,0,.61-.285A.81.81,0,0,0,50.2223,52.1621ZM36.59,30.003a9.2964,9.2964,0,0,1-4.7347,1.0464c-2.6026.0247-5.2056.0106-7.8084.006-.8262-.0014-.8854-.0654-.8872-.8813-.0036-1.6409-.0011-3.2818-.0011-4.9228,0-1.6634.0117-3.3269-.0069-4.99-.006-.5469.2069-.7747.7531-.7672,3.2519.0448,6.5051.0385,9.7557.1292a5.7682,5.7682,0,0,1,4.1638,1.7717A5.63,5.63,0,0,1,36.59,30.003Z"
                         >
                             Leading lessons on Sketch and other technical skills. Supporting students during workshop hours by providing design feedback and project management tips.
@@ -66,7 +66,7 @@ const AboutPage = () => (
                 <Image />
                 <div className="about__info">
                     <p>I believe that good design is effective communication with the people on the other side of my work.</p>
-                    <p>My off hours include <a href="https://www.twitch.tv/icytan">streaming on Twitch</a>, <a href="https://www.instagram.com/getpatlau/">baking</a> for my collaborators, and taking car trips to <a href="https://magic.wizards.com/en">Magic the Gathering</a> tournaments with friends.</p>
+                    <p>My off hours include <a href="https://www.twitch.tv/icytan">streaming on Twitch</a>, <a href="https://www.instagram.com/getpatlau/">baking</a> for my collaborators, and playing in <a href="https://magic.wizards.com/en">Magic the Gathering</a> tournaments.</p>
                     <p>I wrote this website with <a href="https://www.gatsbyjs.org/">Gatsby.js</a> and is powered by <a href="https://www.netlify.com">Netlify</a>. You can find my long form case studies in the wild <a href="https://medium.com/@get.patlau">on Medium</a> and my code work on <a href="https://github.com/icyTan/portfolio2019">Github</a>.</p>
                 </div>
                     <PrimaryButton
