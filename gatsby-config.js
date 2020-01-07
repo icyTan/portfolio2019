@@ -45,7 +45,7 @@ module.exports = {
             },
           },
           // unwraps images from <p> tags
-          "gatsby-remark-unwrap-images",
+          // "gatsby-remark-unwrap-images",
           {
             resolve: `gatsby-remark-images`,
             options: {
