@@ -61,14 +61,6 @@ const AboutPage = () => (
                         >
                         Supported feature development alongside developers with design specifications and presentations. Paired with an external contractor to begin Visier’s first customer support portal.
                     </ResumeItem>
-                    <ResumeItem
-                        href="www.visier.com"
-                        title="User Experience Design Intern at Visier"
-                        date="Jan - Sept 2014 in Vancouver"
-                        svgPath="M12.4142,6.4313c3.5644,0,7.0426-.0266,10.5188.0445.32.0066.7807.585.9161.9858,2.5878,7.6608,5.1354,15.3352,7.6953,23.0055.2727.8171.57,1.626.9954,2.8344,1.06-3.1781,1.9933-5.97,2.9223-8.7626,1.8905-5.6832,3.7987-11.3606,5.6455-17.058a1.271,1.271,0,0,1,1.4554-1.08c2.961.0508,5.9233.02,9.0228.02C49.532,12.096,47.5489,17.5915,45.5549,23.083c-2.41,6.6363-4.8461,13.2628-7.2215,19.9112a1.4909,1.4909,0,0,1-1.68,1.2114c-3.1629-.064-6.3282-.0441-9.4921-.01a1.2754,1.2754,0,0,1-1.4359-.9634q-6.56-18.0759-13.1672-36.1348A5.9049,5.9049,0,0,1,12.4142,6.4313ZM50.7294,57.6V47.36H13.057V57.6Z"
-                        >
-                        Supported feature development alongside developers with design specifications and presentations. Paired with an external contractor to begin Visier’s first customer support portal.
-                    </ResumeItem>
                 </div>
                 <PrimaryButton href="/about/PatrikLauresume2019.pdf">Resume</PrimaryButton>
                 <Image />
