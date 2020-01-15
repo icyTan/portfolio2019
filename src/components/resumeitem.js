@@ -2,10 +2,10 @@ import React from "react"
 import "../components/scss/_partials/base.scss"
 import "../components/scss/_partials/resumeitem.scss"
 
-// Make default values for resume items, look up how to do this
+// TODO Make default values for resume items, look up how to do this
 
 const ResumeItem = ({ children, ...props }) => (
-    <p className="resume_item">
+    <p className="resume_item" >
         <a
             href={"https://" + props.href}
             target="_blank"

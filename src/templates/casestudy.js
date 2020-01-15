@@ -62,10 +62,9 @@ export default ({ data }) => {
                 ) : (
                   <section className="work_header"></section>
                 )}
-                <div className="markdown fullpage-fade-in">
+              <div className="markdown fullpage-fade-in" dangerouslySetInnerHTML={{ __html: post.html }}>
                   {/* This is where markdown is placed */}
-                  <div dangerouslySetInnerHTML={{ __html: post.html }} />
-                </div>
+              </div>
             </div>
           <Worklist />
         </Layout>

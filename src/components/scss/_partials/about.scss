@@ -78,3 +78,9 @@
 	font-size: 1.5rem;
 	font-weight: bold;
 }
+
+// fallback for build issue
+.about__resume > p {
+  display: flex;
+  flex-direction: row;
+}
