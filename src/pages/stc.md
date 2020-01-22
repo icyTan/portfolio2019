@@ -25,6 +25,7 @@ weight: 3
 displayOnLanding: true
 isBlog: false
 ---
+<section>
 
 ![](../images/stc/1__y1CYKpIfCCwoubD44nH6Yg.jpeg)
 
@@ -242,3 +243,5 @@ Beyond the MVP scope, we included these considerations earlier and I will reiter
 *   Design a shop crawl feature with more research of the actual STC app.
 
 This project was a great exploration of product design, which to me at this time is working on an existing product to refine it’s ever evolving scope and goal. Shop This City has a powerful purpose and could empower local businesses as well as give the opportunity to shoppers to experience the convenience of browsing digitally and shopping physically.
+
+</section>

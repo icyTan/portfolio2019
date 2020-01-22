@@ -22,6 +22,7 @@ weight: 2
 displayOnLanding: true
 isBlog: false
 ---
+<section>
 
 ![](../images/bikelocker/1__fI5aR4WSsaU2lR9CROZRvw.png)
 
@@ -121,3 +122,5 @@ Hard skills I learned were how to make a basic shared UI library in Sketch and o
 From this work we as an entire team made a working prototype walkthrough for our client’s minimum viable product scope, and did research towards a phase two of their product. UX made many research steps on the domain and for the business goals to make an interesting crowdsource product that could scale into a premium product. UI made a clean and simple design that has room to be expanded with a more illustrative style if needed for phase two.
 
 For the future I’ll take the lessons I learned in collaboration and working within a small team. We as a team know there is a badge reward system that would need to be visually designed, as well as improvements to the overall menu system to match current trends.
+
+</section>

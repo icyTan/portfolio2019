@@ -44,7 +44,7 @@ const Worklist = () => {
                             <li key={node.id} className="work-list__item col-6">
                                 <div className={"work-list__orb " + node.frontmatter.workbox + " no-flickr"}></div>
                                 <div className="work-list__meta">
-                                    <span className="work-list__name">{node.frontmatter.landingTitle}</span>
+                                  <span className={"work-list__name " + node.frontmatter.workitemTitle}>{node.frontmatter.landingTitle}</span>
                                     <span className="work-list__desc">{node.frontmatter.landingDesc}</span>
                                 </div>
                                 {/* <Link className="overlay" to={node.fields.slug}></Link> */}

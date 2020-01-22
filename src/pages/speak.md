@@ -22,11 +22,7 @@ color: "#D60080"
 displayOnLanding: true
 isBlog: false
 ---
-
-<!-- Event Branding — A Case Study on concepting and branding a theoretical event. -->
-
-<!-- ![A Case Study on concepting and branding a theoretical event.](../images/speak/1__JNfOnYWSA__qe7qPFKbyQ1Q.jpeg) -->
-<!-- A Case Study on concepting and branding a theoretical event. -->
+<section>
 
 #### Introduction
 
@@ -34,11 +30,11 @@ Our final project for the UI course at RED Academy was to concept and brand an e
 
 Tools used: Pen and Paper, Adobe Illustrator, Adobe Photoshop, Sketch, and Principle for animations.
 
-Breaking it down into deliverables:  
+Breaking it down into deliverables:
 
-* _Concept an event and brand that is behind the event._  
-* Design a visual style for the brand.  
-* Wireframe and produce high fidelity mockups for a responsive website.  
+* _Concept an event and brand that is behind the event._
+* Design a visual style for the brand.
+* Wireframe and produce high fidelity mockups for a responsive website.
 * _Create digital and physical brand assets._
 
 ![](../images/speak/Research&#32;Splash.png)
@@ -161,3 +157,5 @@ For the future I want to remember the lesson of plan deliberately and design del
 A specific example is the visual style of SPEAK versus the yearly theme, as that is an area not explored well. My original intent was to make a design system, which this project didn’t quite meet. Being able to make a visual language for SPEAK as a conference to combine with a visual style for the yearly theme would have made a design system.
 
 However this project came to a close and I’m happy with how it turned out, and glad there are many learning lessons from it.
+
+</section>

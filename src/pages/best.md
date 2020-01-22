@@ -21,6 +21,8 @@ weight: 3
 displayOnLanding: true
 isBlog: false
 ---
+<section>
+
 ![](../images/best/1__JEyf5eDDdAdoYnr82kgePA.png)
 
 #### Team members
@@ -160,3 +162,5 @@ We had issues surrounding consistency between the UX wireframes given to the UI 
 In terms of visual design this project was not really my preferred visual style which made for a great learning project to work outside of my comfort zone. Ly was a great help in dictating the ground rules for making a cohesive visual style that represented history and fun, with the cut outs and illustrations.
 
 For the future I’ll be able to take the lessons here and be able to put forward some of the lessons to my next work groups.
+
+</section>

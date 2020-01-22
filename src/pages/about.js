@@ -55,15 +55,15 @@ const AboutPage = () => (
                     </ResumeItem>
                     <ResumeItem
                         href="www.ophthalight.com/"
-                        title="UX Intern"
+                        title="UX Intern at Ophthalight Digital Solutions Inc."
                         date="Jun 2016 - Jan 2017 in Vancouver"
                         svgPath="M53.2383,32.2207c0,12.4189-9,21.7188-21.2388,21.7188S10.76,44.64,10.76,32.2207,19.76,10.501,32,10.501,53.2383,19.8008,53.2383,32.2207Zm-7.32,0c0-8.1-5.459-14.88-13.9185-14.88s-13.92,6.78-13.92,14.88S23.54,47.1,32,47.1,45.918,40.32,45.918,32.2207Z"
                     >
-                        Supported development team for a medical information system interface with wireframes and design specifications. Prototyped basic interface with Angular2, fetching data from a PostgreSQL database with mentorship of a developer.
+                        Supported development team for a medical information system interface with wireframes and design specifications. Prototyped basic web interface using Angular2 with mentorship of a developer.
                     </ResumeItem>
                     <ResumeItem
                         href="www.koolhausgames.com"
-                        title="UX / UI Design Intern"
+                        title="UX / UI Design Intern at Koolhaus Games"
                         date="Jan - Mar 2015 in Vancouver"
                         svgPath="M22.1308,29.7368,37.8448,10h9.4287L30.0507,31.6232,49.4115,54h-9.995L22.1308,34.1373V54H14.5885V10h7.5423Z"
                     >

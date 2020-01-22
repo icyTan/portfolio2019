@@ -172,7 +172,7 @@
 	color: $primary-color;
 }
 
-.landing-work_item {
+.landing-work_item, .work-list__meta {
 	.landing-work_item-title-portfolio{
 		background-image: linear-gradient($portfolio-color,$portfolio-color);
 	}

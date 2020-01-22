@@ -26,6 +26,12 @@
   overflow: hidden;
 }
 
+.work-list__item:hover .work-list__name{
+  color:white;
+  transition-delay: 0s;
+  background-size: 100% 100%;
+}
+
 .work-list__orb{
   display: block;
   flex-shrink: 0;
@@ -57,17 +63,33 @@
 }
 
 .work-list__name{
-  transition: all .5s ease;
   display: inline;
   color: inherit;
   font-size: "Lato",Arial, sans-serif;
   font-weight: 700;
+  text-decoration: underline;
+  padding-left: 0.375rem;
+	padding-right: 0.375rem;
+
+  transition-property: background-size, color, text-decoration-color;
+  transition-duration: 0.15s;
+  transition-delay: 0.15s;
+	background-color: transparent;
+	background-image: linear-gradient($portfolio-color,$portfolio-color);
+	background-size: 0px 100%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	white-space: nowrap;
 }
 
 .work-list__desc{
   @media only screen and (min-width: 600px){
     font-size: 0.875rem;
-	}
+  }
+
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+
   transition: all .5s ease;
   display: block;
   color: $off-black;
