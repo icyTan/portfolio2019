@@ -10,6 +10,7 @@ weight: 0
 displayOnLanding: false
 isBlog: true
 ---
+<section>
 
 ## Process - From Thinking to Doing
 
@@ -68,3 +69,5 @@ From here I can refine, build, test, and repeat until the team or myself reach a
 ![Iterations of our landing page, through testing we found that putting hotlinks onto the first fold of the page gave direction to user who in a hurry to get what they need.](../images/process/testing.png)
 
 More time spent playing, testing, and iterating on concepts lets the team move forward with more decisiveness and clarity.
+
+</section>

@@ -6,7 +6,7 @@ workbox: landing-work_box-bfbc
 workitemTitle: landing-work_item-title-bfbc
 landingImage: ../images/bfbc/bfbc_preview@2x.png
 featuredImage: ../images/bfbc/bfbc_hero@2x.png
-heroTitle: "Designing with constraints"
+heroTitle: "Designing in constraints"
 heroSubtitle: "What do you expect from a bully free website?"
 heroRoles: "UX Design"
 heroCompany: "BullyFreeBC"
@@ -19,134 +19,127 @@ isBlog: false
 ---
 <section>
 
+<!-- ![](../images/bfbc/1__iXBO__9__Jg9baKrZ__SrALQA.png) -->
+
 > When you see the words “bully-free website”, what do you think of and what do you expect to take away from such a place?
 
-In the past, our client had an organization dedicated to creating changes in anti-bully policy in workplaces and government. Now they needed to rebuild the organization by gaining the trust of new members, without leaving bullying victims out of the picture.
+In this project we researched, designed, prototyped, tested, and iterated on a website for BullyFreeBC(**BFBC**) that focused on **acquisition** and **retention** of new members for BFBC’s relaunch.
 
-<!-- During the course of this project I learned about:
+We did this in **three weeks**, making **50+ high fidelity wireframes** for both desktop and mobile. I was on the UX side of this project doing research, planning, information architecture, wireframing, user testing, and prototyping.
 
-* designing contrary to existing expectations of users
-* meeting business goals within constraints discovered from our client
-* testing, then testing again -->
-
-</section>
-
-<section style="background-color:#D2DCE1">
-
-### Understanding the challenge
+This project ended up being about designing contrary to **existing expectations of users** and meeting the business goals within those **constraints**.
 
 ![](../images/bfbc/1__x__XI4WoMRFaKxQw0IGFf4g.png)
 
-BullyFreeBC(BFBC) is a non-partisan, non-affiliated organization that is undergoing a relaunch of their website and rebuilding their network of professionals who want to enact social change.
+### Understanding the challenge
 
-The top level goals of our client were:
+**Who is BullyFreeBC?** BullyFreeBC is a non-partisan, non-affiliated organization that is undergoing a relaunch of their website and rebuilding their network of professionals who want to enact social change.
 
-* Offer bully-free advocates templates and information to help them start anti-bullying projects on their own.
-* Connect like-minded advocates with a network of similar individuals.
-* Do not offer help services. BFBC cannot advise or counsel anyone legally.
+From our first client meeting we learned that this means:
 
-### My Role
+*   BullyFreeBC can offer bully-free advocates **templates** and **information** to help them start anti-bullying projects **on their own**.
+*   BullyFreeBC’s aims to **connect like-minded advocates** with their network.
+*   BullyFreeBC **_does not offer help services_**. People looking for help will not be able to get advice or counsel from the organisation.
+*   BullyFreeBC cannot **professionally** address how to deal with bullying.
 
-I worked with two other UX designers to:
+![](../images/bfbc/1__qtsSl1mw__cSXz__hwHfLzMA.png)
 
-* Audit the existing website.
-* Test and measure the expectations of incoming users.
-* Plan the features the website will offer.
-* Test and measure the expectations of incoming users again.
-* Design a responsive web prototype in paper then in Sketch.
+#### Constraints
 
-I led the production of wireframes and design assets by creating and managing shared Sketch Libraries for the team.
+From this launch pad, we as a team made constraints that we would use to guide our design decisions going forward into this project. Those were:
 
-With the cooperation of the team, I implemented a production process that allowed for the UX team and UI team to work in parallel instead of in a monolithic fashion.
+*   BFBC has an **intermediary** stance.
+*   Past victims of bullying may visit the website which meant the website must **feel** safe.
+*   BFBC has planned two sides to the website, one for the general public and one for the membership. We will focus on the **general public**.
+*   A focus on **creating documentation** to help make actionable change in workplaces.
 
-</section>
+These guidelines were crucial to the feel of the design as the audience involved **people at risk** which need to be treated **with care**.
 
-<section>
+<!-- ![](../images/bfbc/1__HoZP2hdzr__QSLjbdOOezjw.png) -->
 
-### Finding our walls
+## Research
 
-From our first client kickoff we learned:
+**When you see the words:**
 
-* BFBC wants to be an intermediary, which means presenting as stand-offish.
-* Past victims of bullying may visit the website which meant the website must feel safe.
-* A focus on creating documentation to help make actionable change in workplaces.
+> **Bully-free website**
 
-These guidelines were crucial to the feel of the design as the audience involved people at risk which need to be treated with care.
+**What do you expect?**
 
-### Early exploration
+We were unsure of this and using the above question as a research hypothesis, our team looked at:
 
-When you see the words:
+*   Who are the main users of the site?
+*   What is a bully-free website?
+*   How do they expect to navigate a bully-free website?
+*   How do they currently navigate the existing website?
+*   What encourages or discourages joining BFBC?
 
-> Bully-free website
+To answer these questions we sent out a survey to potential users, conducted interviews with past members of BFBC, and tested the existing website with potential users.
 
-What do you expect?
+![Screenshot of the previous BFBC website](../images/bfbc/1__tXLTylZtj95Mb6T4u87A0Q.png)
 
-We didn't really know what our users expected from our client or anti-bullying websites. So we used the question above as a research hypothesis to help us look at:
+#### What we found
 
-* Who are the main users of the site?
-* What is a bully-free website?
-* How do they expect to navigate a bully-free website?
-* How do they currently navigate the existing website?
-* What encourages or discourages joining an anti-bullying community?
+![](../images/bfbc/1__jYLtkB0WaRMhb4__sseGCqQ.png)
 
-We sent out a survey to potential users, conducted interviews with past members of BFBC, and tested the existing website with potential users to gain insights.
+From our interviews with past members of BFBC and performing contextual inquiries of the existing BFBC website, we learned:
 
-<!-- ![Screenshot of the previous BFBC website](../images/bfbc/1__tXLTylZtj95Mb6T4u87A0Q.png) -->
+*   BFBC has **low exposure**, people can’t join what they don’t know.
+*   Of the many reasons they joined BFBC, chief amongst them was to **make an impact**.
+*   **Credibility** and historical precedent will persuade individuals to join.
+*   The existing website is too **cluttered** and **disorganized**. It feels cold and unwelcoming, and users can’t **trust** it due to **lack of visible social impact**.
 
-### What we found
-
-<!-- ![](../images/bfbc/1__jYLtkB0WaRMhb4__sseGCqQ.png) -->
-
-From interviews and testing the existing website, we learned:
-
-* People can’t join what they don’t know.
-* Of the many reasons previous members joined BFBC, the top was to make an impact.
-* Credibility and historical precedent were the most cited reasons for individuals to join.
-* The existing website is cluttered and disorganized. It feels unwelcoming and no trust is built.
-
-</section>
-
-<section>
-
-### What do you expect?
-
-A common theme that came up during exploration was:
-
-> "I expect to get help when I visit a bully-free website."
-
-If an experienced user who uses BFBC's website is already unsure of what they are looking at, then the experience for a new users must feel like they are lost at sea.
+A common feedback between our three methods of user inquiry was that people **expect to get help** when they visit a bully-free website. This posed an interesting difference between what BullyFreeBC is offering and what our users expect from the domain of anti-bullying.
 
 ![Comparative and Competitive Analysis Chart. We used this to see where BullyFreeBC stands and what it should aim to include as features to stand apart.](../images/bfbc/1__Xz1__4joIyMePWbfbnT9FkA.png)
 
-Other organizations in the anti-bullying domain generally offer services like:
+Especially when comparing to other organizations in the domain of anti-bullying, the general offerings of an anti-bullying website should include **services** like: one on one counselling, help hotlines, and solutions to bullying problems.
 
-* One on one counselling.
-* Help hotlines.
-* Support networks for bullying victims.
+What BullyFreeBC is instead of being a service provider:
 
-Which run contrary to what BFBC's goals are. This revealed to us that we were designing for an experience contrary to the expected.
+> **BullyFreeBC is an intermediary to an anti-bullying moment, and that BullyFreeBC needs to exposure and credibility to build up a network of individuals that can become a part of that movement.**
 
-</section>
+### Managing User Expectations
 
-<section>
+So how do we as designers bridge the gap in **expectations** of users? How do we embed the idea that BFBC is not a traditional anti-bullying website, that BFBC is an intermediary to a network?
 
-## Managing User Expectations
+We started our process by processing our data from surveys, interviews and contextual inquires into **key insights**.
 
-> So how do we bridge the gap in expectation of our users? How do we embed the idea that BFBC is not a traditional anti-bullying website, that BFBC is an intermediary to a network?
+![The key insights we pulled away from our research.](../images/bfbc/1__gaTfuPL__4HiF6WvH3krGfA.png)
 
-Before we could start to design the website, we needed to know what our users expeceted and have BFBC's expectations and our user's expectations meet in the middle.
+During this time we made user journey maps and affinity diagrams of our data to help make sense it all. We took away these expanded data points:
 
-We still didn’t fully understand our user.
+#### What causes people to join BFBC? (Attractions)
 
-So we made a user. Meet Michelle:
+> **People come to BFBC to make a tangible difference.** We need to show them that BFBC is worth their time and effort to join.
+> Proving **Credibility** through completed projects and existing documentation. These can help persuade people to join BFBC.
+> We need a **Safe and trustworthy** website whether users be past victims or not: They should feel invited and be able to navigate easily.
 
-![Michelle is a fictional user we used to test our ideas against as if she was a real person.](../images/bfbc/1__58m3CBJ2lVUcv38RxpxJ2w.png)
+#### What stops people from joining BFBC? (Pain points)
+
+> An **overbearing time commitment**, both in reading **too much text** and project participation.
+> Secondarily, they also found a **lack of social impact proof** as sign that the organization may not be what they say they are.
+> **So how did we use these insights to answer our user’s gap in expectations?**
+
+<!-- ![](../images/bfbc/1__GRGzg1XxUzEkV__qUPpfKkQ.png) -->
+
+## Planning
+
+At this point we still didn’t fully understand our user, and instead made a user to help us as a design team. We made a persona, a fictional user, to bounce our insights off of to see if our assumptions were correct. So meet Michelle:
+
+![Michelle is a fictional user we used to test our ideas against as if a real person.](../images/bfbc/1__58m3CBJ2lVUcv38RxpxJ2w.png)
+
+She’s the super loyal type, you can always count on her. Ever since her best friend was bullied at her job, she’s been really passionate about seeing reform concerning workplace harassment.
 
 In Michelle’s life she’s had friends close to her bullied and co-workers in the workplace bullied. From this she is motivated to make changes so that doesn’t happen again.
 
-Addtionally we have to keep in mind bullying victims may visit the website, but we did not make a full persona for that type of user.
+#### Imagine this…
 
-#### Framing the problem
+Michelle is researching, trying to find an organization that can help her get started with making a difference at her own workplace. She finds BullyFreeBC through Google but the current website doesn’t **highlight** any of the organization’s history or past successes. Unable to tell if its **credibility**, Michelle ultimately leaves the website. She’s frustrated as she’s **wasted** a lot of time researching but still hasn’t found a good community she can **trust**.
+
+This is what her experience on the current BFBC website is like
+
+![](../images/bfbc/1__AlNcq59wYP5MD88Wxd8juQ.png)
+![We made these pain points by taking out friction points in the existing journey and turning them into statements we could take action with.](../images/bfbc/1__GgggT0J__Z0vgseznMj2x2A.png)
 
 We used Michelle to guide the feature requirements of the website and to remind us of the expectations that our users have. Michelle needs to have her pain points address which we choose to do through:
 
@@ -154,49 +147,45 @@ We used Michelle to guide the feature requirements of the website and to remind 
 
 The absolution of Michelle’s pain points drove a feature set that would satisfy her needs and the needs of our client.
 
-</section>
+![The full list of features we thought of based on who they are for](../images/bfbc/1__18CG__un9hkEN__e250vVlEA.png)
 
-<section>
+Our feature set can be split into who they mean to address: potential members, victims of bullying, and existing members.
 
-#### Making an MVP
+Features like a **quick exit button** and **disclaimer messages** are meant to answer the needs of our client which as an intermediary, need to direct people to the proper resources.
 
-The features we chose to implement became our Minimum Viable Product, our MVP. This MVP needed to satisfy early adopters of BullyFreeBC and not dive deep on all of the possible features BFBC could have. The features that we did not cover here will be kept in mind for future launches of the BFBC website.
+Disclaimer messaging needs to alert users to the fact that BFBC isn’t a service provider. This message should **funnel** users who may be victims of bullying towards the help directory instead of the resource library or somewhere they don’t need to be.
 
-We decide in order of important to implement:
+**Dynamic scroll to top button** helps user return to the navigation bar when they are deep in the text heavy resources.
 
-* Quick Exit
-* Disclaimer messages
-* Testimonials, accomplishments, and additional trust building collateral
-* Call to Action (CTA) buttons across all top level pages.
+> For potential users who may be victims of bullying or stuck in an abusive situation, quick exit can save a life.
 
-> For users who may be victims of bullying or stuck in an abusive situation, quick exit can save a life.
+Features such as **achievements page**, **current events** at BFBC, and a **resource library** are for our potential users. Showing off the accomplishments of BFBC in the wild and showing growth to potential members builds the credibility of BFBC as something they can contribute in and grow as bully free advocates. Membership calls to action (**CTAs**) on each page drives membership acquisition.
 
-Disclaimer messaging needs to alert users to the fact that BFBC isn’t a service provider. This message funnels users who may be victims of bullying towards the help directory instead of somewhere they don’t need to be.
+![The bolded features are the ones we decided would be in our MVP.](../images/bfbc/1__2OCTb1mFmBcFXG5UZwtucw.png)
 
-Features such as achievements page, current events at BFBC, and a resource library are for our potential users. Showing off the accomplishments of BFBC in the wild and showing growth to potential members builds the credibility of BFBC as something they can contribute in and grow as bully free advocates. Membership calls to action (CTAs) on each page drives membership acquisition.
+The features we chose to implement became our **Minimum Viable Product**, our MVP. This MVP needed to satisfy early adopters of BullyFreeBC and not dive deep on all of the possible features BFBC could have. The features that we did not cover here will be kept in mind for future launches of the BFBC website.
 
 #### Moving from feature sets to user flows
 
-I envisioned two main flows that BFBC would accomadate.
-
-* A journey towards joining BFBC, showing reasons why along the way.
-* Directing those in need of help immediately to where they need to be.
-
-The fork in the road for these two flows starts at the moment a user arrives, which meant I needed to have this fork appear on the homepage.
+With our feature set made, we could begin to plot out potential journeys for Michelle and those who need help. We envisioned two main paths that users entering BFBC would accomplish, one highlighting Michelle’s journey towards joining BFBC and the other quickly directing those in need of help immediately.
 
 ![Michelle’s experience pushes her towards membership](../images/bfbc/1__lw6UdkstAP9PRhi9hg2FBg.png)
 
-The first journey was designed to tell the story of BFBC and to give opportunities to join BFBC.
+When it comes to Michelle’s task flow, she wants to implement social change.
+
+The home page gives her access to viewing information about BFBC and impact through projects, which open up to more information pages.
+
+Throughout her journey she will encounter several **CTAs** that ask her to consider becoming a member, channeling potential members like Michelle towards membership. This is to achieve our goal improving **acquisition** of members for the organization of BFBC.
 
 ![Potential Victims are pushed to find the support they need and can quickly exit to cute cats and dogs](../images/bfbc/1__VCQyV18xdK____TPoLxa1JdA.png)
 
-The second journey takes the user to external support services. On that page itself, there are in-page hotlinks to hotlines & resources which take users out to external websites from there.
+For those that need help immediately, the homepage has a prominent support directory link that takes the user to external support services. On that page itself, there are in-page hotlinks to hotlines & resources which take users out to external websites from there.
 
 ![Users are directed to something less dangerous if in need](../images/bfbc/1__oRqWl2mKRkzLhfpG5q6k9A.png)
 
 If this user finds themselves in a potentially dangerous situation they can use the quick exit button to find cute dogs and cats.
 
-</section>
+<!-- ![](../images/bfbc/1__OXQ__Qziosa5KFtvM84whKA.png) -->
 
 ## Design
 
@@ -204,15 +193,15 @@ If this user finds themselves in a potentially dangerous situation they can use 
 
 Remember the question posed earlier?
 
-When you see the words:
+**When you see the words:**
 
 > Bully-free website
 
-What do you expect?
+**What do you expect?**
 
-All of our research and planning leading up to this point, told us our experience needed to be different from a traditional anti-bullying website.
+All of our research and planning leading up to this point, told us our experience needed to be different from a **traditional anti-bullying** **website**.
 
-Being different to a traditional anti-bullying website meant that we wanted to communicate BFBC’s message of advocacy primarily and to offer help secondarily. Additionally the tone of voice should be stoic and not be overly supportive in order for BFBC to be experienced as an intermediary instead of a help service.
+Being different to a traditional anti-bullying website meant that we wanted to communicate BFBC’s message of **advocacy** primarily and to **offer help** secondarily. Additionally the tone of voice should be stoic and not be overly supportive in order for BFBC to be experienced as an intermediary instead of a help service.
 
 So going into our first prototyping phase we wanted to test if our assumptions of what our user flow were on the right track and if our labels for each page matched BFBC’s tone of voice.
 
@@ -240,7 +229,7 @@ These prototypes were presented to the client, walking through the journey of Mi
 
 #### Low fidelity prototype iterations
 
-Our initial prototypes grasped at the core functionality of what we envisioned, using boxes and simple labels to direct testers to where they would be going next.
+Our initial prototypes grasped at the **core functionality** of what we envisioned, using boxes and simple labels to direct testers to where they would be going next.
 
 Early testing with paper prototypes helped us re-word our headings. If you remember the question from earlier again,
 
@@ -268,17 +257,17 @@ On the help page, users originally had to scroll a little to see the bulk of sup
 
 Finally, on the about page, we originally had 2 become a member Buttons. Users said they’d be more likely to select something if it was right after the introduction. As the news section draws their attention away from the bottom button.
 
-We took these testing notes and changes into the digital world, by making wireframes in [Sketch](https://www.sketch.com/).
+We took these testing notes and changes into the digital world, by making wireframes in [**Sketch**](https://www.sketch.com/).
 
 #### Mid fidelity prototypes iterations
 
-After we built out our wireframes in Sketch, we tested again with them with a focus on the content of the pages and with the logical flow of more detailed components. For example like our quick exit button.
+After we built out our wireframes in Sketch, we tested again with them with a focus on the **content** of the pages and with the logical flow of more detailed components. For example like our quick exit button.
 
-Because quick exit has to be easily accessible, we looked at general conventions for where to put the button on screen. Conventionally on Windows computers close is on the right and most users on phones are right handed, so we wanted to place it on the right.
+Because quick exit has to be easily **accessible**, we looked at general conventions for where to put the button on screen. Conventionally on Windows computers close is on the right and most users on phones are right handed, so we wanted to place it on the right.
 
 > The problem is, search is also conventionally on the right.
 
-If we put them together people in a hurry to quickly exit may accidentally click the search button, therefore quick exit should be isolated from other buttons to avoid accidents.
+If we put them together people in a hurry to quickly exit may **accidentally** click the search button, therefore quick exit should be **isolated** from other buttons to avoid accidents.
 
 ![From mid to high fi of our navigation bar](../images/bfbc/1__OtYhd8FDOzR__PL3aSw7Fwg.png)
 
@@ -288,9 +277,9 @@ Tapping on the search icon will expand it to a full field that can be used to pu
 
 ![From our first pass to our second pass of setting noticeable disclaimers](../images/bfbc/1__qk4dapO__eqcvu8bnQC17pA.png)
 
-The original idea was to redirect people who need help as soon as possible but we found people weren’t reading the disclaimer at all.
+The original idea was to redirect people who need help as soon as possible but we found people **weren’t** **reading** the disclaimer at all.
 
-> All they saw was “do you need support”.
+> All they saw was “**do you need support”**.
 
 We took away the title to make sure users actually read the disclaimer before clicking the button. This way, they know what to expect should they continue to the directory.
 
@@ -308,9 +297,9 @@ By making two wireframe files and different shared library files, we could make 
 
 ### Future UX considerations
 
-In the three weeks we researched, planned, designed and prototyped a website for BullyFreeBC’s that focuses on an initial launch catering towards acquisition and retention of new members.
+In the three weeks we **researched**, **planned**, **designed** and **prototyped** a website for BullyFreeBC’s that focuses on an initial launch catering towards **acquisition** and **retention** of new members.
 
-For future launches, we envision building out the members only features of the website like a members forum and to expand on the current ongoing events at BullyFreeBC to further build credibility to potential members.
+For future launches, we envision building out the **members only features** of the website like a members forum and to expand on the current ongoing events at BullyFreeBC to further build **credibility** to potential members.
 
 ### My thoughts and final remarks
 
@@ -318,6 +307,8 @@ For future launches, we envision building out the members only features of the w
 
 At the beginning of the project, our understanding of the client needs felt like we were restricted and that we had no foundation to build on top of.
 
-As we worked with each other and with the client, we came to understand the why behind the requests our client put in, and built an experience that focuses on working within those requests. We as a team learned to sincerely empathize with our end users using tools like contextual inquires and user journey maps to find pain points we would have not found by simply asking questions.
+As we worked with each other and with the client, we came to understand the **why** behind the requests our client put in, and built an experience that focuses on working within those requests. We as a team learned to sincerely empathize with our end users using tools like **contextual inquires** and **user journey maps** to find pain points we would have not found by simply asking questions.
 
-This project had our team and myself learn to factor in all the variables when designing for users, in this case looking at victims of bullying and those who want to support anti-bullying causes. While this case study doesn’t focus heavily on victims of bullying, the considerations and constraints of designing for those users impacted the tone of voice and labelling for the rest of the project.
+This project had our team and myself learn to factor in all the variables when designing for users, in this case looking at victims of bullying and those who want to support anti-bullying causes. While this case study doesn’t focus heavily on victims of bullying, the **considerations** and **constraints** of designing for those users impacted the tone of voice and labelling for the rest of the project.
+
+</section>
