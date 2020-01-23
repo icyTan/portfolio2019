@@ -6,7 +6,7 @@ workbox: landing-work_box-bfbc
 workitemTitle: landing-work_item-title-bfbc
 landingImage: ../images/bfbc/bfbc_preview@2x.png
 featuredImage: ../images/bfbc/bfbc_hero@2x.png
-heroTitle: "Designing with constraints"
+heroTitle: "Designing in constraints"
 heroSubtitle: "What do you expect from a bully free website?"
 heroRoles: "UX Design"
 heroCompany: "BullyFreeBC"
@@ -17,6 +17,8 @@ color: "#816D9F"
 displayOnLanding: true
 isBlog: false
 ---
+<section>
+
 <!-- ![](../images/bfbc/1__iXBO__9__Jg9baKrZ__SrALQA.png) -->
 
 > When you see the words “bully-free website”, what do you think of and what do you expect to take away from such a place?
@@ -308,3 +310,5 @@ At the beginning of the project, our understanding of the client needs felt like
 As we worked with each other and with the client, we came to understand the **why** behind the requests our client put in, and built an experience that focuses on working within those requests. We as a team learned to sincerely empathize with our end users using tools like **contextual inquires** and **user journey maps** to find pain points we would have not found by simply asking questions.
 
 This project had our team and myself learn to factor in all the variables when designing for users, in this case looking at victims of bullying and those who want to support anti-bullying causes. While this case study doesn’t focus heavily on victims of bullying, the **considerations** and **constraints** of designing for those users impacted the tone of voice and labelling for the rest of the project.
+
+</section>
