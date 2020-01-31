@@ -216,11 +216,11 @@ If this user finds themselves in a potentially dangerous situation they can use 
 
 ## Design
 
-#### Introducing BullyFreeBC
+### Introducing BullyFreeBC
 
 Let me side track you for a moment and present you the final high fidelity prototype.
 
-![Welcome to BullyFreeBC](../images/bfbc/1__eB__8blEF4XbKW52cOxIqZA.png)
+<!-- ![Welcome to BullyFreeBC](../images/bfbc/1__eB__8blEF4XbKW52cOxIqZA.png) -->
 
 ### Hi-fi prototype and Mid-fi Walkthrough
 
@@ -230,13 +230,13 @@ You can find our high fidelity prototypes online:
 
 [Mobile Prototype](https://invis.io/CBTP2HBDWXK)
 
-I’ll walk you through a simplified version of Michelle’s journey through the website using the mid fidelity wireframes.
-
 For now, you are:
 
 ![Imagine you are Michelle, as you watch these short walkthroughs](../images/bfbc/1__e5YBb2DVZhPh__6O__2v__MWw.png)
 
-These prototypes were presented to the client, walking through the journey of Michelle on the web prototype and our potentially in distress users on mobile.
+These prototypes were presented to the client from the prespective of Michelle, walking through her experience on the web prototype.
+
+For our potentially in distress users we did a short walkthrough on the mobile prototype.
 
 </section>
 
@@ -295,13 +295,13 @@ If we put them together people in a hurry to quickly exit may accidentally click
 
 We ultimately put search on the left, user testing told us that users themselves liked seeing quick exit prioritized and while it’s different to see search on the left users weren’t too unhappy with it and could still find it.
 
-![From our first pass to our second pass of setting noticeable disclaimers](../images/bfbc/1__qk4dapO__eqcvu8bnQC17pA.png)
+![From our first pass to our second pass of writing disclaimers](../images/bfbc/1__qk4dapO__eqcvu8bnQC17pA.png)
 
-The original idea was to redirect people who need help as soon as possible but we found people weren’t reading the disclaimer at all.
+The ideal plan was to direct people who need help as soon as possible to the support page, but we found through testing users weren’t reading the disclaimer. What was wrong?
 
-> All they saw was “do you need support”.
+> What incoming users saw was “do you need support”.
 
-We took away the title to make sure users actually read the disclaimer before clicking the button. This way, they know what to expect should they continue to the directory.
+I flattened the hierarchy between the elements to promote reading all of the content, we did not get to test this change for the final prototype.
 
 </section>
 
@@ -327,10 +327,16 @@ For future launches, we envision building out the members only features of the w
 
 ### Thoughts and final remarks
 
-At the beginning of the project, our understanding of the client needs felt like we were restricted and that we had no foundation to build on top of.
+At the beginning of the project, my understanding of the client needs felt like I was restricted and that I had no foundation to build on top of.
 
-As we worked with each other and with the client, we came to understand the why behind the requests our client put in, and built an experience that focuses on working within those requests. We as a team learned to sincerely empathize with our end users using tools like contextual inquires and user journey maps to find pain points we would have not found by asking questions.
+As I worked with the team and with the client, we came to understand:
 
-This project had our team and myself learn to factor in all the variables when designing for users, in this case looking at victims of bullying and those who want to support anti-bullying causes. While this case study doesn’t focus heavily on victims of bullying, the considerations and constraints of designing for those users impacted the tone of voice and labelling for the rest of the project.
+* the why behind the requests our client put in.
+* how to build an experience that works within constraints.
+* to sincerely empathize with the end users using tools like contextual inquires and user journey maps.
+
+This project had the team and myself learn to factor in all the variables when designing for users, in this case looking at victims of bullying and those who want to support anti-bullying causes.
+
+While this case study doesn’t focus heavily on victims of bullying, the considerations and constraints of designing for those users impacted the tone of voice and labelling for the rest of the project.
 
 </section>
