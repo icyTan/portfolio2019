@@ -64,7 +64,7 @@ const AboutPage = () => (
                     <ResumeItem
                         href="www.koolhausgames.com"
                         title="UX / UI Design Intern at Koolhaus Games"
-                        date="Jan - Mar 2015 in Vancouver"
+                        date="Jan - Mar 2016 in Vancouver"
                         svgPath="M22.1308,29.7368,37.8448,10h9.4287L30.0507,31.6232,49.4115,54h-9.995L22.1308,34.1373V54H14.5885V10h7.5423Z"
                     >
                         Prototyped interfaces in Unity for Match 3 games, supported developers by implementing interface and performing QA tests. Worked with Art Director to concept a wayfinding application for airports.
