@@ -9,7 +9,7 @@ featuredImage: ../images/bfbc/bfbc_hero@2x.png
 heroTitle: "Designing with constraints"
 heroSubtitle: "What do you expect from a bully free website?"
 heroRoles: "UX Design"
-heroCompany: "BullyFreeBC"
+heroCompany: "BFBC"
 heroTimeline: "3 weeks"
 heroSkills: "User Research, Interviews, Surveys, Wireframing, Sketch"
 weight: 1
@@ -21,7 +21,11 @@ isBlog: false
 
 > When you see the words “bully-free website”, what do you think of and what do you expect to take away from such a place?
 
-In the past, our client had an organization dedicated to creating changes in anti-bully policy in workplaces and government. Now they needed to rebuild the organization by gaining the trust of new members, without leaving bullying victims out of the picture.
+In the past, our client had an organization dedicated to creating changes in anti-bully policy in workplaces and government.
+
+Now they needed to rebuild the organization by gaining the trust of new members, without leaving bullying victims out of the picture.
+
+We were tasked with designing a responsive web prototype that can be the start for our client to begin her social movement once again.
 
 <!-- During the course of this project I learned about:
 

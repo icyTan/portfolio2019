@@ -57,7 +57,7 @@ const Landing = () => {
   // console.log(allMarkdownRemark)
   return (
     <>
-      <div className="wrap-1-content fullpage-fade-in">
+      <div className="wrap-1-content">
         <section className="landing-work_list">
           <h2 className="vis-hide">Work</h2>
           <div className="sf-2 wrap-1">
@@ -65,7 +65,7 @@ const Landing = () => {
               {/* <p>Returned something</p> */}
               {/* Start generative code here */}
               {allMarkdownRemark.edges.map(({ node }) => (
-                <div key={node.id} className="landing-work_item col-6">
+                <div key={node.id} className="landing-work_item col-6 landing-stagger-fade-in">
                   <div className="landing-work_content">
                     <div className={"landing-work_box " + node.frontmatter.workbox}></div>
                       <ImgWithOrient

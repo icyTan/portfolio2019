@@ -99,11 +99,28 @@
 @keyframes landingFadeIn{
 	0% {
         opacity: 0;
-		transform: translateX(-25%);
-    }
+		transform: translateY(20%);
+	}
+	50%{
+		opacity: 1;
+	}
     100% {
         opacity: 1;
-		transform: translateX(0);
+		transform: translateY(0);
+    }
+}
+
+@keyframes landingStaggerFadeIn{
+	0% {
+        opacity: 0;
+		transform: translateY(10%);
+	}
+	50%{
+		opacity: 1;
+	}
+    100% {
+        opacity: 1;
+		transform: translateY(0);
     }
 }
 
@@ -125,7 +142,16 @@
 
 .landing-fade-in{
 	opacity: 0;
-	animation: 1s ease-in-out 0.5s 1 forwards landingFadeIn;
+	animation: 0.7s ease-in-out 0.25s 1 forwards landingFadeIn;
+}
+
+.landing-stagger-fade-in{
+	opacity: 0;
+	animation: 0.7s ease-in-out 0s 1 forwards landingStaggerFadeIn;
+}
+
+@for $i from 1 to 10 {
+  .landing-stagger-fade-in:nth-child(#{$i}) { animation-delay: $i * 0.25s; }
 }
 
 .cover-lift {
