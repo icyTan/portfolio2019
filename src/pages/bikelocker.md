@@ -18,7 +18,7 @@ heroCompany: "Bike Locker"
 heroTimeline: "3 weeks"
 heroSkills: "Sketch, Illustrator, Miro (formerly RealTimeBoard)"
 color: "#009887"
-weight: 2
+weight: 1
 displayOnLanding: true
 isBlog: false
 ---

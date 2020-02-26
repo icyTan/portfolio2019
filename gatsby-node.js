@@ -19,6 +19,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
             name: `slug`,
             value: slug,
         })
+    // if blog item
     } else if (node.internal.type === `MarkdownRemark` && node.frontmatter.isBlog){
       const slug = createFilePath({ node, getNode, basePath: `pages` })
       createNodeField({
@@ -27,8 +28,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         value: slug,
       })
     }
-
-    // if it is a blog post
 }
 exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions

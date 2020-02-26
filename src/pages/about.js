@@ -33,7 +33,7 @@ const Image = () => {
 const AboutPage = () => (
     <Layout>
         <SEO title="About" />
-        <Header barType="about" />
+        <Header/>
         <div className="wrap-1-content fullpage-fade-in">
         <section className="about__intro">
             <div className="wrap-1 sf-1">

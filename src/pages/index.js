@@ -10,7 +10,7 @@ import "../components/scss/_partials/animations.scss"
 const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" />
-    <Header barType="index"/>
+    <Header/>
     <section className="landing-work wrap-1 sf-1">
       <div className="landing-fade-in">
         <h2 className="vis-hide">Patrik Lau</h2>

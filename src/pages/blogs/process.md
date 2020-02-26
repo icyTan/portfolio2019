@@ -8,7 +8,8 @@ landingImage: ../images/process/process_preview@2x.png
 featuredImage: ../images/process/process_hero@2x.png
 weight: 0
 displayOnLanding: false
-isBlog: true
+isBlog: false
+date: "2020-01-08"
 ---
 <section>
 

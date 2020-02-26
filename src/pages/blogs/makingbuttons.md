@@ -3,7 +3,8 @@ title: making a button
 blogTitle: What I learned speccing, designing, and writing a button
 blogSubtitle: Buttons are
 displayOnLanding: false
-isBlog: true
+isBlog: false
+date: "2020-02-25"
 ---
 
 ## Designing doesn't include everyone
