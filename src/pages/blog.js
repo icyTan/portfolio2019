@@ -12,11 +12,11 @@ const Blog = () => (
         <Header/>
         <section className="blog-landing wrap-1 sf-1">
             <h2 className="vis-hide">Blog</h2>
+            <h3 className="display-text">
+                This is what I'm up to!
+            </h3>
             <p className="display-text">
-                This is what up to! I'm learning or working on ideas ranging from design work to coding to musings on games.
-            </p>
-            <p className="display-text">
-                It's looking a bit empty right now...
+                Here's my ongoing design ideas, concept work, coding issues, and sometimes musings on games.
             </p>
         </section>
         <BlogList />

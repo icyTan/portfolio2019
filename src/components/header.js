@@ -114,7 +114,7 @@ class Header extends Component {
                     bg="#fafafa"
                     duration={1.5}
                     className="header-bar_nav-item"
-                  >Blog</AniLink>
+                  >Notes</AniLink>
                 </li>
             </ul>
           </nav>

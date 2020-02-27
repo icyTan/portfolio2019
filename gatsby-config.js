@@ -30,7 +30,7 @@ module.exports = {
           // Make CSS grids available
           // with options
           {
-          resolve: "gatsby-remark-images-grid",
+            resolve: "gatsby-remark-images-grid",
             options: {
               className: "gatsby-remark-images-grid",
               gridGap: "20px",
