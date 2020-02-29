@@ -5,10 +5,10 @@ import "./scss/_partials/grids.scss"
 import React from "react"
 
 const BlogList = () => {
-    const { allMarkdownRemark } = useStaticQuery(
+    const { allMdx } = useStaticQuery(
         graphql`
       query bloglistQuery {
-        allMarkdownRemark(filter: {frontmatter: {isBlog: {eq: true}}}) {
+        allMdx(filter: {frontmatter: {isBlog: {eq: true}}}) {
             edges {
                 node {
                     fields {
@@ -21,14 +21,14 @@ const BlogList = () => {
                         date
                     }
                     id
-                    excerpt(pruneLength: 50, truncate: false)
+                    excerpt(pruneLength: 50)
                 }
             }
         }
     }
     `
     )
-    // console.log(allMarkdownRemark)
+    // console.log(allMdx)
     return (
         <>
             <div className="wrap-1 sf-1">
@@ -37,8 +37,8 @@ const BlogList = () => {
                     <div className="display">
                         {/* <p>Returned something</p> */}
                         {/* Start generative code here */}
-                        {allMarkdownRemark.edges.map(({ node }) => (
-                            <div key={node.id} class="blog-item">
+                        {allMdx.edges.map(({ node }) => (
+                            <div key={node.id} className="blog-item">
                                 <AniLink
                                     cover
                                     to={node.fields.slug}
@@ -50,7 +50,7 @@ const BlogList = () => {
                                     <h3 className="blog-title">
                                         {node.frontmatter.title}{" "}
                                     </h3>
-                                    <span class="blog-date">
+                                    <span className="blog-date">
                                         - {node.frontmatter.date}
                                     </span>
                                     <p>{node.excerpt}</p>

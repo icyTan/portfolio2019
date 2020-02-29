@@ -7,10 +7,10 @@ import React from "react"
 
 const Worklist = () => {
     // must be named something from query
-    const { allMarkdownRemark } = useStaticQuery(
+    const { allMdx } = useStaticQuery(
     graphql`
       query worklistQuery {
-        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 10, sort: {fields: frontmatter___weight, order: ASC}) {
+        allMdx(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 10, sort: {fields: frontmatter___weight, order: ASC}) {
           edges {
             node {
               id
@@ -31,7 +31,7 @@ const Worklist = () => {
       }
     `
     )
-    // console.log(allMarkdownRemark)
+    // console.log(allMdx)
     return (
         <>
         <section className="section-1">
@@ -40,7 +40,7 @@ const Worklist = () => {
                     <h2 className="center-text secondary-color">See my work</h2>
                     <ul className="work-list__list row">
                         {/* Start generative code here */}
-                            {allMarkdownRemark.edges.map(({ node }) => (
+                            {allMdx.edges.map(({ node }) => (
                             <li key={node.id} className="work-list__item col-6">
                                 <div className={"work-list__orb " + node.frontmatter.workbox + " no-flickr"}></div>
                                 <div className="work-list__meta">

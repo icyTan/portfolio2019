@@ -12,15 +12,15 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const { createNodeField } = actions
 
     // if it is a case study
-    if (node.internal.type === `MarkdownRemark` && !node.frontmatter.isBlog) {
-        const slug = createFilePath({ node, getNode, basePath: `pages` })
-        createNodeField({
-            node,
-            name: `slug`,
-            value: slug,
-        })
-    // if blog item
-    } else if (node.internal.type === `MarkdownRemark` && node.frontmatter.isBlog){
+    if (node.internal.type === `Mdx` && !node.frontmatter.isBlog) {
+      const slug = createFilePath({ node, getNode, basePath: `pages` })
+      createNodeField({
+        node,
+        name: `slug`,
+        value: slug,
+      })
+      // if blog item
+    } else if (node.internal.type === `Mdx` && node.frontmatter.isBlog) {
       const slug = createFilePath({ node, getNode, basePath: `pages` })
       createNodeField({
         node,
@@ -34,7 +34,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     const casestudies = await graphql(`
     query {
-      allMarkdownRemark(filter: {frontmatter: {isBlog: {eq: false}}}) {
+      allMdx(filter: {frontmatter: {isBlog: {eq: false}}}) {
         edges {
           node {
             fields {
@@ -45,21 +45,21 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-    casestudies.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        createPage({
-            path: node.fields.slug,
-            component: path.resolve(`src/templates/casestudy.js`),
-            context: {
-                // Data passed to context is available
-                // in page queries as GraphQL variables.
-                slug: node.fields.slug,
-            },
-        })
+    casestudies.data.allMdx.edges.forEach(({ node }) => {
+      createPage({
+        path: node.fields.slug,
+        component: path.resolve(`src/templates/casestudy.js`),
+        context: {
+          // Data passed to context is available
+          // in page queries as GraphQL variables.
+          slug: node.fields.slug,
+        },
+      })
     })
 
   const blogs = await graphql(`
     query {
-      allMarkdownRemark(filter: {frontmatter: {isBlog: {eq: true}}})  {
+      allMdx(filter: {frontmatter: {isBlog: {eq: true}}})  {
         edges {
           node {
             fields {
@@ -70,7 +70,7 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-  blogs.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  blogs.data.allMdx.edges.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
       component: path.resolve(`src/templates/blogs.js`),

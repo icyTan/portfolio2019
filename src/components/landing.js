@@ -21,10 +21,14 @@ const Landing = () => {
   // must be named something from query
   // fixing https://github.com/gatsbyjs/gatsby/issues/13322
   // https://stackoverflow.com/questions/52574783/gatsby-image-path-from-json <-- reference for getting image paths from json
-  const { allMarkdownRemark } = useStaticQuery(
+  const { allMdx } = useStaticQuery(
     graphql`
       query landingQuery {
-        allMarkdownRemark(filter: {frontmatter: {displayOnLanding: {eq: true}}}, limit: 10, sort: {fields: frontmatter___weight, order: ASC}) {
+        allMdx(
+          filter: { frontmatter: { displayOnLanding: { eq: true } } }
+          limit: 10
+          sort: { fields: frontmatter___weight, order: ASC }
+        ) {
           edges {
             node {
               id
@@ -54,7 +58,7 @@ const Landing = () => {
       }
     `
   )
-  // console.log(allMarkdownRemark)
+  // console.log(allMdx)
   return (
     <>
       <div className="wrap-1-content">
@@ -64,7 +68,7 @@ const Landing = () => {
             <div className="display">
               {/* <p>Returned something</p> */}
               {/* Start generative code here */}
-              {allMarkdownRemark.edges.map(({ node }) => (
+              {allMdx.edges.map(({ node }) => (
                 <div key={node.id} className="landing-work_item col-6 landing-stagger-fade-in">
                   <div className="landing-work_content">
                     <div className={"landing-work_box " + node.frontmatter.workbox}></div>

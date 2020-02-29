@@ -22,10 +22,15 @@ module.exports = {
         icon: `src/images/favicon_colour_inverse@3x.png`, // This path is relative to the root of the site.
       },
     },
-    // Added transformer for markdown files
+    // Added transformer for markdown files - now MDX files and MD files
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
+        extensions: [`.mdx`, `.md`],
+        defaultLayouts: {
+          blogs: require.resolve("./src/templates/blogs.js"),
+          default: require.resolve("./src/teamplates/casestudy.js"),
+        },
         plugins: [
           // Make CSS grids available
           // with options
@@ -63,13 +68,15 @@ module.exports = {
           {
             resolve: `gatsby-remark-images-medium-zoom`, // point!
             options: {
-              margin:10,
-              background:"#fff",
-            }
+              margin: 10,
+              background: "#fff",
+            },
           },
         ],
       },
     },
+
+    // Added sass plugin
     "gatsby-plugin-sass",
     // Added typography plugin
     {
@@ -78,6 +85,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    // Resolve file paths
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -92,6 +100,13 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blogs`,
+        path: `${__dirname}/src/pages/blogs/`,
+      },
+    },
     // Added google font plugin
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
@@ -99,7 +114,7 @@ module.exports = {
         fonts: [
           {
             family: `Montserrat`,
-            variants: [`300`,`400`,`500`,`600`, `700`],
+            variants: [`300`, `400`, `500`, `600`, `700`],
           },
         ],
       },

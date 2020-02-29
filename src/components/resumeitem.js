@@ -7,7 +7,7 @@ import "../components/scss/_partials/resumeitem.scss"
 // issue in production build where class is only applied for the first item but none of the rest
 
 const ResumeItem = ({ children, ...props }) => (
-    <p>
+    <div className="resume-item">
         <a
             href={"https://" + props.href}
             target="_blank"
@@ -31,7 +31,7 @@ const ResumeItem = ({ children, ...props }) => (
                 {children}
             </p>
         </div>
-    </p>
+    </div>
 )
 
 export default ResumeItem
