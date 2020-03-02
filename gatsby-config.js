@@ -73,9 +73,10 @@ module.exports = {
           //   },
           // },
         ],
+        // https://github.com/gatsbyjs/gatsby/issues/15486
+        // plugins: [`gatsby-remark-images`],
       },
     },
-
     // Added sass plugin
     "gatsby-plugin-sass",
     // Added typography plugin
@@ -98,6 +99,13 @@ module.exports = {
       options: {
         name: `src`,
         path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
       },
     },
     {

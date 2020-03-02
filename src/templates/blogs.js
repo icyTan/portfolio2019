@@ -9,7 +9,8 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import "../components/scss/_partials/blog.scss"
 import "../components/scss/_partials/grids.scss"
 
-export default ({ data }) => {
+// turn these into functions instead of strings https://www.gatsbyjs.org/docs/mdx/programmatically-creating-pages/
+export default function BlogTemplate({ data }) {
     let post = data.mdx
     return (
       <>
