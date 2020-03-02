@@ -29,26 +29,26 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
         defaultLayouts: {
           blogs: require.resolve("./src/templates/blogs.js"),
-          default: require.resolve("./src/teamplates/casestudy.js"),
+          default: require.resolve("./src/templates/casestudy.js"),
         },
-        plugins: [
+        gatsbyRemarkPlugins: [
           // Make CSS grids available
           // with options
-          {
-            resolve: "gatsby-remark-images-grid",
-            options: {
-              className: "gatsby-remark-images-grid",
-              gridGap: "20px",
-              margin: "20px auto",
-            },
-          },
-          {
-            resolve: `gatsby-remark-copy-linked-files`,
-            options: {
-              destinationDir: `path/to/dir`,
-              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
-            },
-          },
+          // {
+          //   resolve: "gatsby-remark-images-grid",
+          //   options: {
+          //     className: "gatsby-remark-images-grid",
+          //     gridGap: "20px",
+          //     margin: "20px auto",
+          //   },
+          // },
+          // {
+          //   resolve: `gatsby-remark-copy-linked-files`,
+          //   options: {
+          //     destinationDir: `path/to/dir`,
+          //     ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
+          //   },
+          // },
           // unwraps images from <p> tags
           // "gatsby-remark-unwrap-images",
           {
@@ -65,13 +65,13 @@ module.exports = {
           },
           // medium style zoom on images for gatsby-remark-images
           // https://www.gatsbyjs.org/packages/gatsby-remark-images-medium-zoom/?=remark-image
-          {
-            resolve: `gatsby-remark-images-medium-zoom`, // point!
-            options: {
-              margin: 10,
-              background: "#fff",
-            },
-          },
+          // {
+          //   resolve: `gatsby-remark-images-medium-zoom`, // point!
+          //   options: {
+          //     margin: 10,
+          //     background: "#fff",
+          //   },
+          // },
         ],
       },
     },
