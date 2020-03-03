@@ -42,13 +42,6 @@ module.exports = {
           //     margin: "20px auto",
           //   },
           // },
-          // {
-          //   resolve: `gatsby-remark-copy-linked-files`,
-          //   options: {
-          //     destinationDir: `path/to/dir`,
-          //     ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
-          //   },
-          // },
           // unwraps images from <p> tags
           // "gatsby-remark-unwrap-images",
           {
@@ -63,6 +56,13 @@ module.exports = {
               disableBgImageOnAlpha: true,
             },
           },
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              destinationDir: `path/to/dir`,
+              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
+            },
+          },
           // medium style zoom on images for gatsby-remark-images
           // https://www.gatsbyjs.org/packages/gatsby-remark-images-medium-zoom/?=remark-image
           // {
@@ -75,6 +75,19 @@ module.exports = {
         ],
         // https://github.com/gatsbyjs/gatsby/issues/15486
         // plugins: [`gatsby-remark-images`],
+      },
+    },
+    // import remark images for regular md files
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        // It's important to specify the maxWidth (in pixels) of
+        // the content container as this plugin uses this as the
+        // base for generating different widths of each image.
+        maxWidth: 1200,
+        showCaptions: true,
+        linkImagesToOriginal: false, // point!
+        disableBgImageOnAlpha: true,
       },
     },
     // Added sass plugin
@@ -104,15 +117,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blogs`,
-        path: `${__dirname}/src/pages/blogs/`,
+        name: `content`,
+        path: `${__dirname}/content/`,
       },
     },
     // Added google font plugin
