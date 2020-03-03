@@ -36,6 +36,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   casestudies.allMdx.edges.forEach(({ node }) => {
+    reporter.info(`Creating case study page: ${node.slug}`)
     createPage({
       path: node.fields.slug,
       component: path.resolve(`./src/templates/casestudy.js`),
@@ -50,7 +51,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const blogs = await graphql(`
     query {
-      allMdx(filter: { frontmatter: { isBlog: { eq: true } } }) {
+      allMdx(
+        filter: {
+          frontmatter: { isBlog: { eq: true } }
+        }
+      ) {
         edges {
           node {
             fields {
@@ -67,6 +72,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   blogs.allMdx.edges.forEach(({ node }) => {
+    reporter.info(`Creating blog post page: ${node.slug}`)
     createPage({
       path: node.fields.slug,
       component: path.resolve(`./src/templates/blogs.js`),
