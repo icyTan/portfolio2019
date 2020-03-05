@@ -12,8 +12,8 @@ landingTitle: stc
 landingDesc: browse online, buy instore
 workbox: landing-work_box-stc
 workitemTitle: landing-work_item-title-stc
-landingImage: ../images/stc/stc_preview@2x.png
-featuredImage: ../images/stc/stc_hero.png
+landingImage: "../../content/projects/stc_preview@2x.png"
+featuredImage: "./stc_hero.png"
 heroTitle: "Shop this city"
 heroSubtitle: "bridging the gap between instore and online"
 heroRoles: "UX Design"

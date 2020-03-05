@@ -9,8 +9,8 @@ landingTitle: bikelocker
 landingDesc: crowdsource bike storage
 workbox: landing-work_box-bikelocker
 workitemTitle: landing-work_item-title-bikelocker
-landingImage: ../images/bikelocker/bikelocker_preview@2x.png
-featuredImage: ../images/bikelocker/bikelocker_hero.png
+landingImage: "../../content/projects/bikelocker_preview@2x.png"
+featuredImage: "./bikelocker_hero.png"
 heroTitle: "Crowd-sourcing safe bike storage in a city"
 heroSubtitle: "case study on mobile UI design and collaboration"
 heroRoles: "UI Design"

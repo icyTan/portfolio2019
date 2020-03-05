@@ -9,8 +9,8 @@ landingTitle: speak
 landingDesc: event campaign and materials
 workbox: landing-work_box-speak
 workitemTitle: landing-work_item-title-speak
-landingImage: ../images/speak/speak_preview@2x.png
-featuredImage: ../images/speak/speak_hero.png
+landingImage: "../../content/projects/speak_preview@2x.png"
+featuredImage: "./speak_hero.png"
 heroTitle: "SPEAK your mind about ______ ."
 heroSubtitle: "event campaign and branding design"
 heroRoles: "UI Design"

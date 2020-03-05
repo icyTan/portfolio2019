@@ -8,8 +8,8 @@ landingTitle: best
 landingDesc: rebranding, responsive web
 workbox: landing-work_box-best
 workitemTitle: landing-work_item-title-best
-landingImage: ../images/best/best_preview@2x.png
-featuredImage: ../images/best/best_preview@2x.png
+landingImage: "../../content/projects/bfbc/best_preview@2x.png"
+featuredImage: "./best_preview@2x.png"
 heroTitle: "Better Environmentally Sound Transportation"
 heroSubtitle: "rebranding and responsive website design"
 heroRoles: "UI Design"

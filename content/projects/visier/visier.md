@@ -8,8 +8,8 @@ landingTitle: visier
 landingDesc: user experience internship
 workbox: landing-work_box-visier
 workitemTitle: landing-work_item-title-visier
-landingImage: ../images/visier/visier_preview@2x.png
-featuredImage: ../images/visier/visier_hero.png
+landingImage: "../../content/projects/visier_preview@2x.png"
+featuredImage: "./visier_hero.png"
 heroTitle: "UX Designer on Workforce Analytics"
 heroSubtitle: "working in tandem with developers and other designers"
 heroRoles: "UX Design Intern"

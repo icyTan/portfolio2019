@@ -4,8 +4,8 @@ landingTitle: bfbc
 landingDesc: responsive web design
 workbox: landing-work_box-bfbc
 workitemTitle: landing-work_item-title-bfbc
-landingImage: ../images/bfbc/bfbc_preview@2x.png
-featuredImage: ../images/bfbc/bfbc_hero@2x.png
+landingImage: "../../content/projects/bfbc_preview@2x.png"
+featuredImage: "./bfbc_hero@2x.png"
 heroTitle: "Designing with constraints"
 heroSubtitle: "What do you expect from a bully free website?"
 heroRoles: "UX Design"

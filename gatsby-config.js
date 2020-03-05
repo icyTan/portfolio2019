@@ -5,21 +5,38 @@ module.exports = {
     author: `@patrik.lau`,
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-transition-link`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
+    // Resolve file paths
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#23305E`,
-        theme_color: `#23305E`,
-        display: `minimal-ui`,
-        icon: `src/images/favicon_colour_inverse@3x.png`, // This path is relative to the root of the site.
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blogs`,
+        path: `${__dirname}/content/blogs`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/content/projects`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
     // Added transformer for markdown files - now MDX files and MD files
@@ -32,18 +49,6 @@ module.exports = {
           default: require.resolve("./src/templates/casestudy.js"),
         },
         gatsbyRemarkPlugins: [
-          // Make CSS grids available
-          // with options
-          // {
-          //   resolve: "gatsby-remark-images-grid",
-          //   options: {
-          //     className: "gatsby-remark-images-grid",
-          //     gridGap: "20px",
-          //     margin: "20px auto",
-          //   },
-          // },
-          // unwraps images from <p> tags
-          // "gatsby-remark-unwrap-images",
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -63,6 +68,18 @@ module.exports = {
               ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
             },
           },
+          // Make CSS grids available
+          // with options
+          // {
+          //   resolve: "gatsby-remark-images-grid",
+          //   options: {
+          //     className: "gatsby-remark-images-grid",
+          //     gridGap: "20px",
+          //     margin: "20px auto",
+          //   },
+          // },
+          // unwraps images from <p> tags
+          // "gatsby-remark-unwrap-images",
           // medium style zoom on images for gatsby-remark-images
           // https://www.gatsbyjs.org/packages/gatsby-remark-images-medium-zoom/?=remark-image
           // {
@@ -74,7 +91,7 @@ module.exports = {
           // },
         ],
         // https://github.com/gatsbyjs/gatsby/issues/15486
-        // plugins: [`gatsby-remark-images`],
+        plugins: [`gatsby-remark-images`],
       },
     },
     // import remark images for regular md files
@@ -99,28 +116,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // Resolve file paths
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `src`,
-        path: `${__dirname}/src/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `content`,
-        path: `${__dirname}/content/`,
-      },
-    },
     // Added google font plugin
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
@@ -131,6 +126,18 @@ module.exports = {
             variants: [`300`, `400`, `500`, `600`, `700`],
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#23305E`,
+        theme_color: `#23305E`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon_colour_inverse@3x.png`, // This path is relative to the root of the site.
       },
     },
   ],
