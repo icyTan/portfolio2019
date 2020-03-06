@@ -5,9 +5,9 @@ module.exports = {
     author: `@patrik.lau`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-catch-links`,
     // Resolve file paths
@@ -21,15 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blogs`,
-        path: `${__dirname}/content/blogs`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `projects`,
-        path: `${__dirname}/content/projects`,
+        name: `content`,
+        path: `${__dirname}/content/`,
       },
     },
     {
@@ -95,18 +88,18 @@ module.exports = {
       },
     },
     // import remark images for regular md files
-    {
-      resolve: `gatsby-remark-images`,
-      options: {
-        // It's important to specify the maxWidth (in pixels) of
-        // the content container as this plugin uses this as the
-        // base for generating different widths of each image.
-        maxWidth: 1200,
-        showCaptions: true,
-        linkImagesToOriginal: false, // point!
-        disableBgImageOnAlpha: true,
-      },
-    },
+    // {
+    //   resolve: `gatsby-remark-images`,
+    //   options: {
+    //     // It's important to specify the maxWidth (in pixels) of
+    //     // the content container as this plugin uses this as the
+    //     // base for generating different widths of each image.
+    //     maxWidth: 1200,
+    //     showCaptions: true,
+    //     linkImagesToOriginal: false, // point!
+    //     disableBgImageOnAlpha: true,
+    //   },
+    // },
     // Added sass plugin
     "gatsby-plugin-sass",
     // Added typography plugin

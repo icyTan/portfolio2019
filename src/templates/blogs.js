@@ -16,11 +16,11 @@ export default function BlogTemplate({ data }) {
       <>
         <Layout>
           <SEO title={post.frontmatter.title} />
-          <Header barName={post.frontmatter.blogTitle} />
+          <Header barName={post.frontmatter.heading} />
           <div className="wrap-1-content">
             <section className="blog-landing">
               <div className="wrap-1 sf-1 fullpage-fade-in">
-                <h1 className="blog__title">{post.frontmatter.blogTitle}</h1>
+                <h1 className="blog__title">{post.frontmatter.heading}</h1>
               </div>
             </section>
             <div className="blog-markdown fullpage-fade-in">
@@ -43,8 +43,8 @@ export const query = graphql`
       body
       frontmatter {
         title
-        blogTitle
-        blogSubtitle
+        heading
+        subheading
       }
     }
   }

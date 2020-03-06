@@ -13,7 +13,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
   // if it is a case study
   if (node.internal.type === `Mdx` && !node.frontmatter.isBlog) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const slug = createFilePath({ node, getNode, basePath: `content` })
     createNodeField({
       node,
       name: `slug`,
@@ -21,7 +21,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
     // if blog item
   } else if (node.internal.type === `Mdx` && node.frontmatter.isBlog) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const slug = createFilePath({ node, getNode, basePath: `content` })
     createNodeField({
       node,
       name: `slug`,
