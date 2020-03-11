@@ -52,7 +52,7 @@ div.blog-markdown{
 	padding-bottom: 2rem;
 	background-color: white;
 
-	p,ul,blockquote,h1,h2,h3,h4,h5,h6,figcaption,iframe,.gif-grid {
+	p,ul,blockquote,h1,h2,h3,h4,h5,h6,figcaption,iframe {
 		max-width: 22rem;
 
 		@media only screen and (min-width:600px) {
@@ -66,7 +66,7 @@ div.blog-markdown{
 		padding-right: 1rem;
 	}
 
-	p,ul,blockquote,figcaption,iframe,.gif-grid{
+	p,ul,blockquote,figcaption,iframe{
 		margin-bottom: 1.6rem;
 
 		@media only screen and (min-width:600px){

@@ -13,6 +13,7 @@ const GifGrid = () => {
             extension: { eq: "gif" }
             relativeDirectory: { eq: "blogs/dailyui" }
           }
+          sort: { fields: name, order: ASC }
         ) {
           edges {
             node {
@@ -29,7 +30,7 @@ const GifGrid = () => {
   // console.log(allFile)
   return (
     <>
-      <div className="wrap-1 sf-1">
+      <div className="wrap-1 sf-2">
         <section className="landing-work_list">
           <div className="gif-grid">
             {/* <p>Returned something</p> */}
@@ -37,6 +38,7 @@ const GifGrid = () => {
             {allFile.edges.map(({ node }) => (
               <div key={node.id} className="gif-grid-item">
                 <img src={node.publicURL} alt={node.name} />
+                <p>{node.name}</p>
               </div>
             ))}
             {/* End generative code */}
