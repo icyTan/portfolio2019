@@ -8,6 +8,25 @@
  // hacky implementation for multiple types of file from https://github.com/gatsbyjs/gatsby/issues/20159
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+
+/**
+ * Custom Webpack config
+ *
+ * Adds aliases for paths (like components)
+ * so you don't get lost in relative hell -> '../../../'
+ */
+exports.onCreateWebpackConfig = ({ config, actions }) => {
+    actions.setWebpackConfig({
+        resolve: {
+            alias: {
+                '@components': path.join(__dirname, './src/components'),
+                '@images': path.join(__dirname, './src/images'),
+                '@templates': path.join(__dirname, './src/components/templates'),
+            },
+        },
+    });
+};
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 

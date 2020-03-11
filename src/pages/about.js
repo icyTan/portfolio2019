@@ -14,7 +14,7 @@ import "../components/scss/_partials/animations.scss"
 const Image = () => {
     const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "about/profile.png" }) {
+      placeholderImage: file(relativePath: { eq: "images/about/profile.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid

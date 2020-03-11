@@ -63,25 +63,25 @@ module.exports = {
           },
           // Make CSS grids available
           // with options
-          // {
-          //   resolve: "gatsby-remark-images-grid",
-          //   options: {
-          //     className: "gatsby-remark-images-grid",
-          //     gridGap: "20px",
-          //     margin: "20px auto",
-          //   },
-          // },
+          {
+            resolve: "gatsby-remark-images-grid",
+            options: {
+              className: "gatsby-remark-images-grid",
+              gridGap: "20px",
+              margin: "20px auto",
+            },
+          },
           // unwraps images from <p> tags
-          // "gatsby-remark-unwrap-images",
+          "gatsby-remark-unwrap-images",
           // medium style zoom on images for gatsby-remark-images
           // https://www.gatsbyjs.org/packages/gatsby-remark-images-medium-zoom/?=remark-image
-          // {
-          //   resolve: `gatsby-remark-images-medium-zoom`, // point!
-          //   options: {
-          //     margin: 10,
-          //     background: "#fff",
-          //   },
-          // },
+          {
+            resolve: `gatsby-remark-images-medium-zoom`, // point!
+            options: {
+              margin: 10,
+              background: "#fff",
+            },
+          },
         ],
         // https://github.com/gatsbyjs/gatsby/issues/15486
         plugins: [`gatsby-remark-images`],

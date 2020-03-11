@@ -17,7 +17,7 @@ heroCompany: "BEST"
 heroTimeline: "3 weeks"
 heroSkills: "Sketch, Photoshop, Google Sheets"
 color: "#228F7A"
-weight: 3
+weight: 2
 displayOnLanding: true
 isBlog: false
 ---
