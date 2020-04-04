@@ -27,18 +27,23 @@ const GifGrid = () => {
       }
     `
   )
-  // console.log(allFile)
   return (
     <>
       <div className="wrap-1 sf-2">
         <section className="landing-work_list">
           <div className="gif-grid">
-            {/* <p>Returned something</p> */}
             {/* Start generative code here */}
             {allFile.edges.map(({ node }) => (
-              <div key={node.id} className="gif-grid-item">
-                <img src={node.publicURL} alt={node.name} />
-                <p>{node.name}</p>
+              // check for portrait or landscape based on file name
+              <div key={node.id} className="gif-grid-container">
+                <div className="gif-grid-box">
+                  <img
+                    className={` gif-grid-img gif-grid-${node.name.slice(-1)} `}
+                    src={node.publicURL}
+                    alt={node.name.slice(0, -4)}
+                  />
+                  <p>{node.name.slice(0, -4)}</p>
+                </div>
               </div>
             ))}
             {/* End generative code */}

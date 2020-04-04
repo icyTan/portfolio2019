@@ -16,7 +16,7 @@ const IndexPage = () => (
         <h2 className="vis-hide">Patrik Lau</h2>
         <h1 className="highlight">I'm Pat!</h1>
         <p className="display-text secondary-color">
-          I'm a Product Designer in Vancouver, BC.
+          I'm a UX/UI Designer in Vancouver, BC.
         </p>
         <p className="display-text secondary-color">
           I like tinkering with prototyping tools, have an intense curiousity of design systems, and a love for baking.

@@ -14,7 +14,7 @@ const ImgWithOrient = ({ aspectRatio, ...props }) => {
   if (aspectRatio <= 0.8) orientation = "portrait";
   if (aspectRatio > 0.8 && aspectRatio < 1.2) orientation = "square";
 
-  return <Img className={`${orientation} landing-work_preview-img`} {...props} />;
+  return <Img className={`landing-${orientation} landing-work_preview-img`} {...props} />;
 };
 
 const Landing = () => {

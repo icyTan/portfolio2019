@@ -4,12 +4,35 @@
 
 }
 
-.gif-grid-item{
-    display: inline-block;
+.gif-grid-container{
+    display: block;
     margin: 0 1em;
     flex-grow: 1;
-    width: calc(50% - 2em);
-    @media screen and (max-width: 600px){
-        width: 100%;
+    width: 100%;
+    @media screen and (min-width: 600px){
+        max-width: 100%;
+        width: calc(50% - 2em);
     }
+    text-align: center;
+}
+
+.gif-grid-box{
+    // styling for box here
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    @media screen and (min-width: 600px){
+        max-width:400px;
+        max-height:400px;
+    }
+}
+
+.gif-grid-img{
+    max-width: 100%;
+    max-height: 100%;
 }
