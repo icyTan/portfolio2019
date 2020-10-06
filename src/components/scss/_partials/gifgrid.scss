@@ -1,0 +1,62 @@
+.gif-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gif-grid-container{
+    display: block;
+    margin: 1em 1em;
+    flex-grow: 1;
+    width: 100%;
+    @media screen and (min-width: 600px){
+        max-width: 100%;
+        width: calc(50% - 2em);
+    }
+    text-align: center;
+}
+
+.gif-grid-box{
+    // styling for box here
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    min-height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    border: grey 1px solid;
+    // @media screen and (min-width: 600px){
+    //     max-width:400px;
+    //     max-height:400px;
+    // }
+    span {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+.gif-grid-box-p{
+    min-height:300px;
+    min-width: 300px;
+}
+
+.gif-grid-box-l{
+    min-width:300px;
+    min-height: 300px;
+}
+
+.gif-grid-img-p{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gif-grid-img-l{
+    width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

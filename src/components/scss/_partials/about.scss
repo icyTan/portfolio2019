@@ -80,7 +80,10 @@
 }
 
 // fallback for build issue
-.about__resume > p {
-  display: flex;
-  flex-direction: row;
+.about__resume {
+  margin-bottom: 1.5rem;
+  p {
+    display: flex;
+    flex-direction: row;
+  }
 }

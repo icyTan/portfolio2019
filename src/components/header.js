@@ -106,6 +106,16 @@ class Header extends Component {
                     className="header-bar_nav-item"
                   >About</AniLink>
                 </li>
+                <li className="header-bar_list-item">
+                  <AniLink
+                    cover
+                    to="/blog"
+                    direction="down"
+                    bg="#fafafa"
+                    duration={1.5}
+                    className="header-bar_nav-item"
+                  >Notes</AniLink>
+                </li>
             </ul>
           </nav>
         </div>

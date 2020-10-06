@@ -10,16 +10,19 @@ import "../components/scss/_partials/animations.scss"
 const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" />
-    <Header barType="index"/>
+    <Header/>
     <section className="landing-work wrap-1 sf-1">
       <div className="landing-fade-in">
         <h2 className="vis-hide">Patrik Lau</h2>
         <h1 className="highlight">I'm Pat!</h1>
         <p className="display-text secondary-color">
-          I'm a Product Designer in Vancouver, BC.
+          I'm a UX/UI Designer in Vancouver, BC.
         </p>
         <p className="display-text secondary-color">
-          I like tinkering with prototyping tools, have an intense curiousity of design systems, and a love for baking.
+          I like pushing the limits of prototyping tools, have an intense curiosity of design systems, and a love for baking.
+        </p>
+        <p className="display-text secondary-color">
+          New look coming soon, sneak a peek on <a href="https://www.figma.com/file/piwAnT5na723DST6ByogNp/portfolio-draft-2020" target="_blank" rel="noopener noreferrer">Figma</a>
         </p>
         {/* <p className="display-text secondary-color">
           Currently I am making a timeline component in React for this site to keep track of my reading list for 2020.
