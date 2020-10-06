@@ -36,13 +36,13 @@ const GifGrid = () => {
             {allFile.edges.map(({ node }) => (
               // check for portrait or landscape based on file name
               <div key={node.id} className="gif-grid-container">
-                <div className="gif-grid-box">
+                <div className={` gif-grid-box gif-grid-box-${node.name.slice(-1)} `}>
                   <img
-                    className={` gif-grid-img gif-grid-${node.name.slice(-1)} `}
+                    className={` gif-grid-img-${node.name.slice(-1)} `}
                     src={node.publicURL}
                     alt={node.name.slice(0, -4)}
                   />
-                  <p>{node.name.slice(0, -4)}</p>
+                  <span>{node.name.slice(0, -4)}</span>
                 </div>
               </div>
             ))}

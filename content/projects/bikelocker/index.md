@@ -24,7 +24,7 @@ isBlog: false
 ---
 <section>
 
-![](./1__fI5aR4WSsaU2lR9CROZRvw.png)
+<!-- ![](./1__fI5aR4WSsaU2lR9CROZRvw.png) -->
 
 #### Team members
 

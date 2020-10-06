@@ -6,12 +6,12 @@ workbox: landing-work_box-bfbc
 workitemTitle: landing-work_item-title-bfbc
 landingImage: ./bfbc_preview@2x.png
 featuredImage: ./bfbc_hero@2x.png
-heroTitle: "Designing with constraints"
+heroTitle: "Redesign for BullyFreeBC"
 heroSubtitle: "What do you expect from a bully free website?"
-heroRoles: "UX Design"
-heroCompany: "BFBC"
+heroRoles: "UX Designer, User Researcher"
+heroCompany: "BullyFreeBC"
 heroTimeline: "3 weeks"
-heroSkills: "User Research, Interviews, Surveys, Wireframing, Sketch"
+heroSkills: "???????? Rethink how to encode this information"
 weight: 1
 color: "#816D9F"
 displayOnLanding: true
