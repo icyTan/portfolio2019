@@ -98,7 +98,7 @@ const AboutPage = () => (
               specifications and presentations. Paired with an external
               contractor to begin Visier’s first customer support portal.
             </ResumeItem>
-            <PrimaryButton href="/about/PatrikLauresume2019.pdf">
+            <PrimaryButton href="/about/PatrikLau_Resume.pdf">
               Resume
             </PrimaryButton>
           </div>
