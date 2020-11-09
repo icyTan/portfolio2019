@@ -14,8 +14,9 @@ heroTimeline: "3 weeks"
 heroSkills: "???????? Rethink how to encode this information"
 weight: 1
 color: "#816D9F"
-displayOnLanding: true
-isBlog: false
+displayOnLanding: false
+isBlog: true
+date: "2019-08-14"
 ---
 <section>
 

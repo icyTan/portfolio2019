@@ -51,6 +51,12 @@ div.markdown {
     p>iframe{
         margin-bottom: 0;
     }
+
+    .inverse{
+        p,figcaption{
+            color:$off-white;
+        }
+    }
 }
 
 blockquote {

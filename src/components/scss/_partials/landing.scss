@@ -217,6 +217,9 @@
 	.landing-work_item-title-process{
 		background-image: linear-gradient($secondary-color,$secondary-color);
 	}
+	.landing-work_item-title-vsines{
+		background-image: linear-gradient($vsines-color,$vsines-color);
+	}
 }
 
 .landing-work_box-portfolio{
@@ -246,7 +249,9 @@
 .landing-work_box-bikelocker{
 	background-color: $bikelocker-color;
 }
-
+.landing-work_box-vsines{
+	background-color: $vsines-color;
+}
 .landing-work_box-process{
 	background-color: $secondary-color;
 }
