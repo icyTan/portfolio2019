@@ -177,6 +177,16 @@
   color: #FFF;
 }
 
+.work__hero--dsys{
+  background-color: $dsys-color;
+  color: #FFF;
+}
+
+.work__hero--prds{
+  background-color: $prds-color;
+  color: #FFF;
+}
+
 .title-visier{
   color: #FFF;
 }
@@ -222,9 +232,14 @@
 .background__speak{
   background-color: $speak-color;
 }
-
-.background__speak{
-  background-color: $secondary-color;
+.background__vsines{
+  background-color: $vsines-color;
+}
+.background__dsys{
+  background-color: $dsys-color;
+}
+.background__prds{
+  background-color: $prds-color;
 }
 
 /* css only slider */

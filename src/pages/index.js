@@ -24,9 +24,6 @@ const IndexPage = () => (
         <p className="display-text secondary-color">
           New look coming soon, sneak a peek on <a href="https://www.figma.com/file/piwAnT5na723DST6ByogNp/portfolio-draft-2020" target="_blank" rel="noopener noreferrer">Figma</a>
         </p>
-        {/* <p className="display-text secondary-color">
-          Currently I am making a timeline component in React for this site to keep track of my reading list for 2020.
-        </p> */}
       </div>
     </section>
     <Landing />

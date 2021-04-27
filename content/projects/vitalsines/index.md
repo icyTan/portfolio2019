@@ -12,7 +12,7 @@ heroRoles: "UX Designer, User Researcher"
 heroCompany: "VitalSines"
 heroTimeline: "2 weeks"
 heroSkills: "User Research, Adobe XD, User Testing, Journey Mapping"
-weight: 0
+weight: 1
 color: "#5A9FAD"
 displayOnLanding: true
 isBlog: false

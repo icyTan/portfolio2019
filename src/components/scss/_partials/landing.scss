@@ -220,6 +220,12 @@
 	.landing-work_item-title-vsines{
 		background-image: linear-gradient($vsines-color,$vsines-color);
 	}
+	.landing-work_item-title-dsys{
+		background-image: linear-gradient($dsys-color,$dsys-color);
+	}
+	.landing-work_item-title-prds{
+		background-image: linear-gradient($prds-color,$prds-color);
+	}
 }
 
 .landing-work_box-portfolio{
@@ -254,4 +260,10 @@
 }
 .landing-work_box-process{
 	background-color: $secondary-color;
+}
+.landing-work_box-dsys{
+	background-color: $dsys-color;
+}
+.landing-work_box-prds{
+	background-color: $prds-color;
 }

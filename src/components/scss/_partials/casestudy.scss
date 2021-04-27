@@ -33,15 +33,23 @@ div.markdown {
         background-color: $off-white;
     }
 
-    ul, section>ul{
-        margin-top: -1rem;
+    ol, ul, section>ul, section>ol{
+        margin-top: 0rem;
+        @media only screen and (min-width:600px) {
+                margin-top: -1rem;
+            }
     }
 
-    ul>li, section>ul>li{
+    ol>li, ul>li, section>ul>li, section>ol>li{
         max-width: 34rem;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 0.6rem;
+    }
+
+    li>ul {
+        margin-top: 1rem;
+        margin-bottom: 0rem;
     }
 
     p>em, section>p>em{
