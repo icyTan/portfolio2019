@@ -99,7 +99,7 @@ A common problem with existing work was needing to space items manually and deci
 
 The existing colour styles were fine and I was directed to not change them at this time. What needed to do was set a defined method for making hover, active, and disabled versions of our existing colour styles.
 
-I turned to [colour ramps](https://uxplanet.org/designing-systematic-colors-b5d2605b15c?gi=9a604c676eb4) to approach this problem at first, and realized that colour ramps wouldn't work for this problem as they would fundamentally require changing the base colours in some way. This is the ideal solution that was not possible within time.
+I turned to [colour ramps](https://uxplanet.org/designing-systematic-colors-b5d2605b15c) to approach this problem at first, and realized that colour ramps wouldn't work for this problem as they would fundamentally require changing the base colours in some way. This is the ideal solution that was not possible within time.
 
 The time efficient solution I arrived at came from was inspired by [Sujan Sundareswaran's take](https://sujansundareswaran.com/blog/why-hsl-is-better-than-hex-and-rgb) on the HSL colour model. I adjusted our colours by a set amount of it's Lightness. It works, it has a logical repeatable pattern for new colours, not the most elegant.
 
