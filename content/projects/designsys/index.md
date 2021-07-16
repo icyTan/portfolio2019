@@ -147,7 +147,9 @@ Arvind matched what I created in Figma, with a few meetings to go over naming co
 
 ![a web based preview of what Arvind made for the team](./webpreview.png)
 
-What we ended on creating for the team at GrantMe is a live set of webpages where the coded components are on display and can be referenced by other developers to see what code they should copy to replicate the same styling. It provides a stable resource for the mainly contract based development team to stay consistent between developers and speed up onboarding new ones to producing quality, design matching, code.
+What we ended on creating for the team at GrantMe is a live set of webpages where the coded components are on display and can be referenced by other developers to see what code they should copy to replicate the same styling.
+
+It provides a stable resource for the mainly contract based development team to stay consistent between developers and speed up onboarding new ones to producing quality, design matching, code.
 
 </section>
 
@@ -155,7 +157,7 @@ What we ended on creating for the team at GrantMe is a live set of webpages wher
 
 ## Learning Lessons from working on Design System
 
-Too many to count here's 5 key takeaways from working on the design system:
+Too many to count here's some key takeaways from working on the design system:
 
 - Do an audit of existing work as early as possible. Take a moment to survey the landscape before diving in.
 - The design system is a product for internal users. It stands to reason that it should be treated like an external facing product. Give time for the appropriate research, testing, and documentation.
